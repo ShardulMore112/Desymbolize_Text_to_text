@@ -1,0 +1,136 @@
+lean_syntax,natural_language
+Y ⊆ B ∧ B ⊆ Y → Y = B,"If Y is a subset of B and B is a subset of Y, then Y equals B"
+T ∩ S,The intersection of sets T and S
+"Y × V = {(a, b) | a ∈ Y ∧ b ∈ V}","The Cartesian product Y × V is the set of all ordered pairs (a, b) where a ∈ Y and b ∈ V"
+u ∈ Y ∪ U ↔ (u ∈ Y ∨ u ∈ U),u is in Y union U if and only if u is in Y or u is in U
+"{n : ℕ | ∃ k, n = 2 * k}",The set of all even natural numbers
+R ∩ T ⊆ R,The intersection of R and T is a subset of R
+A ⊆ R,A is contained in R
+"∀ x ∈ C, P x → Q x","For every element x in C, if P(x) then Q(x)"
+k ∈ S,The element k belongs to set S
+{x : ℝ | x > 0},The set of all positive real numbers
+V ∪ X,The union of sets V and X
+b ∉ R,b is not a member of set R
+"∀ x ∈ V, P x","For all x in V, property P holds"
+V ∪ W,The union of sets V and W
+{x : ℝ | 0 < x ∧ x < 1},The set of all real numbers between 0 and 1
+X ∪ (Q ∩ V) = (X ∪ Q) ∩ (X ∪ V),Union distributes over intersection: X ∪ (Q ∩ V) = (X ∪ Q) ∩ (X ∪ V)
+W ∩ P,The intersection of sets W and P
+a ∈ C ∩ Y ↔ (a ∈ C ∧ a ∈ Y),a belongs to the intersection of C and Y if and only if a is in both C and Y
+{x : ℝ | x > 0},The set of all positive real numbers
+X ∩ (S ∪ A) = (X ∩ S) ∪ (X ∩ A),Intersection distributes over union: X ∩ (S ∪ A) = (X ∩ S) ∪ (X ∩ A)
+A ∪ (A ∩ U) = A,Absorption law for union: A ∪ (A ∩ U) = A
+X ∪ Xᶜ = univ,The union of X and its complement equals the universal set
+m ∈ P \ A,m is in P but not in A
+Aᶜ,The complement of set A
+Z ∩ (Z ∪ B) = Z,Zbsorption law for intersection: Z ∩ (Z ∪ B) = Z
+S ⊇ X,Set S is a superset of set X
+Q \ U,The set difference Q minus U
+b ∈ V,The element b belongs to set V
+{x | P x},The set of all elements x such that property P holds
+f : X → T,f maps X into T
+n ∈ P ∪ X ↔ (n ∈ P ∨ n ∈ X),n is in P union X if and only if n is in P or n is in X
+P ∩ (P ∪ T) = P,Pbsorption law for intersection: P ∩ (P ∪ T) = P
+W ∪ (W ∩ P) = W,Wbsorption law for union: W ∪ (W ∩ P) = W
+S ∪ (S ∩ R) = S,Sbsorption law for union: S ∪ (S ∩ R) = S
+A ⊇ V,Set A is a superset of set V
+U ∈ 𝒫(U),U is in its own power set
+"∃ S ⊆ Q, S ≠ ∅",There exists a subset S of Q that is non-empty
+X ⊇ B,Set X is a superset of set B
+s ∈ X \ P,s is in X but not in P
+V ⊆ Z,V is contained in Z
+Q ∪ (V ∩ X) = (Q ∪ V) ∩ (Q ∪ X),Union distributes over intersection: Q ∪ (V ∩ X) = (Q ∪ V) ∩ (Q ∪ X)
+"∀ x, x ∉ ∅",The empty set has no elements
+C ∪ T,The union of sets C and T
+Tᶜ,The complement of set T
+"∃ S ⊆ Z, S ≠ ∅",There exists a subset S of Z that is non-empty
+(T ∩ P)ᶜ = Tᶜ ∪ Pᶜ,The complement of the intersection of T and P equals the union of their complements
+"∃ S ⊆ Q, S ≠ ∅",There exists a subset S of Q that is non-empty
+∅ ⊆ A,The empty set is a subset of every set A
+B \ Y,The set difference B minus Y
+V ⊇ Y,Set V is a superset of set Y
+"∃ S ⊆ Y, S ≠ ∅",There exists a subset S of Y that is non-empty
+Z ∪ (Z ∩ R) = Z,Zbsorption law for union: Z ∪ (Z ∩ R) = Z
+"∀ x ∈ R, P x → Q x","For every element x in R, if P(x) then Q(x)"
+R ⊆ R ∪ Q,R is a subset of the union of R and Q
+C ⊆ Z,C is contained in Z
+c ∈ Q \ V,c is in Q but not in V
+Y ∪ (V ∩ B) = (Y ∪ V) ∩ (Y ∪ B),Union distributes over intersection: Y ∪ (V ∩ B) = (Y ∪ V) ∩ (Y ∪ B)
+S ⊆ W,S is contained in W
+y ∉ R,y is not a member of set R
+A ⊆ S,A is contained in S
+n ∈ Z,The element n belongs to set Z
+U ∪ B,The union of sets U and B
+W ∩ B,The intersection of sets W and B
+Z ⊆ S,Set Z is a subset of set S
+t ∈ A ∪ U ↔ (t ∈ A ∨ t ∈ U),t is in A union U if and only if t is in A or t is in U
+"∃! x ∈ C, P x",There exists a unique element x in C satisfying P
+a ∈ C \ W,a is in C but not in W
+S × T,The Cartesian product of S and T
+S ∩ X ⊆ S,The intersection of S and X is a subset of S
+Disjoint S R → S ∩ R = ∅,"If S and R are disjoint, then S ∩ R = ∅"
+b ∈ C ∩ X ↔ (b ∈ C ∧ b ∈ X),b belongs to the intersection of C and X if and only if b is in both C and X
+Z ∪ (U ∩ A) = (Z ∪ U) ∩ (Z ∪ A),Union distributes over intersection: Z ∪ (U ∩ A) = (Z ∪ U) ∩ (Z ∪ A)
+"∃ x ∈ W, Q x",There exists an element x in W such that property Q holds
+P ∪ (U ∩ Q) = (P ∪ U) ∩ (P ∪ Q),Union distributes over intersection: P ∪ (U ∩ Q) = (P ∪ U) ∩ (P ∪ Q)
+Y ∩ (P ∪ Q) = (Y ∩ P) ∪ (Y ∩ Q),Intersection distributes over union: Y ∩ (P ∪ Q) = (Y ∩ P) ∪ (Y ∩ Q)
+B \ P,The set difference B minus P
+(R ∩ P)ᶜ = Rᶜ ∪ Pᶜ,The complement of the intersection of R and P equals the union of their complements
+v ∈ P ∪ Y ↔ (v ∈ P ∨ v ∈ Y),v is in P union Y if and only if v is in P or v is in Y
+S × X,The Cartesian product of S and X
+z ∈ C,The element z belongs to set C
+C ∩ Z,The intersection of sets C and Z
+z ∈ Qᶜ ↔ z ∉ Q,z is in the complement of Q if and only if z is not in Q
+V ∩ (U ∪ C) = (V ∩ U) ∪ (V ∩ C),Intersection distributes over union: V ∩ (U ∪ C) = (V ∩ U) ∪ (V ∩ C)
+R ∩ C,The intersection of sets R and C
+"∃ S ⊆ C, S ≠ ∅",There exists a subset S of C that is non-empty
+Z ∩ R,The intersection of sets Z and R
+f '' A ⊆ U,The image of A under f is a subset of U
+T ∩ (T ∪ R) = T,Tbsorption law for intersection: T ∩ (T ∪ R) = T
+u ∈ Y ∪ X ↔ (u ∈ Y ∨ u ∈ X),u is in Y union X if and only if u is in Y or u is in X
+S \ A,The set difference S minus A
+z ∈ W ∩ V ↔ (z ∈ W ∧ z ∈ V),z belongs to the intersection of W and V if and only if z is in both W and V
+u ∈ X ∩ Y ↔ (u ∈ X ∧ u ∈ Y),u belongs to the intersection of X and Y if and only if u is in both X and Y
+"T × C = {(a, b) | a ∈ T ∧ b ∈ C}","The Cartesian product T × C is the set of all ordered pairs (a, b) where a ∈ T and b ∈ C"
+P ⊆ W ∧ W ⊆ P → P = W,"If P is a subset of W and W is a subset of P, then P equals W"
+T ∪ X,The union of sets T and X
+(S ∩ Q)ᶜ = Sᶜ ∪ Qᶜ,The complement of the intersection of S and Q equals the union of their complements
+S ⊆ Q → Qᶜ ⊆ Sᶜ,"If S ⊆ Q, then Qᶜ ⊆ Sᶜ"
+c ∈ R ∩ W ↔ (c ∈ R ∧ c ∈ W),c belongs to the intersection of R and W if and only if c is in both R and W
+T ∩ (X ∪ B) = (T ∩ X) ∪ (T ∩ B),Intersection distributes over union: T ∩ (X ∪ B) = (T ∩ X) ∪ (T ∩ B)
+V ∩ R,The intersection of sets V and R
+"∀ S, S ⊆ V → S ∈ 𝒫(V)",Every subset of V is an element of the power set of V
+X ⊆ Y ∧ Y ⊆ X → X = Y,"If X is a subset of Y and Y is a subset of X, then X equals Y"
+X ⊇ Y,Set X is a superset of set Y
+P ∪ (U ∩ B) = (P ∪ U) ∩ (P ∪ B),Union distributes over intersection: P ∪ (U ∩ B) = (P ∪ U) ∩ (P ∪ B)
+Z ∩ U,The intersection of sets Z and U
+"∃ x ∈ Z, Q x",There exists an element x in Z such that property Q holds
+"∀ x, x ∈ univ",The universal set contains all elements
+a ∈ T \ Q,a is in T but not in Q
+X ⊆ B ∧ B ⊆ U → X ⊆ U,"If X ⊆ B and B ⊆ U, then X ⊆ U"
+(C ∩ T)ᶜ = Cᶜ ∪ Tᶜ,The complement of the intersection of C and T equals the union of their complements
+Z ⊆ univ,Every set Z is a subset of the universal set
+U ∪ (S ∩ V) = (U ∪ S) ∩ (U ∪ V),Union distributes over intersection: U ∪ (S ∩ V) = (U ∪ S) ∩ (U ∪ V)
+U ∩ (U ∪ Q) = U,Ubsorption law for intersection: U ∩ (U ∪ Q) = U
+"C × S = {(a, b) | a ∈ C ∧ b ∈ S}","The Cartesian product C × S is the set of all ordered pairs (a, b) where a ∈ C and b ∈ S"
+(Z ∪ U)ᶜ = Zᶜ ∩ Uᶜ,The complement of the union of Z and U equals the intersection of their complements
+t ∉ Z,t is not a member of set Z
+"∃ x ∈ U, Q x",There exists an element x in U such that property Q holds
+Disjoint T W → T ∩ W = ∅,"If T and W are disjoint, then T ∩ W = ∅"
+B \ S,The set difference B minus S
+f : V → W,f maps V into W
+Q ∩ P,The intersection of sets Q and P
+(P ∪ C)ᶜ = Pᶜ ∩ Cᶜ,The complement of the union of P and C equals the intersection of their complements
+W ⊇ S,Set W is a superset of set S
+"∀ x, x ∈ univ",Every element belongs to the universal set
+(W ∪ R)ᶜ = Wᶜ ∩ Rᶜ,The complement of the union of W and R equals the intersection of their complements
+Z ∩ X,The intersection of sets Z and X
+(X ∩ V)ᶜ = Xᶜ ∪ Vᶜ,The complement of the intersection of X and V equals the union of their complements
+"Injective f → ∀ x y ∈ A, f x = f y → x = y","If f is injective, then for all x, y in A, f(x) = f(y) implies x = y"
+"∃ S ⊆ P, S ≠ ∅",There exists a subset S of P that is non-empty
+∅ ∈ 𝒫(Y),The empty set is in the power set of Y
+"∃! x ∈ C, P x",There exists a unique element x in C satisfying P
+X ∪ S,The union of sets X and S
+P ⊆ S,Every element of P belongs to S
+Z ⊆ A,Z is contained in A
+C ⊆ R ∧ R ⊆ C → C = R,"If C is a subset of R and R is a subset of C, then C equals R"
