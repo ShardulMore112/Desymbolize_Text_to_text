@@ -1,4 +1,4 @@
-lean_syntax,natural_language
+Maths,natural_language
 A = W ↔ (A ⊆ W ∧ W ⊆ A),Two sets are equal if and only if they are subsets of each other
 a ∈ X ∩ A ↔ (a ∈ X ∧ a ∈ A),a belongs to the intersection of X and A if and only if a is in both X and A
 C ⊇ B,Set C is a superset of set B
