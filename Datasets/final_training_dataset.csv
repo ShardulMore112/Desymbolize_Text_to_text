@@ -1,0 +1,2132 @@
+Symbolic_Maths,Natural_Language
+"(v, u)",the inner product of v and u
+∀x in the domain R(x),"for all x in the domain, R(x) is true"
+λ1(B),the first eigenvalue of matrix B
+(p ↔ r) ∧ (q ↔ s),"p if and only if r, and q if and only if s"
+w + y,the sum of vectors w and y
+uᵀBu,the quadratic form u transpose B u
+Bw = μw,matrix B times vector w equals μ times vector w
+∀y (R(y) ∨ S(y)),"for all y, either R(y) or S(y) is true"
+∀z (R(z) ∨ S(z)),"for all z, either R(z) or S(z) is true"
+Cw,matrix C times vector w
+∃y (P(y) → Q(y)),there exists y such that if P(y) then Q(y)
+∃!t Q(t),there exists a unique t such that Q(t)
+p ∧ t,both p and t
+r ↔ A,r is true if and only if A is true
+(p ∧ s) → (q ∨ r),if both p and s then either q or r
+q ∧ r,both q and r
+"⟨u, x⟩",the inner product of u and x
+∃x Q(x),there is some x for which Q of x holds
+(p ↔ q) ↔ ((p ∧ q) ∨ (¬p ∧ ¬q)),"p if and only if q is equivalent to both p and q, or neither p nor q"
+p → A,p entails A
+‖M‖∞,the infinity norm of matrix M
+A ∨ ¬A,A or not A is a tautology
+∀x (P(x) → Q(x)),"for all x, if P(x) then Q(x)"
+s → (r → (q → p)),if s then if r then if q then p
+P ∨ ¬P,P or not P is a tautology
+det(B + C),the determinant of the sum of matrices B and C
+∀x in the domain D (Odd(x) → Prime(x)),"for all x in the domain D, if Odd(x) then Prime(x)"
+range(f),the range of linear transformation f
+λₘᵢₙ(A),the smallest eigenvalue of A
+"∀a, P(a)","for all a, P(a)"
+‖y‖∞,the infinity norm of vector y
+v + y,the sum of vectors v and y
+B = QΛQᵀ,matrix B equals Q times Lambda times Q transpose
+(A - λI)v = 0,matrix A minus λ times the identity matrix times vector v equals zero
+∀y (P(y) ∧ R(y)),"for all y, both P(y) and R(y) are true"
+(v + y) ⋅ b,the dot product of the sum of v and y with b
+B + C,the sum of matrices B and C
+"∀z, P(z)","for all z, P(z)"
+∀x in the integers (Positive(x) → Even(x)),"for all x in the integers, if Positive(x) then Even(x)"
+(p ∧ r),p and r
+w ⋅ (x + a),the dot product of w with the sum of x and a
+p ↔ r,p is true if and only if r is true
+∀x P(x),"for every x, P of x holds"
+∃x in D P(x),there is some x in D for which P of x holds
+r ∨ ¬r,r or not r is a tautology
+r → (q → (s → p)),if r then if q then if s then p
+det(B - λI),the characteristic polynomial of matrix B
+"∃x ∀y T(x, y)","there exists x such that for all y, T(x, y) holds"
+P → (P ∨ Q),if P then P or Q
+B is symmetric,matrix B is symmetric
+Cᵢⱼ,the entry in row i and column j of matrix C
+q ∧ r,q is true and r is true
+SVD(B),the singular value decomposition of matrix B
+tr(αC),the trace of α times matrix C
+C is upper triangular,matrix C is upper triangular
+(r ↔ s) ∧ (p ↔ q),"r if and only if s, and p if and only if q"
+t ∧ A,t and A
+∃y in D Q(y),there is some y in D for which Q of y holds
+A → r,if A then r
+B - M,the difference of matrices B and M
+B ∈ ℝᵐˣⁿ,matrix B is an m by n real matrix
+det(B) = Πλᵢ,the determinant of B equals the product of its eigenvalues
+annihilator of S,the annihilator of set S
+"u = [u₁, u₂]",the vector u with components u1 and u2
+p ↔ q,p and q have the same truth value
+p ↔ r,p if and only if r
+U ⊕ V = W,the direct sum of U and V equals W
+L(x),the linear operator L applied to vector x
+A ≈ B,matrix A is approximately equal to matrix B
+(q ∨ r) ∧ (s ∨ p),"either q or r, and either s or p"
+∃x (P(x) → S(x)),there exists x such that if P(x) then S(x)
+Cᵀu,the transpose of matrix C times vector u
+p ∨ q ↔ q ∨ p,p or q is equivalent to q or p
+∀x in set S (Positive(x) → Even(x)),"for all x in set S, if Positive(x) then Even(x)"
+q → (p → (r → s)),if q then if p then if r then s
+∃y (Q(y) ∧ S(y)),there exists y such that both Q(y) and S(y) are true
+Pᵀᵀ,the transpose of the transpose of matrix P
+det(C),the determinant of matrix C
+t → A,t implies A
+‖u - x‖,the distance between vectors u and x
+"(w, x)",the inner product of w and x
+∃z in D Q(z),there exists z in D such that Q(z) is true
+T(v + w),T applied to the sum of v and w
+∃y (Q(y) ∧ R(y)),there exists y such that both Q(y) and R(y) are true
+"z = [z₁, z₂]",the vector z with components z1 and z2
+∀x in set S Odd(x),"for all x in set S, Odd(x)"
+"span{w₁, w₂}","the span of vectors {w₁, w₂}"
+λ2(C),the second eigenvalue of matrix C
+(s ∨ q) ∧ (p ∨ r),"either s or q, and either p or r"
+¬q,the negation of q
+¬∀x P(x) ↔ ∃x ¬P(x),not for all x P(x) is equivalent to there exists x such that not P(x)
+s → A,s entails A
+uᵢ,the i-th component of vector u
+(r → q) ∧ (r ∧ ¬q),"if r then q, and r and not q, is a contradiction"
+(v + w) ⋅ a,the dot product of the sum of v and w with a
+λₘₐₓ(B),the largest eigenvalue of B
+r → t,r entails t
+s → q,s implies q
+[v]_S,the coordinate vector of v with respect to basis S
+"∃x in D, R(x)",there exists x in D such that R(x)
+∃x (R(x) ∧ S(x)),there exists x such that both R(x) and S(x) are true
+r → q,if r then q
+BPᵀ,matrix B times the transpose of P
+s → t,if s then t
+û,the unit vector u
+‖w‖ + ‖u‖,the sum of the norms of w and u
+λ3(B),the third eigenvalue of matrix B
+rank(L),the rank of linear transformation L
+v - y,the difference of vectors v and y
+q → r,if q then r
+p ∨ t,p or t
+s ∧ A,s is true and A is true
+"∃x ∃y (∀z S(z, x) ∧ ∀z T(z, y))","there exist x and y such that for all z, S(z, x) and for all z, T(z, y)"
+(P ∧ Q) → P,if P and Q then P
+"⟨{w₁, w₂}⟩","the subspace generated by vectors {w₁, w₂}"
+det(BC),the determinant of the product of matrices B and C
+∀x (R(x) ∨ S(x)),"for all x, either R(x) or S(x) is true"
+p ↔ s,p is equivalent to s
+det(A),the determinant of matrix A
+r ↔ s,r if and only if s
+∃x in the domain Q(x),there is some x in the domain for which Q of x holds
+∃x in the natural numbers Positive(x),there exists x in the natural numbers such that Positive(x)
+(kC)ᵀ,the transpose of k times matrix C
+M = LU,matrix M equals L times U
+∃x in D Q(x),there is some x in D for which Q of x holds
+(w - y) × b,the cross product of the difference of w and y with b
+∃x in the natural numbers (Even(x) ∧ Odd(x)),there exists x in the natural numbers such that both Even(x) and Odd(x)
+σ2(C),the second singular value of matrix C
+(s ∧ p) → (r ∨ q),if both s and p then either r or q
+∃y (R(y) ∧ S(y)),there exists y such that both R(y) and S(y) are true
+∀z (R(z) → S(z)),"for all z, if R(z) then S(z)"
+(p ↔ s) ∧ (r ↔ q),"p if and only if s, and r if and only if q"
+∃z (P(z) ∨ S(z)),there exists z such that either P(z) or S(z) is true
+det(BM),the determinant of the product of matrices B and M
+∀x in the domain D Odd(x),"for all x in the domain D, Odd(x)"
+∇²f(x),the Hessian of f at x
+¬¬q ↔ q,the negation of not q is equivalent to q
+Av = λv,the matrix A times vector v equals the scalar lambda times vector v
+p ↔ q,p if and only if q
+(t ↔ s) ↔ ((t → s) ∧ (s → t)),t if and only if s is esuivalent to if t then s and if s then t
+ℝ⁴,the 4-dimensional real coordinate space
+p ↔ q,p is equivalent to q
+Aw = u,the linear system A times w equals u
+∃x (P(x) ∨ Q(x)) ↔ ∃x P(x) ∨ ∃x Q(x),there exists x such that P(x) or Q(x) is equivalent to there exists x P(x) or there exists x Q(x)
+"d(w, u)",the distance between vectors w and u
+∀x in the integers (Even(x) → Odd(x)),"for all x in the integers, if Even(x) then Odd(x)"
+Cu = μu,matrix C times vector u equals μ times vector u
+(r ∨ s) ∧ (q ∨ p),"either r or s, and either q or p"
+(w - x) × b,the cross product of the difference of w and x with b
+r ∧ ¬r,r and not r is a contradiction
+AᵀPᵀ,the transpose of A times the transpose of P
+"∃x ∀y R(x, y)","there exists x such that for all y, R(x, y) holds"
+∀y P(y),"for all y, P(y) is true"
+r ∨ s,either r or s
+∃!z P(z),there exists a unique z such that P(z) is true
+‖v - x‖,the distance between vectors v and x
+∃!y R(y),there exists one and only one y such that R(y)
+∃!z Q(z),there exists a unique z such that Q(z) is true
+A†,the pseudoinverse of matrix A
+∃!y S(y),there is exactly one y for which S of y holds
+"∀y ∃a P(y, a)","for all y, there exists a such that P(y, a) is true"
+∀z in the domain P(z),"for every z in the domain, P of z holds"
+(p ∧ r) → (s ∨ q),if both p and r then either s or q
+w ∈ ℝ³,vector w is in 3-dimensional real space
+λ2(B),the second eigenvalue of matrix B
+p → q,p implies q
+∃!z S(z),there is exactly one z for which S of z holds
+¬∀x Q(x) ↔ ∃x ¬Q(x),not for all x Q(x) is equivalent to there exists x such that not Q(x)
+∃x in the domain P(x),there is some x in the domain for which P of x holds
+∃y (P(y) → S(y)),there exists y such that if P(y) then S(y)
+B ∈ ℝ³ˣ³,matrix B is a 3 by 3 real matrix
+q ∨ t,q is true or t is true
+r → (p → (q → s)),if r then if p then if q then s
+(p ∨ s) ∧ (q ∨ r),"either p or s, and either q or r"
+A⁻²,the inverse of A squared
+‖M‖*,the nuclear norm of matrix M
+t ∨ A,t or A
+wᵀy,the transpose of w times y
+∃z (P(z) → R(z)),there exists z such that if P(z) then R(z)
+(A + B)⁻¹,the inverse of the sum of matrices A and B
+det(αC),the determinant of α times matrix C
+cB,the scalar c times matrix B
+cA,the scalar c times matrix A
+wᵀu,the transpose of w times u
+Bⁿ,matrix B to the power n
+comp_w(v),the component of v along w
+A = M,matrix A equals matrix M
+BᵀMᵀ,the transpose of B times the transpose of M
+tr(C + M),the trace of the sum of matrices C and M
+uᵀCu,the quadratic form u transpose C u
+∃x in the domain D Even(x),there exists x in the domain D such that Even(x)
+¬A,not A
+"span{v₁, v₂, v₃}","the span of vectors {v₁, v₂, v₃}"
+B + P,the sum of matrices B and P
+∀y (P(y) → Q(y)),"for all y, if P(y) then Q(y)"
+"∃x ∃y (∀z P(z, x) ∧ ∀z Q(z, y))","there exist x and y such that for all z, P(z, x) and for all z, Q(z, y)"
+p ∧ ⊤ ↔ p,p and true is equivalent to p
+(p ↔ s) ∧ (q ↔ r),"p if and only if s, and q if and only if r"
+∀x in the natural numbers (Prime(x) → Positive(x)),"for all x in the natural numbers, if Prime(x) then Positive(x)"
+∃z (R(z) ∧ S(z)),there exists z such that both R(z) and S(z) are true
+v + w + a,"the sum of vectors v, w, and a"
+A = P,matrix A equals matrix P
+r ∨ A,either r or A
+SVD(M),the singular value decomposition of matrix M
+x = [x₁; x₂; x₃],"the column vector x with components x1, x2, and x3"
+r ∧ t,r is true and t is true
+CᵀM,the transpose of C times M
+Bv = u,the linear system B times v equals u
+∃y Q(y),there exists y such that Q(y) is true
+"∀x R(x, x)","for all x, R(x, x) holds"
+"u = [u₁, u₂, ..., uₙ]","the vector u with components u1, u2, through un"
+(A + M)⁻¹,the inverse of the sum of matrices A and M
+"∀z, Q(z)","for all z, Q(z)"
+w = [w₁; w₂; w₃],"the column vector w with components w1, w2, and w3"
+‖v + x‖²,the squared norm of the sum of v and x
+"∀x ∀a P(x, a)","for all x and for all a, P(x, a) is true"
+(p ∨ q) → r,if either p or q then r
+p ∨ t,p is true or t is true
+"v = [v₁, v₂, v₃]","the vector v with components v1, v2, and v3"
+p → r,if p then r
+s → p,if s then p
+(kA)ᵀ,the transpose of k times matrix A
+σ3(B),the third singular value of matrix B
+∀x R(x),"for every x, R of x holds"
+p ∨ s,p or s
+q ↔ t,q and t have the same truth value
+∃x in set S Positive(x),there exists x in set S such that Positive(x)
+C is diagonal,matrix C is diagonal
+p ↔ t,p is true if and only if t is true
+A is orthogonal,matrix A is orthogonal
+q → s,if q is true then s is true
+Av = w,the linear system A times v equals w
+(p ↔ q) ∧ (s ↔ r),"p if and only if q, and s if and only if r"
+A · v,matrix A applied to vector v
+(q ∧ r) ∨ p,"either both q and r, or p"
+u ∈ ℝ³,vector u is in 3-dimensional real space
+q → (p → (s → r)),if q then if p then if s then r
+"∀x ∃y Loves(x, y)","for all x, there exists y such that Loves(x, y) holds"
+∀x (P(x) ↔ S(x)),"for all x, P(x) if and only if S(x)"
+s → q,if s then q
+p → t,p entails t
+AMᵀ,matrix A times the transpose of M
+∀x in set S Even(x),"for all x in set S, Even(x)"
+p ↔ q,p is true if and only if q is true
+∀x in the real numbers Prime(x),"for all x in the real numbers, Prime(x)"
+v ⊥ u,vector v is orthogonal to vector u
+B · M,the product of matrices B and M
+¬(p ∨ q ∨ r) ↔ (¬p ∧ ¬q ∧ ¬r),"not any of p, q, or r is equivalent to not p, and not q, and not r"
+‖w‖ + ‖y‖,the sum of the norms of w and y
+x ∈ ℝⁿ,vector x is in the n-dimensional real space
+(r ∧ s) → (q ∨ p),if both r and s then either q or p
+∀z in D P(z),"for all z in D, P(z) is true"
+‖v - w‖,the distance between vectors v and w
+proj_x(u),the projection of u onto x
+¬p,not p
+∃y (Q(y) → R(y)),there exists y such that if Q(y) then R(y)
+u - x,the difference of vectors u and x
+∃x in D Q(x),there exists x in D such that Q(x) is true
+λₘₐₓ(C),the largest eigenvalue of C
+p → (q ∧ r),if p then both q and r
+∀z in D P(z),"for every z in D, P of z holds"
+(p ∨ A),p or A
+∃!x R(x),there exists one and only one x such that R(x)
+v - u,the difference of vectors v and u
+im(A),the image of matrix A
+q ↔ t,q if and only if t
+v · u,the dot product of vectors v and u
+v ∧ y,the wedge product of vectors v and y
+∀y (P(y) → R(y)),"for all y, if P(y) then R(y)"
+"∀x ∀y (S(x, y) → S(y, x))","for all x and y, if S(x, y) then S(y, x)"
+U ∩ V,the intersection of subspaces U and V
+V*,the dual space of V
+p ∧ q,p and q
+‖A‖*,the nuclear norm of matrix A
+¬C,not C
+"∃y ∃z Q(y, z)","there exist y and z such that Q(y, z) is true"
+"∀x ∀y R(x, y)","for all x and y, R(x, y) holds"
+(s ∧ r) → (q ∨ p),if both s and r then either q or p
+det(Q),the determinant of matrix Q
+nullity(A),the nullity of matrix A
+proj_V(u),the projection of u onto subspace V
+det(B - λI) = 0,the determinant of matrix B minus λ times the identity equals zero
+log(C),the matrix logarithm of C
+null(T),the null space of linear transformation T
+t ↔ A,t is true if and only if A is true
+((p ∨ q) ∧ ¬p) → q,"if p or q and not p, then q"
+(p ↔ r) ∧ (s ↔ q),"p if and only if r, and s if and only if q"
+C = QR,matrix C equals Q times R
+"∀x, R(x)","for all x, R(x)"
+(kA)⁻¹,the inverse of k times matrix A
+v ⋅ w,the dot product of vectors v and w
+"d(v, w)",the distance between vectors v and w
+"[u₁, u₂, u₃]","the vector with components u1, u2, and u3"
+p → (q ∧ r) ↔ (p → q) ∧ (p → r),"if p then both q and r is equivalent to if p then q, and if p then r"
+∀x (P(x) → Q) ↔ (∃x P(x) → Q),fot all x if P(x) then Q is esuivalent to if thete exists x P(x) then Q
+x ∈ ℝ³,vector x is in 3-dimensional real space
+(CM)ᵀ,the transpose of the product of matrices C and M
+(r ∧ p) → q,if both r and p then q
+q ∧ s,q and s
+Mⁿ,matrix M to the power n
+Aw = x,the linear system A times w equals x
+∀x in the domain D Prime(x),"for all x in the domain D, Prime(x)"
+Av,matrix A times vector v
+"∃x in D, Q(x)",there exists x in D such that Q(x)
+tr(Q),the trace of matrix Q
+∃x in D R(x),there exists x in D such that R(x) is true
+(v + y) ⋅ a,the dot product of the sum of v and y with a
+∃x in D R(x),there is some x in D for which R of x holds
+T: ℝⁿ → ℝᵐ,T is a linear transformation from n-dimensional to m-dimensional real space
+s ∧ A,s and A
+A → p,A implies p
+∃z P(z),there exists z such that P(z) is true
+A²,matrix A squared
+S⊥,the orthogonal complement of subspace S
+det(kC),the determinant of k times matrix C
+p → r,if p is true then r is true
+"∀x ∃a P(x, a)","for all x, there exists a such that P(x, a) is true"
+w ⊥ u,vector w is orthogonal to vector u
+M is invertible,matrix M is invertible
+"∀x ∃y ∀z P(x, y, z)","for all x, there exists y such that for all z, P(x, y, z)"
+(p ↔ q) ↔ ((p → q) ∧ (q → p)),p if and only if q is equivalent to if p then q and if q then p
+"∃y in the domain, Q(y)",there exists y in the domain such that Q(y)
+∃x (P(x) ∧ R(x)),there exists x such that both P(x) and R(x) are true
+kw,the scalar k times vector w
+v · y,the dot product of vectors v and y
+(cA)ᵀ,the transpose of c times matrix A
+Cᵀx,the transpose of matrix C times vector x
+dim(U ⊕ V) = dim(U) + dim(V),the dimension of the direct sum equals the sum of dimensions
+q ↔ s,q is equivalent to s
+"∃y ∃z R(y, z)","there exist y and z such that R(y, z) is true"
+p ∧ t,p and t
+p ∨ (q ∧ r),p or both q and r
+r ∧ t,both r and t
+w ∧ u,the wedge product of vectors w and u
+e₃,the third standard basis vector
+q ∨ s,either q or s
+∃x (P(x) ∧ S(x)),there exists x such that both P(x) and S(x) are true
+"[w₁, w₂, w₃]","the vector with components w1, w2, and w3"
+det(BP),the determinant of the product of matrices B and P
+"∃y in the domain, P(y)",there exists y in the domain such that P(y)
+∃x in the natural numbers Even(x),there exists x in the natural numbers such that Even(x)
+"∃x ∀z P(x, z)","there exists x such that for all z, P(x, z) is true"
+‖v‖₁,the L1 norm of vector v
+vᵀBv,the quadratic form v transpose B v
+∀x in set S Positive(x),"for all x in set S, Positive(x)"
+V ⊕ V,the direct sum of subspaces V and V
+"∀x ∃z P(x, z)","for all x, there exists z such that P(x, z) is true"
+(r ∨ p) ∧ q,"either r or p, and also q"
+C is symmetric,matrix C is symmetric
+s → A,if s then A
+∃!z R(z),there exists one and only one z such that R(z)
+∀x (P(x) ↔ Q(x)),"for all x, P(x) if and only if Q(x)"
+"∀a, Q(a)","for all a, Q(a)"
+basis for V,a basis for vector space V
+v1(A),the first eigenvector of matrix A
+(B + C)ᵀ,the transpose of the sum of matrices B and C
+pinv(C),the pseudoinverse of matrix C
+C is singular,matrix C is singular
+"⟨u, y⟩",the inner product of vectors u and y
+(r ↔ q) ∧ (s ↔ p),"r if and only if q, and s if and only if p"
+det(αM),the determinant of α times matrix M
+q ∧ ¬q,q and not q is a contradiction
+‖v‖ₚ,the p-norm of vector v
+∃x in the integers (Prime(x) ∧ Positive(x)),there exists x in the integers such that both Prime(x) and Positive(x)
+(r ∨ q) ∧ p,"either r or q, and also p"
+vᵀ,the transpose of vector v
+∀x (Q(x) ↔ R(x)),"for all x, Q(x) if and only if R(x)"
+AᵀP,the transpose of A times P
+r ∧ A,r and A
+(p → q) ∧ (p ∧ ¬q),"if p then q, and p and not q, is a contradiction"
+u + y,the sum of vectors u and y
+√A,the matrix square root of A
+p → t,if p is true then t is true
+cond(A),the condition number of matrix A
+∃z (Q(z) → S(z)),there exists z such that if Q(z) then S(z)
+u ∧ x,the wedge product of vectors u and x
+‖v‖ + ‖x‖,the sum of the norms of v and x
+A is symmetric,matrix A is symmetric
+σ₁(C) ≥ σ₂(C) ≥ ... ≥ σᵣ(C),the singular values of C in descending order
+(p ∨ r) ∧ q,"either p or r, and also q"
+trace(Q),the trace of matrix Q
+v ⋅ (y + b),the dot product of v with the sum of y and b
+v ⊥ x,vector v is orthogonal to vector x
+p ∨ ⊤ ↔ ⊤,p or true is equivalent to true
+f(v + w),f applied to the sum of v and w
+s ∧ t,s is true and t is true
+"∀z ∀a P(z, a)","for all z and for all a, P(z, a) is true"
+∃y (Q(y) → S(y)),there exists y such that if Q(y) then S(y)
+(A + M)ᵀ,the transpose of the sum of matrices A and M
+∃x in the natural numbers (Prime(x) ∧ Positive(x)),there exists x in the natural numbers such that both Prime(x) and Positive(x)
+r ∧ s,r is true and s is true
+r → p,if r then p
+p → (p ∨ q),if p then p or q
+(p ∧ s) → (r ∨ q),if both p and s then either r or q
+(p ∨ r) ∧ (q ∨ s),"either p or r, and either q or s"
+V⊥,the orthogonal complement of V
+SVD(A),the singular value decomposition of matrix A
+v × y,the cross product of vectors v and y
+ĵ,the unit vector in the y direction
+"z = [z₁, z₂, z₃]","the vector z with components z1, z2, and z3"
+"∀x ∀z R(x, z)","for all x and for all z, R(x, z) is true"
+wᵀCw,the quadratic form w transpose C w
+(r ∧ q) → (p ∨ s),if both r and q then either p or s
+t → q,t implies q
+det Q,the determinant of matrix Q
+"∀y ∀z R(y, z)","for all y and for all z, R(y, z) is true"
+(p ∨ q) ∧ (r ∨ s),"either p or q, and either r or s"
+Av = λv,the eigenvalue equation A times v equals lambda times v
+r ↔ t,r if and only if t
+(p ∧ q) ∧ r ↔ p ∧ (q ∧ r),p and q and r is associative
+∃x (P(x) ∨ S(x)),there exists x such that either P(x) or S(x) is true
+∃z in D Q(z),there is some z in D for which Q of z holds
+w ∧ y,the wedge product of vectors w and y
+-u,the negative of vector u
+t → r,if t then r
+∃x in the domain P(x),there exists x in the domain such that P(x) is true
+∃x in the domain D Odd(x),there exists x in the domain D such that Odd(x)
+q ↔ A,q if and only if A
+∃x (Q(x) ∨ S(x)),there exists x such that either Q(x) or S(x) is true
+(q ↔ s) ∧ (p ↔ r),"q if and only if s, and p if and only if r"
+(q ∨ r),q or r
+(q ∨ p) ∧ r,"either q or p, and also r"
+Aᵀv,the transpose of matrix A times vector v
+∃y (P(y) ∧ Q(y)),there exists y such that both P(y) and Q(y) are true
+Aw = λw,the eigenvalue equation A times w equals lambda times w
+λ1(A),the first eigenvalue of matrix A
+dim(V),the dimension of vector space V
+"∀x ∀y (Loves(x, y) → Loves(y, x))","for all x and y, if Loves(x, y) then Loves(y, x)"
+det(A - λI),the characteristic polynomial of matrix A
+(q ∧ p) ∨ r,"either both q and p, or r"
+A + M,the sum of matrices A and M
+∀y P(y),"for every y, P of y holds"
+(αB)ᵀ,the transpose of α times matrix B
+(∃x P(x)) → Q(y),"if there exists x P(x), then Q(y)"
+s ∨ A,either s or A
+BC,the product of matrices B and C
+"⟨v, u⟩",the inner product of v and u
+p ↔ A,p if and only if A
+∃y in the domain Q(y),there is some y in the domain for which Q of y holds
+p ↔ s,p is true if and only if s is true
+(r ∨ q) → p,if either r or q then p
+p ∨ A,either p or A
+C₃₃,the 3 by 3 matrix C
+∀y in D Q(y),"for all y in D, Q(y) is true"
+∃x (Q(x) → S(x)),there exists x such that if Q(x) then S(x)
+A ⪰ 0,matrix A is positive semidefinite
+proj_w(v),the projection of v onto w
+B - C,the difference of matrices B and C
+A → p,if A then p
+∀x in the integers Even(x),"for all x in the integers, Even(x)"
+∃!x P(x),there exists one and only one x such that P(x)
+(M - μI)v = 0,matrix M minus μ times the identity matrix times vector v equals zero
+∀x (R(x) ↔ S(x)),"for all x, R(x) if and only if S(x)"
+w ⊗ u,the tensor product of w and u
+∂A/∂t,the partial derivative of matrix A with respect to t
+"span(w₁, w₂, ..., wₖ)","the span of vectors w1, w2, through wk"
+C³,matrix C cubed
+B is orthogonal,matrix B is orthogonal
+ℂⁿ,the n-dimensional complex coordinate space
+u × y,the cross product of vectors u and y
+(v - z) × b,the cross product of the difference of v and z with b
+tr(kB),the trace of k times matrix B
+∀y (P(y) ∨ R(y)),"for all y, either P(y) or R(y) is true"
+p ∨ (q ∧ r) ↔ (p ∨ q) ∧ (p ∨ r),"p or both q and r is equivalent to both p or q, and p or r"
+A³,matrix A cubed
+(M - λI)v = 0,matrix M minus λ times the identity matrix times vector v equals zero
+tr(C²),the trace of C squared
+M = [Mᵢⱼ],the matrix M with entries M i j
+(q ∧ r),q and r
+"{v₁, v₂, v₃} is linearly dependent","the vectors {v₁, v₂, v₃} are linearly dependent"
+"block diag(A₁, A₂, A₃)","the block diagonal matrix with blocks A1, A2, and A3"
+wᵀx,the transpose of w times x
+‖w‖₁,the L1 norm of vector w
+∀x (R(x) ∧ S(x)),"for all x, both R(x) and S(x) are true"
+((A → B) ∧ ¬B) → ¬A,"if A imAlies B and not B, then not A"
+(w - x) × a,the cross product of the difference of w and x with a
+(r ∧ p) → (q ∨ s),if both r and p then either q or s
+∀x (P(x) ↔ R(x)),"for all x, P(x) if and only if R(x)"
+r ∧ A,both r and A
+σ1(B),the first singular value of matrix B
+σ2(A),the second singular value of matrix A
+∀x in the real numbers (Prime(x) → Positive(x)),"for all x in the real numbers, if Prime(x) then Positive(x)"
+t ∧ A,t is true and A is true
+vᵀAv,the quadratic form v transpose A v
+[w₁ w₂ w₃],"the row vector with components w1, w2, and w3"
+det(C) = Πλᵢ,the determinant of C equals the product of its eigenvalues
+(kC)⁻¹,the inverse of k times matrix C
+chol(M),the Cholesky decomposition of matrix M
+∀x (P(x) ∨ S(x)),"for all x, either P(x) or S(x) is true"
+"∃z in the domain, P(z)",there exists z in the domain such that P(z)
+((A ∨ B) ∧ ¬A) → B,"if A or B and not A, then B"
+q ∨ r,q is true or r is true
+ℝⁿ,the n-dimensional real coordinate space
+proj_v(u),the projection of u onto v
+(s ∧ q) → (p ∨ r),if both s and q then either p or r
+A → t,A implies t
+∀z (P(z) ∧ Q(z)),"for all z, both P(z) and Q(z) are true"
+w ⋅ y,the dot product of vectors w and y
+‖A‖_F,the Frobenius norm of matrix A
+B⁻²,the inverse of B squared
+"∀z in the domain, Q(z)","for all z in the domain, Q(z)"
+∀x in D R(x),"for every x in D, R of x holds"
+rank(B),the rank of matrix B
+∃x (P(x) ∧ Q(x)) → (∃x P(x)) ∧ (∃x Q(x)),"if thete exists x such that P(x) and Q(x), then thete exists x P(x) and thete exists x Q(x)"
+∀x P(x) ∧ ∃x ¬P(x),for all x P(x) and there exists x such that not P(x) is a contradiction
+(p ∧ q),p and q
+∀z (Q(z) ∨ R(z)),"for all z, either Q(z) or R(z) is true"
+B · x,matrix B applied to vector x
+"∀x ∀y ∀z ((R(x, y) ∧ R(y, z)) → R(x, z))","for all x, y, and z, if R(x, y) and R(y, z) then R(x, z)"
+∃z (P(z) → Q(z)),there exists z such that if P(z) then Q(z)
+∀z (Q(z) → z = a),"for all z, if Q(z) then z equals a"
+p ∧ s,both p and s
+∃x in the real numbers (Prime(x) ∧ Positive(x)),there exists x in the real numbers such that both Prime(x) and Positive(x)
+p → (s → (q → r)),if p then if s then if q then r
+ℝ³,the 3-dimensional real coordinate space
+A is positive definite,matrix A is positive definite
+∀x in the real numbers (Positive(x) → Even(x)),"for all x in the real numbers, if Positive(x) then Even(x)"
+∀y in D P(y),"for every y in D, P of y holds"
+r ∨ s,r or s
+p ∨ q,p or q
+-w,the negative of vector w
+∀x in D Q(x),"for every x in D, Q of x holds"
+(r ∧ s) → r,if r and s then r
+(p → q) ↔ (¬q → ¬p),if p then q is equivalent to if not q then not p
+BᵀP,the transpose of B times P
+"⟨{v₁, v₂, v₃}⟩","the subspace generated by vectors {v₁, v₂, v₃}"
+Bx = b,the linear system B times x equals b
+M = UΣVᵀ,matrix M equals U times Sigma times V transpose
+∀x (Q(x) ↔ S(x)),"for all x, Q(x) if and only if S(x)"
+dC/dt,the derivative of matrix C with respect to t
+‖x‖₁,the L1 norm of vector x
+chol(A),the Cholesky decomposition of matrix A
+M is singular,matrix M is singular
+‖v‖∞,the infinity norm of vector v
+p ∨ t,either p or t
+∃!z R(z),there exists a unique z such that R(z)
+¬(t ∨ s ∨ t) ↔ (¬t ∧ ¬s ∧ ¬t),"not any of t, s, ot t is esuivalent to not t, and not s, and not t"
+(A + C)⁻¹,the inverse of the sum of matrices A and C
+ker(L),the kernel of linear transformation L
+Aw = λw,matrix A times vector w equals λ times vector w
+M is symmetric,matrix M is symmetric
+∀y (P(y) ↔ S(y)),"for all y, P(y) if and only if S(y)"
+M ∈ ℝ³ˣ³,matrix M is a 3 by 3 real matrix
+∃!z Q(z),there exists a unique z such that Q(z)
+(p ↔ q) ∧ (r ↔ s),"p if and only if q, and r if and only if s"
+p ∧ q,p is true and q is true
+r → s,if r then s
+tr(A²),the trace of A squared
+M is upper triangular,matrix M is upper triangular
+∃y in D Q(y),there exists y in D such that Q(y) is true
+"∀y, Q(y)","for all y, Q(y)"
+"∃x ∀y Q(x, y)","there exists x such that for all y, Q(x, y) is true"
+v ⋅ x,the dot product of vectors v and x
+"span(x₁, x₂, ..., xₖ)","the span of vectors x1, x2, through xk"
+(C - μI)u = 0,matrix C minus μ times the identity matrix times vector u equals zero
+"(z₁, z₂, z₃)","the vector with components z1, z2, and z3"
+Cv = λv,matrix C times vector v equals λ times vector v
+(kB)ᵀ,the transpose of k times matrix B
+(q ∧ p) → (r ∨ s),if both q and p then either r or s
+"∃x, Q(x)",there exists x such that Q(x)
+B₃₃,the 3 by 3 matrix B
+(s ∨ p) ∧ (q ∨ r),"either s or p, and either q or r"
+log(B),the matrix logarithm of B
+Au = λu,matrix A times vector u equals λ times vector u
+"∀x ∀y P(x, y)","for all x and for all y, P(x, y) is true"
+AP,the product of matrices A and P
+wᵢ,the i-th component of vector w
+s ∧ t,both s and t
+rank(f),the rank of linear transformation f
+A → (A ∨ B),if A then A or B
+v2(C),the second eigenvector of matrix C
+q ↔ r,q if and only if r
+"[x₁, x₂, x₃]","the vector with components x1, x2, and x3"
+r → (p ∨ q),if r then either p or q
+log(M),the matrix logarithm of M
+(p ∨ r),p or r
+"∃x ∃z R(x, z)","there exist x and z such that R(x, z) is true"
+(cB)⁻¹,the inverse of c times matrix B
+p ∨ (r ∧ q),p or both r and q
+∀x ∀y (f(x) = f(y) → x = y),"for all x and y, if f(x) equals f(y) then x equals y"
+"⟨v, x⟩",the inner product of v and x
+t → p,if t then p
+p → s,if p then s
+(C - λI)u = 0,matrix C minus λ times the identity matrix times vector u equals zero
+∃!t R(t),there exists a unique t such that R(t)
+(q ∧ p) → r,if both q and p then r
+tr(cC),the trace of c times matrix C
+∃x in the integers Even(x),there exists x in the integers such that Even(x)
+"∀z in D, Q(z)","for all z in D, Q(z)"
+‖C‖,the norm of matrix C
+tr(C),the trace of matrix C
+M ∈ ℝᵐˣⁿ,matrix M is an m by n real matrix
+(A + C)ᵀ,the transpose of the sum of matrices A and C
+∃x in the real numbers Prime(x),there exists x in the real numbers such that Prime(x)
+A ∧ ¬A,A and not A is a contradiction
+u ⋅ (x + b),the dot product of u with the sum of x and b
+vᵀw,the transpose of v times w
+r → (p → (s → q)),if r then if p then if s then q
+w + x + a,"the sum of vectors w, x, and a"
+∀x (Q(x) → S(x)),"for all x, if Q(x) then S(x)"
+(q ∨ t),q or t
+(αC)ᵀ,the transpose of α times matrix C
+p ∧ ¬p,p and not p is a contradiction
+∀x (P(x) ↔ x = a),"for all x, P(x) if and only if x equals a"
+∃y (Q(y) ∨ R(y)),there exists y such that either Q(y) or R(y) is true
+B = M,matrix B equals matrix M
+∀a P(a),"for every a, P of a holds"
+"∃a in the domain, Q(a)",there exists a in the domain such that Q(a)
+"∀x ∀y Loves(x, y)","for all x and y, Loves(x, y) holds"
+exp(C),the matrix exponential of C
+|z|,the magnitude of vector z
+"∃x ∃y Loves(x, y)","there exist x and y such that Loves(x, y) holds"
+Mv = λv,matrix M times vector v equals λ times vector v
+p ∧ s,p and s
+‖w‖,the norm of vector w
+p ↔ r,p and r have the same truth value
+∀z (Q(z) ∧ S(z)),"for all z, both Q(z) and S(z) are true"
+¬¬p ↔ p,the negation of not p is equivalent to p
+M = LLᵀ,matrix M equals L times L transpose
+pinv(B),the pseudoinverse of matrix B
+(q ∨ p) ∧ (s ∨ r),"either q or p, and either s or r"
+(p ∨ s) ∧ (r ∨ q),"either p or s, and either r or q"
+‖w‖₂,the Euclidean norm of vector w
+∃!z Q(z),there exists one and only one z such that Q(z)
+∃z (Q(z) ∨ R(z)),there exists z such that either Q(z) or R(z) is true
+t → A,if t then A
+ACᵀ,matrix A times the transpose of C
+det(C - μI) = 0,the determinant of matrix C minus μ times the identity equals zero
+w - x,the difference of vectors w and x
+∃!x S(x),there exists a unique x such that S(x) is true
+"∀x ∀y T(x, y)","for all x and y, T(x, y) holds"
+"∃y, P(y)",there exists y such that P(y)
+p_A(λ) = 0,the characteristic equation of matrix A
+(p ∨ q),p or q
+"∀x ∃y Q(x, y)","for all x, there exists y such that Q(x, y) is true"
+exp(A),the matrix exponential of A
+∃a P(a),there is some a for which P of a holds
+s ↔ t,s is equivalent to t
+¬(A ∨ ¬A),not A or not A is a contradiction
+A + B,the sum of matrices A and B
+"∀x ∀y Q(x, y)","for all x and for all y, Q(x, y) is true"
+"(v₁, v₂, v₃)","the vector with components v1, v2, and v3"
+v + x,the sum of vectors v and x
+‖w‖ + ‖z‖,the sum of the norms of w and z
+(A - λI)u = 0,matrix A minus λ times the identity matrix times vector u equals zero
+q ↔ A,q is equivalent to A
+∃x (Q(x) ∧ R(x)),there exists x such that both Q(x) and R(x) are true
+range(L),the range of linear transformation L
+∀y in the domain P(y),"for every y in the domain, P of y holds"
+‖u‖,the norm of vector u
+"∀z ∀a R(z, a)","for all z and for all a, R(z, a) is true"
+det(AM),the determinant of the product of matrices A and M
+Bv,matrix B times vector v
+p → t,if p then t
+∀x in the domain Q(x),"for every x in the domain, Q of x holds"
+p ∨ q,either p or q
+(A → q) ∧ (A ∧ ¬q),"if A then q, and A and not q, is a contradiction"
+q ∧ t,q and t
+C · x,matrix C applied to vector x
+0,the zero matrix
+∃!x Q(x),there exists a unique x such that Q(x) is true
+s → (r → (p → q)),if s then if r then if p then q
+v3(C),the third eigenvector of matrix C
+(p ∨ t),p or t
+∃x in set S (Prime(x) ∧ Positive(x)),there exists x in set S such that both Prime(x) and Positive(x)
+(s ∨ r) ∧ (p ∨ q),"either s or r, and either p or q"
+(v - y) × b,the cross product of the difference of v and y with b
+(q ↔ r) ∧ (p ↔ s),"q if and only if r, and p if and only if s"
+"∃z in D, P(z)",there exists z in D such that P(z)
+(v + x) ⋅ b,the dot product of the sum of v and x with b
+"∃x ∃z P(x, z)","there exist x and z such that P(x, z) is true"
+v ⊗ w,the tensor product of v and w
+∃!z P(z),there exists one and only one z such that P(z)
+‖x‖∞,the infinity norm of vector x
+"∀y ∀z P(y, z)","for all y and for all z, P(y, z) is true"
+vᵀy,the transpose of v times y
+T(w),the linear transformation T applied to vector w
+(q ∨ r) ∧ (p ∨ s),"either q or r, and either p or s"
+v3(A),the third eigenvector of matrix A
+ℂ³,the 3-dimensional complex coordinate space
+q → A,if q is true then A is true
+¬(A ∨ B ∨ C) ↔ (¬A ∧ ¬B ∧ ¬C),"not any of A, B, oC C is eBuivalent to not A, and not B, and not C"
+(A + B)ᵀ,the transpose of the sum of matrices A and B
+B is lower triangular,matrix B is lower triangular
+(w + y) ⋅ b,the dot product of the sum of w and y with b
+¬(A ∨ B) ↔ (¬A ∧ ¬B),the negation of A or B is equivalent to not A and not B
+∀x in the real numbers (Even(x) → Odd(x)),"for all x in the real numbers, if Even(x) then Odd(x)"
+"∃a in the domain, P(a)",there exists a in the domain such that P(a)
+(t ↔ s) ↔ ((t ∧ s) ∨ (¬t ∧ ¬s)),"t if and only if s is esuivalent to both t and s, ot neithet t not s"
+s ∨ t,either s or t
+(q ∧ s) → (p ∨ r),if both q and s then either p or r
+w ⋅ (u + b),the dot product of w with the sum of u and b
+T(u),the linear transformation T applied to vector u
+"[y₁, y₂, y₃]","the vector with components y1, y2, and y3"
+"∀a in the domain, P(a)","for all a in the domain, P(a)"
+q → A,q implies A
+∀z in the domain P(z),"for all z in the domain, P(z) is true"
+r → p,r implies p
+∃x P(x),there exists x such that P(x) is true
+(r ∧ s) → (p ∨ q),if both r and s then either p or q
+‖v‖ + ‖y‖,the sum of the norms of v and y
+[B]ᵢⱼ,the i j entry of matrix B
+(p ∨ s),p or s
+¬∃x Q(x) ↔ ∀x ¬Q(x),not there exists x Q(x) is equivalent to for all x not Q(x)
+r → s,if r is true then s is true
+q ∨ s,q is true or s is true
+Bᵢⱼ,the entry in row i and column j of matrix B
+S + V,the sum of subspaces S and V
+∀x (P(x) ∧ R(x)),"for all x, both P(x) and R(x) are true"
+(r ∨ p) ∧ (q ∨ s),"either r or p, and either q or s"
+∀z (P(z) ∨ Q(z)),"for all z, either P(z) or Q(z) is true"
+u ∥ x,vector u is parallel to vector x
+Bx,matrix B times vector x
+p ∧ ⊥ ↔ ⊥,p and false is equivalent to false
+M ∈ ℝⁿˣⁿ,matrix M is an n by n real matrix
+[A | B],the augmented matrix A augmented with B
+∀x (P(x) → Q) ↔ (∃x P(x) → Q),for all x if P(x) then Q is equivalent to if there exists x P(x) then Q
+‖x‖,the norm of vector x
+(w + y) ⋅ a,the dot product of the sum of w and y with a
+(q ↔ p) ∧ (r ↔ s),"q if and only if p, and r if and only if s"
+|x|,the magnitude of vector x
+|v|,the magnitude of vector v
+"∀x ∃y T(x, y)","for all x, there exists y such that T(x, y) holds"
+q → p,q implies p
+‖w‖ₚ,the p-norm of vector w
+(w + x) ⋅ a,the dot product of the sum of w and x with a
+u + x + a,"the sum of vectors u, x, and a"
+A ≈ C,matrix A is approximately equal to matrix C
+det(P),the determinant of matrix P
+p → A,p implies A
+det(AP),the determinant of the product of matrices A and P
+(v + w) ⋅ b,the dot product of the sum of v and w with b
+dA/dt,the derivative of matrix A with respect to t
+A = C,matrix A equals matrix C
+"(v, w)",the inner product of v and w
+uᵀy,the transpose of u times y
+trace(C),the trace of matrix C
+Cu,matrix C times vector u
+AM,the product of matrices A and M
+‖u‖ₚ,the p-norm of vector u
+"∀x ∃y R(x, y)","for all x, there exists y such that R(x, y) is true"
+B³,matrix B cubed
+det(A + B),the determinant of the sum of matrices A and B
+C = UΣVᵀ,matrix C equals U times Sigma times V transpose
+r ↔ t,r and t have the same truth value
+¬B,not B
+(w + u) ⋅ a,the dot product of the sum of w and u with a
+"∃x ∃y R(x, y)","there exist x and y such that R(x, y) holds"
+B = LU,matrix B equals L times U
+∀a Q(a),"for all a, Q(a) is true"
+p ∧ q,both p and q
+∃y (R(y) ∨ S(y)),there exists y such that either R(y) or S(y) is true
+q → r,if q is true then r is true
+∃x (P(x) ∨ Q(x)),there exists x such that either P(x) or Q(x) is true
+"diag(a₁, a₂, ..., aₙ)","the diagonal matrix with diagonal entries a1, a2, through an"
+C†,the pseudoinverse of matrix C
+r ↔ s,r is equivalent to s
+M is positive definite,matrix M is positive definite
+q → (p ∨ r),if q then either p or r
+‖v‖ + ‖w‖,the sum of the norms of v and w
+P₃₃,the 3 by 3 matrix P
+T(cv),T applied to c times v
+"∃y ∃a R(y, a)","there exist y and a such that R(y, a) is true"
+Bw = x,the linear system B times w equals x
+‖B‖_F,the Frobenius norm of matrix B
+(q ∧ s) → (r ∨ p),if both q and s then either r or p
+∃y (P(y) → R(y)),there exists y such that if P(y) then R(y)
+(q ∧ r) → p,if both q and r then p
+CᵀMᵀ,the transpose of C times the transpose of M
+p ↔ s,p if and only if s
+v · ê,the component of v in direction ê
+tr(M),the trace of matrix M
+∃!y Q(y),there exists a unique y such that Q(y)
+q ∨ s,q or s
+B ∈ ℝⁿˣⁿ,matrix B is an n by n real matrix
+(cC)ᵀ,the transpose of c times matrix C
+‖z‖∞,the infinity norm of vector z
+∀z (Q(z) → R(z)),"for all z, if Q(z) then R(z)"
+"∃y ∃z P(y, z)","there exist y and z such that P(y, z) is true"
+A → q,A implies q
+"∃y ∃a Q(y, a)","there exist y and a such that Q(y, a) is true"
+B = C,matrix B equals matrix C
+((p → q) ∧ ¬q) → ¬p,"if p implies q and not q, then not p"
+p ∧ ¬p ↔ ⊥,p and not p is equivalent to false
+‖B‖,the norm of matrix B
+u ∈ ℝⁿ,vector u is in the n-dimensional real space
+proj_x(v),the projection of v onto x
+A = QR,matrix A equals Q times R
+∃x in set S (Positive(x) ∧ Even(x)),there exists x in set S such that both Positive(x) and Even(x)
+∃x in the natural numbers Odd(x),there exists x in the natural numbers such that Odd(x)
+v + w,the sum of vectors v and w
+((P → Q) ∧ P) → Q,"if P imPlies Q and P, then Q"
+w ⋅ (u + a),the dot product of w with the sum of u and a
+C is orthogonal,matrix C is orthogonal
+‖C‖*,the nuclear norm of matrix C
+∀y in the domain Q(y),"for all y in the domain, Q(y) is true"
+A → s,if A then s
+"∀x ∃a R(x, a)","for all x, there exists a such that R(x, a) is true"
+"⟨{u₁, u₂, ..., uₙ}⟩","the subspace generated by vectors {u₁, u₂, ..., uₙ}"
+∃x in the domain Q(x),there exists x in the domain such that Q(x) is true
+t → (s ∨ t) ↔ (t → s) ∨ (t → t),"if t then s ot t is esuivalent to if t then s, ot if t then t"
+"⟨w, u⟩",the inner product of vectors w and u
+∀x (P(x) ∨ Q(x)),"for all x, either P(x) or Q(x) is true"
+kC,the scalar k times matrix C
+∃!y P(y),there is exactly one y for which P of y holds
+∀y (R(y) → S(y)),"for all y, if R(y) then S(y)"
+BᵀC,the transpose of B times C
+"∃x (F(x) ∧ ∀y H(x, y))","there exists x such that F(x) and for all y, H(x, y)"
+P_{B←S},the change of basis matrix from S to B
+∀y (Q(y) ∧ S(y)),"for all y, both Q(y) and S(y) are true"
+"d(v, u)",the distance between vectors v and u
+B ≈ P,matrix B is approximately equal to matrix P
+"∀y in D, P(y)","for all y in D, P(y)"
+t ∨ A,either t or A
+B is diagonal,matrix B is diagonal
+dB/dt,the derivative of matrix B with respect to t
+det(kM),the determinant of k times matrix M
+trace(B),the trace of matrix B
+"∀x S(x, x)","for all x, S(x, x) holds"
+(v + z) ⋅ a,the dot product of the sum of v and z with a
+¬A,the negation of A
+‖z‖₂,the Euclidean norm of vector z
+"x = [x₁, x₂, x₃]","the vector x with components x1, x2, and x3"
+det(cB),the determinant of c times matrix B
+q ∧ t,q is true and t is true
+v̂,the unit vector v
+det(M²),the determinant of M squared
+∃z in the domain P(z),there is some z in the domain for which P of z holds
+Cw = μw,matrix C times vector w equals μ times vector w
+f(cv),f applied to c times v
+Mₘₙ,the m by n matrix M
+r → A,if r then A
+"∃z in the domain, Q(z)",there exists z in the domain such that Q(z)
+A - B,the difference of matrices A and B
+tr(P),the trace of matrix P
+A⁻¹,the inverse of matrix A
+A is lower triangular,matrix A is lower triangular
+q ↔ r,q is equivalent to r
+¬p,the negation of p
+v ⋅ (u + a),the dot product of v with the sum of u and a
+q ∧ s,both q and s
+Au = x,the linear system A times u equals x
+Cᵀ,the transpose of matrix C
+r ↔ s,r and s have the same truth value
+Cᵀᵀ,the transpose of the transpose of matrix C
+v3(B),the third eigenvector of matrix B
+(p ∨ r) → q,if either p or r then q
+xᵀAx,the quadratic form x transpose A x
+Q*,the conjugate transpose of matrix Q
+∀a in the domain P(a),"for all a in the domain, P(a) is true"
+"∀y in D, Q(y)","for all y in D, Q(y)"
+"[z₁, z₂, z₃]","the vector with components z1, z2, and z3"
+C · M,the product of matrices C and M
+¬t,the negation of t
+(A ↔ B) ↔ ((A ∧ B) ∨ (¬A ∧ ¬B)),"A if and only if B is eBuivalent to both A and B, oC neitheC A noC B"
+∃!x P(x),there is exactly one x for which P of x holds
+∃z (P(z) ∨ Q(z)),there exists z such that either P(z) or Q(z) is true
+∀x P(x) ∧ Q(y),for all x P(x) and Q(y)
+(u + x) ⋅ b,the dot product of the sum of u and x with b
+I₃,the 3 by 3 identity matrix
+∃z in the domain Q(z),there exists z in the domain such that Q(z) is true
+(kM)⁻¹,the inverse of k times matrix M
+r ↔ A,r is equivalent to A
+Aⁿ,matrix A to the power n
+|AC|,the determinant of the product of matrices A and C
+A - C,the difference of matrices A and C
+∃x in the real numbers (Odd(x) ∧ Prime(x)),there exists x in the real numbers such that both Odd(x) and Prime(x)
+v ∈ ℝ³,vector v is in 3-dimensional real space
+"∃y in D, P(y)",there exists y in D such that P(y)
+∀x in the domain D (Prime(x) → Positive(x)),"for all x in the domain D, if Prime(x) then Positive(x)"
+"∀y in the domain, Q(y)","for all y in the domain, Q(y)"
+(p ∧ q) ∨ r,"either both p and q, or r"
+(s ∧ r) → (p ∨ q),if both s and r then either p or q
+(r ∧ p) → (s ∨ q),if both r and p then either s or q
+p ∨ A,p or A
+"∃x ∃y S(x, y)","there exist x and y such that S(x, y) holds"
+∃z Q(z),there is some z for which Q of z holds
+(r ↔ s) ∧ (q ↔ p),"r if and only if s, and q if and only if p"
+p → s,p entails s
+(αB)⁻¹,the inverse of α times matrix B
+¬(p ∧ r) ∨ ¬(q ∧ s),"not both p and r, or not both q and s"
+cv,the scalar c times vector v
+p_C(λ),the characteristic polynomial of matrix C
+C is invertible,matrix C is invertible
+∀x (P(x) ∨ R(x)),"for all x, either P(x) or R(x) is true"
+B + M,the sum of matrices B and M
+∃z Q(z),there exists z such that Q(z) is true
+αw,the scalar alpha times vector w
+P ∈ ℝᵐˣⁿ,matrix P is an m by n real matrix
+∀x in set S (Odd(x) → Prime(x)),"for all x in set S, if Odd(x) then Prime(x)"
+U⊥,the orthogonal complement of subspace U
+(r ↔ p) ∧ (q ↔ s),"r if and only if p, and q if and only if s"
+∀x in set S Prime(x),"for all x in set S, Prime(x)"
+∃!z R(z),there exists a unique z such that R(z) is true
+∃y in D P(y),there exists y in D such that P(y) is true
+∀z (P(z) → R(z)),"for all z, if P(z) then R(z)"
+(s ↔ p) ∧ (r ↔ q),"s if and only if p, and r if and only if q"
+q → (s → (r → p)),if q then if s then if r then p
+‖w + y‖²,the squared norm of the sum of w and y
+q ∧ (r ∨ p),q and either r or p
+trace(A),the trace of matrix A
+∃z (P(z) ∧ R(z)),there exists z such that both P(z) and R(z) are true
+‖A‖∞,the infinity norm of matrix A
+C⁻²,the inverse of C squared
+Ax = 0,the homogeneous linear system A times x equals zero
+v ⋅ (u + b),the dot product of v with the sum of u and b
+∀x in the integers (Odd(x) → Prime(x)),"for all x in the integers, if Odd(x) then Prime(x)"
+∃x (P(x) ∧ Q(y)),there exists x such that P(x) and Q(y)
+r → t,r implies t
+nullity(T),the nullity of linear transformation T
+v × w,the cross product of vectors v and w
+A · B,the product of matrices A and B
+w ⊗ u ⊗ y,"the tensor product of w, u, and y"
+r → (s → (q → p)),if r then if s then if q then p
+∃a Q(a),there is some a for which Q of a holds
+W ∩ V,the intersection of subspaces W and V
+Q = [Qᵢⱼ],the matrix Q with entries Q i j
+e^A,the matrix exponential of A
+q ∧ A,q and A
+"w = [w₁, w₂]",the vector w with components w1 and w2
+q ∨ t,either q or t
+¬C,the negation of C
+∀y in D P(y),"for all y in D, P(y) is true"
+((P ∨ Q) ∧ ¬P) → Q,"if P or Q and not P, then Q"
+∃!z S(z),there exists a unique z such that S(z) is true
+∀a Q(a),"for every a, Q of a holds"
+Bᵀw,the transpose of matrix B times vector w
+∃z (R(z) → S(z)),there exists z such that if R(z) then S(z)
+Cᵀw,the transpose of matrix C times vector w
+tr(kC),the trace of k times matrix C
+A → (B ∧ C) ↔ (A → B) ∧ (A → C),"if A then both B and C is eBuivalent to if A then B, and if A then C"
+"∃z ∃a R(z, a)","there exist z and a such that R(z, a) is true"
+"∀y ∃z Q(y, z)","for all y, there exists z such that Q(y, z) is true"
+∀x in D R(x),"for all x in D, R(x) is true"
+q ∨ A,q or A
+det(A²),the determinant of A squared
+nullity(f),the nullity of linear transformation f
+w ∥ x,vector w is parallel to vector x
+p ↔ A,p is true if and only if A is true
+"w = [w₁, w₂, w₃]","the vector w with components w1, w2, and w3"
+P ∈ ℝⁿˣⁿ,matrix P is an n by n real matrix
+BᵀCᵀ,the transpose of B times the transpose of C
+cu,the scalar c times vector u
+∀x in the natural numbers (Even(x) → Odd(x)),"for all x in the natural numbers, if Even(x) then Odd(x)"
+V⊥,the orthogonal complement of subspace V
+t → q,if t then q
+((r → s) ∧ ¬s) → ¬r,"if r imrlies s and not s, then not r"
+p → t,p implies t
+‖z‖ₚ,the p-norm of vector z
+"∃x (P(x) ∧ ∀y R(x, y))","there exists x such that P(x) and for all y, R(x, y)"
+"∃z in D, Q(z)",there exists z in D such that Q(z)
+Bu = λu,the eigenvalue equation B times u equals lambda times u
+(B - λI)v = 0,matrix B minus λ times the identity matrix times vector v equals zero
+tr(cM),the trace of c times matrix M
+L(v + w),L applied to the sum of v and w
+∀z (P(z) ∨ S(z)),"for all z, either P(z) or S(z) is true"
+∀y in D Q(y),"for every y in D, Q of y holds"
+∃x in the domain R(x),there exists x in the domain such that R(x) is true
+¬(B ∨ ¬B),not B or not B is a contradiction
+v + x + a,"the sum of vectors v, x, and a"
+‖B‖*,the nuclear norm of matrix B
+P*,the conjugate transpose of matrix P
+proj_u(w),the projection of w onto u
+w ∥ u,vector w is parallel to vector u
+M*,the conjugate transpose of matrix M
+"⟨w, y⟩",the inner product of vectors w and y
+¬(r ∨ ¬r),not r or not r is a contradiction
+Cⁿ,matrix C to the power n
+(p ∨ r) ∧ (s ∨ q),"either p or r, and either s or q"
+(p ∧ t),p and t
+v ⊗ u,the tensor product of v and u
+Aw = λw,the matrix A times vector w equals the scalar lambda times vector w
+u ⋅ (x + a),the dot product of u with the sum of x and a
+"∀x ∀a Q(x, a)","for all x and for all a, Q(x, a) is true"
+"{w₁, w₂} is linearly independent","the vectors {w₁, w₂} are linearly independent"
+p → (r → (q → s)),if p then if r then if q then s
+tr(A + B),the trace of the sum of matrices A and B
+wᵀ,the transpose of vector w
+∃x in D P(x),there exists x in D such that P(x) is true
+Cᵀv,the transpose of matrix C times vector v
+null(f),the null space of linear transformation f
+(q ∨ p) ∧ (r ∨ s),"either q or p, and either r or s"
+∃!z R(z),there is exactly one z for which R of z holds
+u ⊥ v,u is orthogonal to v
+tr(B + C),the trace of the sum of matrices B and C
+p ∨ s,either p or s
+AᵀCᵀ,the transpose of A times the transpose of C
+(s ↔ r) ∧ (p ↔ q),"s if and only if r, and p if and only if q"
+(AC)ᵀ,the transpose of the product of matrices A and C
+W + V,the sum of subspaces W and V
+Cx,matrix C times vector x
+q → s,if q then s
+‖z‖,the norm of vector z
+∃!y Q(y),there exists one and only one y such that Q(y)
+P⁻¹,the inverse of matrix P
+Bu,matrix B times vector u
+v ∧ u,the wedge product of vectors v and u
+Pᵀ,the transpose of matrix P
+yᵢ,the i-th component of vector y
+∀a in the domain P(a),"for every a in the domain, P of a holds"
+ker(T),the kernel of linear transformation T
+q ∨ (r ∧ p),q or both r and p
+v1(B),the first eigenvector of matrix B
+B⁻¹,the inverse of matrix B
+∀z (Q(z) ∨ S(z)),"for all z, either Q(z) or S(z) is true"
+(v + z) ⋅ b,the dot product of the sum of v and z with b
+exp(B),the matrix exponential of B
+"{w₁, w₂} is linearly dependent","the vectors {w₁, w₂} are linearly dependent"
+‖B‖₂,the 2-norm of matrix B
+r → (p ∧ q),if r then both p and q
+Q ∈ ℝᵐˣⁿ,matrix Q is an m by n real matrix
+Bv = μv,matrix B times vector v equals μ times vector v
+C · u,matrix C applied to vector u
+tr(M²),the trace of M squared
+¬(p ∨ q) ↔ (¬p ∧ ¬q),the negation of p or q is equivalent to not p and not q
+∃x (P(x) ∧ Q(x)),there exists x such that both P(x) and Q(x) are true
+p → (q ∨ r),if p then either q or r
+v ⋅ (w + b),the dot product of v with the sum of w and b
+|u|,the magnitude of vector u
+∀x R(x),"for all x, R(x) is true"
+∃y (Q(y) ∨ S(y)),there exists y such that either Q(y) or S(y) is true
+w ⋅ (y + a),the dot product of w with the sum of y and a
+σ2(B),the second singular value of matrix B
+s → A,s implies A
+C = LU,matrix C equals L times U
+∀x Q(x),"for all x, Q(x) is true"
+"∀x ∀y (T(x, y) → T(y, x))","for all x and y, if T(x, y) then T(y, x)"
+Aw = μw,matrix A times vector w equals μ times vector w
+w - u,the difference of vectors w and u
+rank(T),the rank of linear transformation T
+"∀y ∀a R(y, a)","for all y and for all a, R(y, a) is true"
+∃y (P(y) ∧ R(y)),there exists y such that both P(y) and R(y) are true
+B is upper triangular,matrix B is upper triangular
+∀x P(x),"for all x, P(x) is true"
+A is upper triangular,matrix A is upper triangular
+∀y in the domain Q(y),"for every y in the domain, Q of y holds"
+σ1(A),the first singular value of matrix A
+det(B),the determinant of matrix B
+q ∨ t,q or t
+p_A(λ),the characteristic polynomial of matrix A
+‖v + u‖²,the squared norm of the sum of v and u
+Bₘₙ,the m by n matrix B
+(αA)ᵀ,the transpose of α times matrix A
+|AM|,the determinant of the product of matrices A and M
+(w + u) ⋅ b,the dot product of the sum of w and u with b
+∃a in D P(a),there exists a in D such that P(a) is true
+q → t,q entails t
+¬(p ∧ q) ↔ (¬p ∨ ¬q),the negation of p and q is equivalent to not p or not q
+A → t,if A then t
+BP,the product of matrices B and P
+u · x,the dot product of vectors u and x
+Aᵢⱼ,the entry in row i and column j of matrix A
+∃x in the real numbers (Positive(x) ∧ Even(x)),there exists x in the real numbers such that both Positive(x) and Even(x)
+|BP|,the determinant of the product of matrices B and P
+∃z (Q(z) ∨ S(z)),there exists z such that either Q(z) or S(z) is true
+ker(f),the kernel of linear transformation f
+∃x (P(x) ∧ Q(x)) → (∃x P(x)) ∧ (∃x Q(x)),"if theCe exists x such that P(x) and Q(x), then theCe exists x P(x) and theCe exists x Q(x)"
+(s ∧ q) → (r ∨ p),if both s and q then either r or p
+A ≈ P,matrix A is approximately equal to matrix P
+"∃a, P(a)",there exists a such that P(a)
+((r ∨ s) ∧ ¬r) → s,"if r or s and not r, then s"
+∀z (R(z) ∧ S(z)),"for all z, both R(z) and S(z) are true"
+"∃x, R(x)",there exists x such that R(x)
+∀x (f(x) = g(x)),"for all x, f(x) equals g(x)"
+eᵢ,the i-th standard basis vector
+√B,the matrix square root of B
+r ↔ A,r if and only if A
+∃!x P(x),there exists a unique x such that P(x) is true
+"∀x ∃a Q(x, a)","for all x, there exists a such that Q(x, a) is true"
+∃x in the integers Prime(x),there exists x in the integers such that Prime(x)
+‖w‖ + ‖x‖,the sum of the norms of w and x
+∀x in the domain P(x),"for all x in the domain, P(x) is true"
+A*,the conjugate transpose of matrix A
+T(x),the linear transformation T applied to vector x
+C ∈ ℝᵐˣⁿ,matrix C is an m by n real matrix
+s → p,s implies p
+∀y (R(y) ∧ S(y)),"for all y, both R(y) and S(y) are true"
+∃!y S(y),there exists a unique y such that S(y) is true
+(p ∧ r) → q,if both p and r then q
+¬(A ∧ B) ↔ (¬A ∨ ¬B),the negation of A and B is equivalent to not A or not B
+(C - λI)w = 0,matrix C minus λ times the identity matrix times vector w equals zero
+∃!y Q(y),there exists a unique y such that Q(y) is true
+trace(P),the trace of matrix P
+q → (s → (p → r)),if q then if s then if p then r
+Au = λu,the eigenvalue equation A times u equals lambda times u
+uᵀ,the transpose of vector u
+∃x (P(x) → R(x)),there exists x such that if P(x) then R(x)
+∃y in the domain Q(y),there exists y in the domain such that Q(y) is true
+(cA)⁻¹,the inverse of c times matrix A
+∀x in the domain P(x),"for every x in the domain, P of x holds"
+dim(V) = n,the dimension of vector space V is n
+∃x (P(x) ∧ Q) ↔ Q ∧ ∃x P(x),there exists x such that P(x) and Q is equivalent to Q and there exists x P(x)
+"∀x in D, P(x)","for all x in D, P(x)"
+∀z (P(z) → S(z)),"for all z, if P(z) then S(z)"
+v × x,the cross product of vectors v and x
+Av = u,the linear system A times v equals u
+"∀x ∀y ∀z ((S(x, y) ∧ S(y, z)) → S(x, z))","for all x, y, and z, if S(x, y) and S(y, z) then S(x, z)"
+(u + x) ⋅ a,the dot product of the sum of u and x with a
+row(A),the row space of matrix A
+‖w - x‖,the distance between vectors w and x
+"y = [y₁, y₂]",the vector y with components y1 and y2
+v ⊗ w ⊗ y,"the tensor product of v, w, and y"
+(v + x) ⋅ a,the dot product of the sum of v and x with a
+∀z Q(z),"for all z, Q(z) is true"
+M₃₃,the 3 by 3 matrix M
+O,the zero matrix
+∃!x R(x),there exists a unique x such that R(x) is true
+r → (q ∨ p),if r then either q or p
+"∀y ∃z R(y, z)","for all y, there exists z such that R(y, z) is true"
+"∃z ∃a P(z, a)","there exist z and a such that P(z, a) is true"
+det(A + M),the determinant of the sum of matrices A and M
+∃z (R(z) ∨ S(z)),there exists z such that either R(z) or S(z) is true
+P ∈ ℝ³ˣ³,matrix P is a 3 by 3 real matrix
+v · w,the dot product of vectors v and w
+r ∨ s,r is true or s is true
+"∀x ∃y R(x, y)","for all x, there exists y such that R(x, y) holds"
+q → (p ∧ r),if q then both p and r
+Bw = λw,matrix B times vector w equals λ times vector w
+orthonormal basis,an orthonormal basis
+|B|,the determinant of matrix B
+∃y in the domain P(y),there is some y in the domain for which P of y holds
+"∃x ∀y Loves(x, y)","there exists x such that for all y, Loves(x, y) holds"
+∀y in the domain P(y),"for all y in the domain, P(y) is true"
+∃x (Q(x) ∨ R(x)),there exists x such that either Q(x) or R(x) is true
+(q ↔ r) ∧ (s ↔ p),"q if and only if r, and s if and only if p"
+"{v₁, v₂, v₃} is linearly independent","the vectors {v₁, v₂, v₃} are linearly independent"
+s ∨ A,s or A
+(Mᵀ)ᵢⱼ,the i j entry of the transpose of matrix M
+Qᵀ,the transpose of matrix Q
+w × y,the cross product of vectors w and y
+q → (r ∧ p),if q then both r and p
+∃x Q(x),there exists x such that Q(x) is true
+q → p,if q then p
+det(A) = Πλᵢ,the determinant of A equals the product of its eigenvalues
+v1(C),the first eigenvector of matrix C
+r ↔ t,r is true if and only if t is true
+f: ℝⁿ → ℝᵐ,f is a linear transformation from n-dimensional to m-dimensional real space
+∀x (P(x) ∧ Q(x)),"for all x, both P(x) and Q(x) are true"
+‖w + z‖²,the squared norm of the sum of w and z
+(q ∨ p) → r,if either q or p then r
+A = LU,matrix A equals L times U
+∀x in the natural numbers Odd(x),"for all x in the natural numbers, Odd(x)"
+∇f(x),the gradient of f at x
+‖v - u‖,the distance between vectors v and u
+u + y + a,"the sum of vectors u, y, and a"
+lim_{n→∞} Aⁿ,the limit of A to the power n as n approaches infinity
+A - M,the difference of matrices A and M
+(P → Q) → ((Q → r) → (P → r)),if P imPlies Q then if Q imPlies r then P imPlies r
+q ↔ s,q and s have the same truth value
+Cw = λw,matrix C times vector w equals λ times vector w
+w + x,the sum of vectors w and x
+(∀x P(x)) ∨ (∀x Q(x)) → ∀x (P(x) ∨ Q(x)),"if for all x P(x) or for all x Q(x), then for all x, P(x) or Q(x)"
+∀y (Q(y) ∨ R(y)),"for all y, either Q(y) or R(y) is true"
+cond₂(A) = σₘₐₓ/σₘᵢₙ,the 2-norm condition number equals the ratio of largest to smallest singular values
+Aᵀᵀ,the transpose of the transpose of matrix A
+‖z‖₁,the L1 norm of vector z
+Cv,matrix C times vector v
+(B - μI)w = 0,matrix B minus μ times the identity matrix times vector w equals zero
+B ≈ M,matrix B is approximately equal to matrix M
+AᵀMᵀ,the transpose of A times the transpose of M
+∃z (P(z) ∧ S(z)),there exists z such that both P(z) and S(z) are true
+tr(B),the trace of matrix B
+∇²f(x) ≻ 0,the Hessian of f at x is positive definite
+∀x in the domain D (Even(x) → Odd(x)),"for all x in the domain D, if Even(x) then Odd(x)"
+"(x₁, x₂, x₃)","the vector with components x1, x2, and x3"
+s ↔ A,s if and only if A
+∀y (Q(y) ∧ R(y)),"for all y, both Q(y) and R(y) are true"
+t ∧ A,both t and A
+"∃x ∃y Q(x, y)","there exist x and y such that Q(x, y) is true"
+"{u₁, u₂, ..., uₙ} is linearly dependent","the vectors {u₁, u₂, ..., uₙ} are linearly dependent"
+∀x (P(x) → S(x)),"for all x, if P(x) then S(x)"
+(r ∨ q) ∧ (p ∨ s),"either r or q, and either p or s"
+∀z in D Q(z),"for every z in D, Q of z holds"
+∀a in the domain Q(a),"for all a in the domain, Q(a) is true"
+t → A,t entails A
+∀x (P(x) ∨ Q(y)),"for all x, either P(x) or Q(y)"
+B · P,the product of matrices B and P
+"∀x ∀z Q(x, z)","for all x and for all z, Q(x, z) is true"
+C is positive definite,matrix C is positive definite
+p ↔ t,p if and only if t
+(C - μI)v = 0,matrix C minus μ times the identity matrix times vector v equals zero
+BCᵀ,matrix B times the transpose of C
+∀z (S(z) → z = a),"for all z, if S(z) then z equals a"
+proj_u(v),the projection of v onto u
+∀x in set S (Even(x) → Odd(x)),"for all x in set S, if Even(x) then Odd(x)"
+v + u,the sum of vectors v and u
+|w|,the magnitude of vector w
+∀y (Q(y) → y = a),"for all y, if Q(y) then y equals a"
+q ∧ r,q and r
+"[v₁, v₂, v₃]","the vector with components v1, v2, and v3"
+t ↔ A,t and A have the same truth value
+Pₘₙ,the m by n matrix P
+(u - x) × b,the cross product of the difference of u and x with b
+‖u + x‖²,the squared norm of the sum of u and x
+(q ↔ s) ∧ (r ↔ p),"q if and only if s, and r if and only if p"
+Bᵀᵀ,the transpose of the transpose of matrix B
+det(C - λI),the characteristic polynomial of matrix C
+Aᵀ,the transpose of matrix A
+Qᵀᵀ,the transpose of the transpose of matrix Q
+B is invertible,matrix B is invertible
+∃x R(x),there exists x such that R(x) is true
+Bᵀ,the transpose of matrix B
+"∀z in D, P(z)","for all z in D, P(z)"
+∃x in the integers (Odd(x) ∧ Prime(x)),there exists x in the integers such that both Odd(x) and Prime(x)
+∀x in the natural numbers Even(x),"for all x in the natural numbers, Even(x)"
+chol(C),the Cholesky decomposition of matrix C
+|BC|,the determinant of the product of matrices B and C
+P = [Pᵢⱼ],the matrix P with entries P i j
+(p ∧ s),p and s
+r ∨ A,r is true or A is true
+"⟨w, x⟩",the inner product of vectors w and x
+A · M,the product of matrices A and M
+(q ∨ s),q or s
+v ⋅ (z + b),the dot product of v with the sum of z and b
+∃x (P(x) ∨ R(x)),there exists x such that either P(x) or R(x) is true
+r → A,r implies A
+(A ∧ B) → A,if A and B then A
+Aw,matrix A times vector w
+AC,the product of matrices A and C
+v + u + a,"the sum of vectors v, u, and a"
+∃x in the integers Positive(x),there exists x in the integers such that Positive(x)
+Aᵀw,the transpose of matrix A times vector w
+v ∥ x,vector v is parallel to vector x
+r → t,if r then t
+C = LLᵀ,matrix C equals L times L transpose
+vᵀCv,the quadratic form v transpose C v
+∀x in D P(x),"for all x in D, P(x) is true"
+∃x (P(x) ∧ Q(x)) → (∃x P(x)) ∧ (∃x Q(x)),"if there exists x such that P(x) and Q(x), then there exists x P(x) and there exists x Q(x)"
+∃!x S(x),there is exactly one x for which S of x holds
+q → r,q implies r
+(∀x P(x)) ∨ (∀x Q(x)) → ∀x (P(x) ∨ Q(x)),"if fot all x P(x) ot fot all x Q(x), then fot all x, P(x) ot Q(x)"
+"∀a in D, Q(a)","for all a in D, Q(a)"
+"(v, x)",the inner product of v and x
+"∀z ∃a Q(z, a)","for all z, there exists a such that Q(z, a) is true"
+∀x in the domain D Even(x),"for all x in the domain D, Even(x)"
+(w - u) × b,the cross product of the difference of w and u with b
+∃x (P(x) ∧ Q) ↔ Q ∧ ∃x P(x),thete exists x such that P(x) and Q is esuivalent to Q and thete exists x P(x)
+¬s,not s
+(w - u) × a,the cross product of the difference of w and u with a
+‖v‖ + ‖z‖,the sum of the norms of v and z
+M³,matrix M cubed
+q ↔ r,q is true if and only if r is true
+∀x in the real numbers Even(x),"for all x in the real numbers, Even(x)"
+A · C,the product of matrices A and C
+"∀y ∀z Q(y, z)","for all y and for all z, Q(y, z) is true"
+∃!y R(y),there exists a unique y such that R(y)
+W⊥,the orthogonal complement of subspace W
+p ∧ s,p is true and s is true
+∃x in the natural numbers Prime(x),there exists x in the natural numbers such that Prime(x)
+∃z (P(z) ∨ R(z)),there exists z such that either P(z) or R(z) is true
+w · ê,the component of w in direction ê
+∃x in the integers (Even(x) ∧ Odd(x)),there exists x in the integers such that both Even(x) and Odd(x)
+‖B‖₁,the 1-norm of matrix B
+wᵀAw,the quadratic form w transpose A w
+‖v‖₂,the Euclidean norm of vector v
+λ2(A),the second eigenvalue of matrix A
+r ∧ (q ∨ p),r and either q or p
+"∀x in the domain, P(x)","for all x in the domain, P(x)"
+SVD(C),the singular value decomposition of matrix C
+(B → q) ∧ (B ∧ ¬q),"if B then q, and B and not q, is a contradiction"
+|AB|,the determinant of the product of matrices A and B
+AᵀB,the transpose of A times B
+t → p,t implies p
+det A,the determinant of matrix A
+w · u,the dot product of vectors w and u
+∀t (R(t) → t = a),"for all t, if R(t) then t equals a"
+r ∧ s,r and s
+det(A + C),the determinant of the sum of matrices A and C
+"∃x ∀y ∃z S(x, y, z)","there exists x such that for all y, there exists z such that S(x, y, z)"
+vᵢ,the i-th component of vector v
+‖v‖,the norm of vector v
+A = QΛQᵀ,matrix A equals Q times Lambda times Q transpose
+Av = x,the linear system A times v equals x
+det C,the determinant of matrix C
+det(M),the determinant of matrix M
+¬(p ∧ q ∧ r) ↔ (¬p ∨ ¬q ∨ ¬r),"not all of p, q, and r is equivalent to not p, or not q, or not r"
+im(f),the image of linear transformation f
+(q → q) ∧ (q ∧ ¬q),"if q then q, and q and not q, is a contradiction"
+s ↔ t,s if and only if t
+∃!y S(y),there exists one and only one y such that S(y)
+w - y,the difference of vectors w and y
+¬r,the negation of r
+∀x (Q(x) ∨ S(x)),"for all x, either Q(x) or S(x) is true"
+∃x (R(x) ∨ S(x)),there exists x such that either R(x) or S(x) is true
+∃x in the natural numbers (Odd(x) ∧ Prime(x)),there exists x in the natural numbers such that both Odd(x) and Prime(x)
+∃y (P(y) ∨ S(y)),there exists y such that either P(y) or S(y) is true
+s ∧ A,both s and A
+∀z Q(z),"for every z, Q of z holds"
+‖M‖_F,the Frobenius norm of matrix M
+tr(kA),the trace of k times matrix A
+det(B²),the determinant of B squared
+(s ↔ p) ∧ (q ↔ r),"s if and only if p, and q if and only if r"
+W ⊆ ℝⁿ,W is a subspace of n-dimensional real space
+p ∨ A,p is true or A is true
+(p ∨ q) ∨ r ↔ p ∨ (q ∨ r),p or q or r is associative
+∃a in D Q(a),there is some a in D for which Q of a holds
+p ∨ ¬p,p or not p is a tautology
+∃x (P(x) → Q(x)),there exists x such that if P(x) then Q(x)
+"∀x ∃y ∀z F(x, y, z)","for all x, there exists y such that for all z, F(x, y, z)"
+q → t,if q then t
+q ∨ A,either q or A
+"∃x ∃a R(x, a)","there exist x and a such that R(x, a) is true"
+Av = λv,matrix A times vector v equals λ times vector v
+"⟨v, w⟩",the inner product of v and w
+∃!z S(z),there exists a unique z such that S(z)
+(Pᵀ)ᵢⱼ,the i j entry of the transpose of matrix P
+u · y,the dot product of vectors u and y
+‖w + x‖²,the squared norm of the sum of w and x
+∀z in the domain Q(z),"for every z in the domain, Q of z holds"
+"∃x, P(x)",there exists x such that P(x)
+s ↔ t,s and t have the same truth value
+det(αB),the determinant of α times matrix B
+w × x,the cross product of vectors w and x
+p ∧ A,p and A
+(s ∨ r) ∧ (q ∨ p),"either s or r, and either q or p"
+tr(A + M),the trace of the sum of matrices A and M
+uᵀx,the transpose of u times x
+[M]ᵢⱼ,the i j entry of matrix M
+r → (q ∧ p),if r then both q and p
+(p ∧ r) → (q ∨ s),if both p and r then either q or s
+(Aᵀ)ᵢⱼ,the i j entry of the transpose of matrix A
+v2(B),the second eigenvector of matrix B
+M is orthogonal,matrix M is orthogonal
+"(y₁, y₂, y₃)","the vector with components y1, y2, and y3"
+r ↔ t,r is equivalent to t
+A₃₃,the 3 by 3 matrix A
+nullity(M),the nullity of matrix M
+(B + M)⁻¹,the inverse of the sum of matrices B and M
+λ1(C),the first eigenvalue of matrix C
+Jf(x),the Jacobian of f at x
+"∀x, P(x)","for all x, P(x)"
+(v - z) × a,the cross product of the difference of v and z with a
+C ∈ ℝ³ˣ³,matrix C is a 3 by 3 real matrix
+p → q,p entails q
+v - w,the difference of vectors v and w
+U + V,the sum of subspaces U and V
+(s ∨ q) ∧ (r ∨ p),"either s or q, and either r or p"
+[C]ᵢⱼ,the i j entry of matrix C
+(Bᵀ)ᵢⱼ,the i j entry of the transpose of matrix B
+"∀x ∀y S(x, y)","for all x and y, S(x, y) holds"
+"∀x ∀y R(x, y)","for all x and for all y, R(x, y) is true"
+ℝ²,the 2-dimensional real coordinate space
+‖u‖₁,the L1 norm of vector u
+(v + u) ⋅ b,the dot product of the sum of v and u with b
+r ∨ (p ∧ q),r or both p and q
+U ⊆ ℝⁿ,U is a subspace of n-dimensional real space
+e₁,the first standard basis vector
+¬(q ∨ ¬q),not q or not q is a contradiction
+"⟨f, v⟩",the dual pairing of f and v
+∃!z Q(z),there is exactly one z for which Q of z holds
+∀x in the natural numbers Prime(x),"for all x in the natural numbers, Prime(x)"
+∃x (Q(x) → R(x)),there exists x such that if Q(x) then R(x)
+(q ↔ p) ∧ (s ↔ r),"q if and only if p, and s if and only if r"
+"∀x Loves(x, x)","for all x, Loves(x, x) holds"
+‖x‖₂,the Euclidean norm of vector x
+Aᵀx,the transpose of matrix A times vector x
+∀a in the domain Q(a),"for every a in the domain, Q of a holds"
+w + y + a,"the sum of vectors w, y, and a"
+p ∧ q ↔ q ∧ p,p and q is equivalent to q and p
+∀x (Q(x) ∧ R(x)),"for all x, both Q(x) and R(x) are true"
+p ↔ r,p is equivalent to r
+B⁺,the Moore-Penrose pseudoinverse of matrix B
+(s ↔ q) ∧ (r ↔ p),"s if and only if q, and r if and only if p"
+V ⊕ V⊥ = ℝⁿ,V direct sum with its orthogonal complement equals n-dimensional real space
+rank(A),the rank of matrix A
+q ∧ s,q is true and s is true
+p → A,if p then A
+s ∨ A,s is true or A is true
+(p → q) → ((q → r) → (p → r)),if p implies q then if q implies r then p implies r
+∀x in the natural numbers Positive(x),"for all x in the natural numbers, Positive(x)"
+∃a in the domain P(a),there is some a in the domain for which P of a holds
+"∀x ∃y P(x, y)","for all x, there exists y such that P(x, y) is true"
+(t ∧ s) → t ↔ t → (s → t),if t and s then t is esuivalent to if t then if s then t
+V ∩ V,the intersection of subspaces V and V
+(B - μI)u = 0,matrix B minus μ times the identity matrix times vector u equals zero
+v + y + a,"the sum of vectors v, y, and a"
+vᵀx,the transpose of v times x
+Mᵀᵀ,the transpose of the transpose of matrix M
+det(M - μI) = 0,the determinant of matrix M minus μ times the identity equals zero
+(r ∧ q) → (s ∨ p),if both r and q then either s or p
+κ(A),the condition number of matrix A
+(r ∧ q) ∨ p,"either both r and q, or p"
+p → (q ∨ r) ↔ (p → q) ∨ (p → r),"if p then q or r is equivalent to if p then q, or if p then r"
+p → q,if p is true then q is true
+w ⊥ x,vector w is orthogonal to vector x
+‖A‖₂ = σₘₐₓ(A),the 2-norm of A equals the largest singular value of A
+det(cA),the determinant of c times matrix A
+det P,the determinant of matrix P
+e₂,the second standard basis vector
+∀y (P(y) ∧ Q(y)),"for all y, both P(y) and Q(y) are true"
+∃a P(a),there exists a such that P(a) is true
+tr(cB),the trace of c times matrix B
+∀y (Q(y) → R(y)),"for all y, if Q(y) then R(y)"
+¬(p ∧ q) ∨ ¬(r ∧ s),"not both p and q, or not both r and s"
+"∀x ∀z P(x, z)","for all x and for all z, P(x, z) is true"
+u ∧ y,the wedge product of vectors u and y
+(v - u) × b,the cross product of the difference of v and u with b
+‖C‖₂,the 2-norm of matrix C
+∃x in the domain R(x),there is some x in the domain for which R of x holds
+det(C²),the determinant of C squared
+|Q|,the determinant of matrix Q
+∂B/∂t,the partial derivative of matrix B with respect to t
+L(u),the linear operator L applied to vector u
+¬r,not r
+v - x,the difference of vectors v and x
+comp_u(v),the component of v along u
+q ∧ t,both q and t
+w · x,the dot product of vectors w and x
+det M,the determinant of matrix M
+p ∧ (q ∨ r) ↔ (p ∧ q) ∨ (p ∧ r),"p and either q or r is equivalent to either p and q, or p and r"
+p ∨ r,either p or r
+(v - u) × a,the cross product of the difference of v and u with a
+p ∨ r,p or r
+q ∧ (p ∨ r),q and either p or r
+∃x in the real numbers (Even(x) ∧ Odd(x)),there exists x in the real numbers such that both Even(x) and Odd(x)
+det(B + M),the determinant of the sum of matrices B and M
+q → (r ∨ p),if q then either r or p
+∃y (P(y) ∧ S(y)),there exists y such that both P(y) and S(y) are true
+r ∨ (q ∧ p),r or both q and p
+p → r,p implies r
+(cC)⁻¹,the inverse of c times matrix C
+"(w₁, w₂, w₃)","the vector with components w1, w2, and w3"
+∀z (Q(z) ∧ R(z)),"for all z, both Q(z) and R(z) are true"
+∃x in the natural numbers (Positive(x) ∧ Even(x)),there exists x in the natural numbers such that both Positive(x) and Even(x)
+‖v + w‖²,the squared norm of the sum of v and w
+Q ∈ ℝⁿˣⁿ,matrix Q is an n by n real matrix
+∃!x P(x),there exists a unique x such that P(x)
+r ∨ t,either r or t
+‖v + z‖²,the squared norm of the sum of v and z
+"∃x ∀z Q(x, z)","there exists x such that for all z, Q(x, z) is true"
+v ⋅ y,the dot product of vectors v and y
+∃!y P(y),there exists a unique y such that P(y) is true
+range(T),the range of linear transformation T
+v · x,the dot product of vectors v and x
+B = UΣVᵀ,matrix B equals U times Sigma times V transpose
+coordinate transformation,a coordinate transformation
+(v - x) × a,the cross product of the difference of v and x with a
+|y|,the magnitude of vector y
+q → (r → (s → p)),if q then if r then if s then p
+"∃x ∀z R(x, z)","there exists x such that for all z, R(x, z) is true"
+det(AC),the determinant of the product of matrices A and C
+(Qᵀ)ᵢⱼ,the i j entry of the transpose of matrix Q
+APᵀ,matrix A times the transpose of P
+∀z (P(z) ∧ R(z)),"for all z, both P(z) and R(z) are true"
+∃y P(y),there exists y such that P(y) is true
+"∀x ∃y ∀z S(x, y, z)","for all x, there exists y such that for all z, S(x, y, z)"
+p ∨ s,p is true or s is true
+"∀x ∀y (R(x, y) → R(y, x))","for all x and y, if R(x, y) then R(y, x)"
+(r ∧ q) → p,if both r and q then p
+"(u, x)",the inner product of u and x
+log(A),the matrix logarithm of A
+(p ∧ A),p and A
+"∀z ∃a P(z, a)","for all z, there exists a such that P(z, a) is true"
+∃!z S(z),there exists one and only one z such that S(z)
+(BM)ᵀ,the transpose of the product of matrices B and M
+Bu = μu,matrix B times vector u equals μ times vector u
+∃y in D P(y),there is some y in D for which P of y holds
+∃x in the domain D (Odd(x) ∧ Prime(x)),there exists x in the domain D such that both Odd(x) and Prime(x)
+"⟨v, x⟩",the inner product of vectors v and x
+v ∥ u,vector v is parallel to vector u
+r → A,r entails A
+¬(p → q) ↔ p ∧ ¬q,not if p then q is equivalent to p and not q
+p ∨ q,p is true or q is true
+∃a in D P(a),there is some a in D for which P of a holds
+ku,the scalar k times vector u
+∀x (P(x) → Q(x)) ∧ ∀x P(x) → ∀x Q(x),"if for all x P(x) implies Q(x) and for all x P(x), then for all x Q(x)"
+C⁺,the Moore-Penrose pseudoinverse of matrix C
+B = [Bᵢⱼ],the matrix B with entries B i j
+"∃x ∀y R(x, y)","there exists x such that for all y, R(x, y) is true"
+((A → B) ∧ A) → B,"if A imAlies B and A, then B"
+dim(W),the dimension of subspace W
+u · ê,the component of u in direction ê
+(r → s) ↔ (¬s → ¬r),if r then s is esuivalent to if not s then not r
+∀z in D Q(z),"for all z in D, Q(z) is true"
+‖u‖ + ‖x‖,the sum of the norms of u and x
+(B - λI)w = 0,matrix B minus λ times the identity matrix times vector w equals zero
+t → A,if t is true then A is true
+p ∧ r,p is true and r is true
+dim(S),the dimension of subspace S
+Bv = w,the linear system B times v equals w
+T(v),the linear transformation T applied to vector v
+p → q ↔ ¬p ∨ q,if p then q is equivalent to not p or q
+s → r,s implies r
+null(L),the null space of linear transformation L
+¬(p ∧ q) ∨ ¬(s ∧ r),"not both p and q, or not both s and r"
+∃!x R(x),there is exactly one x for which R of x holds
+Bv = λv,the eigenvalue equation B times v equals lambda times v
+(q ∨ r) → p,if either q or r then p
+(q ∧ r) → (s ∨ p),if both q and r then either s or p
+∃!x Q(x),there is exactly one x for which Q of x holds
+q ↔ r,q and r have the same truth value
+∀x in the real numbers Odd(x),"for all x in the real numbers, Odd(x)"
+kv,the scalar k times vector v
+s → (p → (r → q)),if s then if p then if r then q
+∀y (P(y) ∨ S(y)),"for all y, either P(y) or S(y) is true"
+∀z (Q(z) → S(z)),"for all z, if Q(z) then S(z)"
+p_B(λ),the characteristic polynomial of matrix B
+¬(p ∨ ¬p),not p or not p is a contradiction
+(p ∧ q) → r ↔ p → (q → r),if p and q then r is equivalent to if p then if q then r
+det(M - λI) = 0,the determinant of matrix M minus λ times the identity equals zero
+q ↔ t,q is true if and only if t is true
+¬s,the negation of s
+r ∧ (p ∨ q),r and either p or q
+(p ∧ q) → (r ∨ s),if both p and q then either r or s
+(q ∨ s) ∧ (r ∨ p),"either q or s, and either r or p"
+"∀z ∀a Q(z, a)","for all z and for all a, Q(z, a) is true"
+∀y (Q(y) ↔ S(y)),"for all y, Q(y) if and only if S(y)"
+v = [v₁; v₂; v₃],"the column vector v with components v1, v2, and v3"
+v × u,the cross product of vectors v and u
+p_B(λ) = 0,the characteristic equation of matrix B
+r → (s → (p → q)),if r then if s then if p then q
+(w - z) × a,the cross product of the difference of w and z with a
+0ₘₙ,the m by n zero matrix
+M = QR,matrix M equals Q times R
+(αA)⁻¹,the inverse of α times matrix A
+(s ↔ r) ∧ (q ↔ p),"s if and only if r, and q if and only if p"
+q → A,if q then A
+Bw = u,the linear system B times w equals u
+[x₁ x₂ x₃],"the row vector with components x1, x2, and x3"
+∃!y Q(y),there is exactly one y for which Q of y holds
+∀x in the integers (Prime(x) → Positive(x)),"for all x in the integers, if Prime(x) then Positive(x)"
+u ⋅ x,the dot product of vectors u and x
+"∀x T(x, x)","for all x, T(x, x) holds"
+(r ∨ p) → q,if either r or p then q
+∀x Q(x),"for every x, Q of x holds"
+det(B - μI) = 0,the determinant of matrix B minus μ times the identity equals zero
+"∃x ∃y T(x, y)","there exist x and y such that T(x, y) holds"
+comp_x(u),the component of u along x
+"∀x (F(x) → ∃y G(x, y))","for all x, if F(x) then there exists y such that G(x, y)"
+(Cᵀ)ᵢⱼ,the i j entry of the transpose of matrix C
+(p ∧ q) → (s ∨ r),if both p and q then either s or r
+"d(v, x)",the distance between vectors v and x
+nullity(L),the nullity of linear transformation L
+∀x in D Q(x),"for all x in D, Q(x) is true"
+∀y (P(y) ↔ R(y)),"for all y, P(y) if and only if R(y)"
+∃!t S(t),there exists a unique t such that S(t)
+A = [Aᵢⱼ],the matrix A with entries A i j
+ker(A),the kernel of matrix A
+∃x in set S (Even(x) ∧ Odd(x)),there exists x in set S such that both Even(x) and Odd(x)
+u = [u₁; u₂; u₃],"the column vector u with components u1, u2, and u3"
+w ⋅ (y + b),the dot product of w with the sum of y and b
+u ⊥ x,vector u is orthogonal to vector x
+(A ∧ B) → C ↔ A → (B → C),if A and B then C is eBuivalent to if A then if B then C
+(∀x P(x)) → Q(y),"if for all x P(x), then Q(y)"
+(v - x) × b,the cross product of the difference of v and x with b
+r ∧ A,r is true and A is true
+q → A,q entails A
+v ⊥ w,vector v is orthogonal to vector w
+∃a in the domain P(a),there exists a in the domain such that P(a) is true
+(v - w) × b,the cross product of the difference of v and w with b
+ℂ²,the 2-dimensional complex coordinate space
+det B,the determinant of matrix B
+s ↔ A,s and A have the same truth value
+Cu = λu,matrix C times vector u equals λ times vector u
+tr(αA),the trace of α times matrix A
+‖w‖∞,the infinity norm of vector w
+‖A‖₁,the 1-norm of matrix A
+u - y,the difference of vectors u and y
+q ∧ A,both q and A
+M⁻²,the inverse of M squared
+t ↔ A,t if and only if A
+[Q]ᵢⱼ,the i j entry of matrix Q
+dim(V),the dimension of subspace V
+∀y (R(y) ↔ S(y)),"for all y, R(y) if and only if S(y)"
+(r ↔ q) ∧ (p ↔ s),"r if and only if q, and p if and only if s"
+(BC)ᵀ,the transpose of the product of matrices B and C
+|M|,the determinant of matrix M
+∃x in the domain D (Even(x) ∧ Odd(x)),there exists x in the domain D such that both Even(x) and Odd(x)
+rank(M),the rank of matrix M
+trace(M),the trace of matrix M
+BᵀM,the transpose of B times M
+∀z in the domain Q(z),"for all z in the domain, Q(z) is true"
+V ⊆ ℝⁿ,V is a subspace of n-dimensional real space
+(αM)ᵀ,the transpose of α times matrix M
+p ∧ (q ∨ r),p and either q or r
+∃!x S(x),there exists one and only one x such that S(x)
+tr(αM),the trace of α times matrix M
+C · v,matrix C applied to vector v
+‖C‖_F,the Frobenius norm of matrix C
+"∃z ∃a Q(z, a)","there exist z and a such that Q(z, a) is true"
+(q ∨ s) ∧ (p ∨ r),"either q or s, and either p or r"
+∃a Q(a),there exists a such that Q(a) is true
+A ∈ ℝⁿˣⁿ,matrix A is an n by n real matrix
+r ∨ t,r or t
+∃!y R(y),there is exactly one y for which R of y holds
+q → t,q implies t
+v ⋅ (w + a),the dot product of v with the sum of w and a
+‖C‖₁,the 1-norm of matrix C
+"∃y ∃a P(y, a)","there exist y and a such that P(y, a) is true"
+s ↔ A,s is equivalent to A
+(w + z) ⋅ b,the dot product of the sum of w and z with b
+"∃a in D, Q(a)",there exists a in D such that Q(a)
+tr(B²),the trace of B squared
+s ∨ t,s or t
+¬(p ∧ r) ∨ ¬(s ∧ q),"not both p and r, or not both s and q"
+(r ∨ q) ∧ (s ∨ p),"either r or q, and either s or p"
+∃x (P(x) ∧ Q) ↔ Q ∧ ∃x P(x),theCe exists x such that P(x) and Q is eBuivalent to Q and theCe exists x P(x)
+q → (r → (p → s)),if q then if r then if p then s
+BᵀPᵀ,the transpose of B times the transpose of P
+λₘᵢₙ(B),the smallest eigenvalue of B
+p ∨ ⊥ ↔ p,p or false is equivalent to p
+exp(M),the matrix exponential of M
+"∃x in D, P(x)",there exists x in D such that P(x)
+∃!y R(y),there exists a unique y such that R(y) is true
+∃y P(y),there is some y for which P of y holds
+p ∨ ¬p ↔ ⊤,p or not p is equivalent to true
+Cv = μv,matrix C times vector v equals μ times vector v
+BMᵀ,matrix B times the transpose of M
+∀z P(z),"for every z, P of z holds"
+s ↔ A,s is true if and only if A is true
+∃x P(x),there is some x for which P of x holds
+p ∧ r,p and r
+w ⋅ (z + b),the dot product of w with the sum of z and b
+"∃y, Q(y)",there exists y such that Q(y)
+S ⊕ V,the direct sum of subspaces S and V
+comp_x(v),the component of v along x
+s ↔ t,s is true if and only if t is true
+v2(A),the second eigenvector of matrix A
+"span{u₁, u₂, ..., uₙ}","the span of vectors {u₁, u₂, ..., uₙ}"
+p ↔ A,p and A have the same truth value
+(B + C)⁻¹,the inverse of the sum of matrices B and C
+(A → B) ↔ (¬B → ¬A),if A then B is eBuivalent to if not B then not A
+∀x in the integers Prime(x),"for all x in the integers, Prime(x)"
+∃x (f(x) = c),there exists x such that f(x) equals c
+B = LLᵀ,matrix B equals L times L transpose
+tr(B + M),the trace of the sum of matrices B and M
+AᵀBᵀ,the transpose of A times the transpose of B
+"y = [y₁, y₂, y₃]","the vector y with components y1, y2, and y3"
+(w + z) ⋅ a,the dot product of the sum of w and z with a
+r ∨ t,r is true or t is true
+u ⋅ y,the dot product of vectors u and y
+‖y‖ₚ,the p-norm of vector y
+¬(t ∧ s ∧ t) ↔ (¬t ∨ ¬s ∨ ¬t),"not all of t, s, and t is esuivalent to not t, ot not s, ot not t"
+∀y (P(y) → S(y)),"for all y, if P(y) then S(y)"
+(A - μI)w = 0,matrix A minus μ times the identity matrix times vector w equals zero
+"∀x in D, Q(x)","for all x in D, Q(x)"
+C*,the conjugate transpose of matrix C
+(w - z) × b,the cross product of the difference of w and z with b
+det(cM),the determinant of c times matrix M
+q → s,q entails s
+A → r,A implies r
+"∀x ∃z Q(x, z)","for all x, there exists z such that Q(x, z) is true"
+(v - w) × a,the cross product of the difference of v and w with a
+∂C/∂t,the partial derivative of matrix C with respect to t
+"∀x (P(x) → ∃y Q(x, y))","for all x, if P(x) then there exists y such that Q(x, y)"
+p → (r ∨ q),if p then either r or q
+λ3(A),the third eigenvalue of matrix A
+det(kB),the determinant of k times matrix B
+Pᵢⱼ,the entry in row i and column j of matrix P
+σ₁(A) ≥ σ₂(A) ≥ ... ≥ σᵣ(A),the singular values of A in descending order
+A ⪯ 0,matrix A is negative semidefinite
+∀z (R(z) → z = a),"for all z, if R(z) then z equals a"
+det(cC),the determinant of c times matrix C
+det(A - λI) = 0,the determinant of matrix A minus λ times the identity equals zero
+∀a in D P(a),"for every a in D, P of a holds"
+s → t,s implies t
+[v]_B,the coordinate vector of v with respect to basis B
+q ∨ r,either q or r
+p → (r ∧ q),if p then both r and q
+[v₁ v₂ v₃],"the row vector with components v1, v2, and v3"
+Bw,matrix B times vector w
+tr(A + C),the trace of the sum of matrices A and C
+e^C,the matrix exponential of C
+A + P,the sum of matrices A and P
+"∀x ∀y ∀z ((Loves(x, y) ∧ Loves(y, z)) → Loves(x, z))","for all x, y, and z, if Loves(x, y) and Loves(y, z) then Loves(x, z)"
+(v + u) ⋅ a,the dot product of the sum of v and u with a
+(q ∧ s),q and s
+s → (q → (p → r)),if s then if q then if p then r
+"∀x (S(x) → ∃y T(x, y))","for all x, if S(x) then there exists y such that T(x, y)"
+"span(v₁, v₂, ..., vₖ)","the span of vectors v1, v2, through vk"
+(p ∧ q) → p,if p and q then p
+v ⋅ (z + a),the dot product of v with the sum of z and a
+∀x in set S (Prime(x) → Positive(x)),"for all x in set S, if Prime(x) then Positive(x)"
+∀x in the integers Odd(x),"for all x in the integers, Odd(x)"
+Bw = λw,the eigenvalue equation B times w equals lambda times w
+"∀a in D, P(a)","for all a in D, P(a)"
+‖B‖∞,the infinity norm of matrix B
+"span(u₁, u₂, ..., uₖ)","the span of vectors u1, u2, through uk"
+p ↔ s,p and s have the same truth value
+tr(B) = Σλᵢ,the trace of B equals the sum of its eigenvalues
+[A]ᵢⱼ,the i j entry of matrix A
+s → t,if s is true then t is true
+p → s,p implies s
+Ax = b,the linear system A times x equals b
+p → (s → (r → q)),if p then if s then if r then q
+orthogonal basis,an orthogonal basis
+∀y (R(y) → y = a),"for all y, if R(y) then y equals a"
+C - M,the difference of matrices C and M
+∀a P(a),"for all a, P(a) is true"
+‖v‖ + ‖u‖,the sum of the norms of v and u
+(cM)⁻¹,the inverse of c times matrix M
+C⁻¹,the inverse of matrix C
+Df(x),the derivative of f at x
+(AB)ᵀ,the transpose of the product of matrices A and B
+w ⋅ (x + b),the dot product of w with the sum of x and b
+Q⁻¹,the inverse of matrix Q
+"∀x ∀a R(x, a)","for all x and for all a, R(x, a) is true"
+M is lower triangular,matrix M is lower triangular
+r ∧ t,r and t
+"∃a, Q(a)",there exists a such that Q(a)
+B · w,matrix B applied to vector w
+p → q,if p then q
+√M,the matrix square root of M
+[u₁ u₂ u₃],"the row vector with components u1, u2, and u3"
+wᵀBw,the quadratic form w transpose B w
+(r ∨ s) ∧ (p ∨ q),"either r or s, and either p or q"
+det(AB),the determinant of the product of matrices A and B
+∃x in the real numbers Even(x),there exists x in the real numbers such that Even(x)
+"d(w, x)",the distance between vectors w and x
+Au = μu,matrix A times vector u equals μ times vector u
+r ↔ A,r and A have the same truth value
+∀y (Q(y) ∨ S(y)),"for all y, either Q(y) or S(y) is true"
+A - P,the difference of matrices A and P
+det(A - μI) = 0,the determinant of matrix A minus μ times the identity equals zero
+∀x (R(x) → S(x)),"for all x, if R(x) then S(x)"
+‖u‖∞,the infinity norm of vector u
+"y = [y₁, y₂, ..., yₙ]","the vector y with components y1, y2, through yn"
+î,the unit vector in the x direction
+‖M‖,the norm of matrix M
+"∃z, Q(z)",there exists z such that Q(z)
+∃y (R(y) → S(y)),there exists y such that if R(y) then S(y)
+"z = [z₁, z₂, ..., zₙ]","the vector z with components z1, z2, through zn"
+C is lower triangular,matrix C is lower triangular
+A is singular,matrix A is singular
+Iₙ,the n by n identity matrix
+q ↔ A,q is true if and only if A is true
+Au,matrix A times vector u
+¬∃x P(x) ↔ ∀x ¬P(x),not there exists x P(x) is equivalent to for all x not P(x)
+∃x in the integers Odd(x),there exists x in the integers such that Odd(x)
+"∃x in the domain, Q(x)",there exists x in the domain such that Q(x)
+∃z in the domain P(z),there exists z in the domain such that P(z) is true
+(r → s) → ((s → r) → (r → r)),if r imrlies s then if s imrlies r then r imrlies r
+B†,the pseudoinverse of matrix B
+"v = [v₁, v₂]",the vector v with components v1 and v2
+kB,the scalar k times matrix B
+√C,the matrix square root of C
+C²,matrix C squared
+w × u,the cross product of vectors w and u
+"∀z in the domain, P(z)","for all z in the domain, P(z)"
+p ∨ r,p is true or r is true
+s ∨ t,s is true or t is true
+((r → s) ∧ r) → s,"if r imrlies s and r, then s"
+¬t,not t
+p → (q → (s → r)),if p then if q then if s then r
+σ₁(B) ≥ σ₂(B) ≥ ... ≥ σᵣ(B),the singular values of B in descending order
+(B + M)ᵀ,the transpose of the sum of matrices B and M
+‖A‖,the norm of matrix A
+(cM)ᵀ,the transpose of c times matrix M
+|BM|,the determinant of the product of matrices B and M
+∃!y S(y),there exists a unique y such that S(y)
+∀a in D Q(a),"for all a in D, Q(a) is true"
+v ⊗ u ⊗ y,"the tensor product of v, u, and y"
+r → s,r implies s
+(u - x) × a,the cross product of the difference of u and x with a
+Av = μv,matrix A times vector v equals μ times vector v
+cC,the scalar c times matrix C
+‖y‖,the norm of vector y
+"x = [x₁, x₂]",the vector x with components x1 and x2
+A = PDP⁻¹,matrix A equals P times D times P inverse
+q → t,if q is true then t is true
+∀x (Q(x) ∨ R(x)),"for all x, either Q(x) or R(x) is true"
+A → s,A implies s
+Q ∈ ℝ³ˣ³,matrix Q is a 3 by 3 real matrix
+(C - μI)w = 0,matrix C minus μ times the identity matrix times vector w equals zero
+"∃x (S(x) ∧ ∀y U(x, y))","there exists x such that S(x) and for all y, U(x, y)"
+∃x in the integers (Positive(x) ∧ Even(x)),there exists x in the integers such that both Positive(x) and Even(x)
+M = QΛQᵀ,matrix M equals Q times Lambda times Q transpose
+pinv(A),the pseudoinverse of matrix A
+(q ∨ r) ∧ p,"either q or r, and also p"
+(w + x) ⋅ b,the dot product of the sum of w and x with b
+∀x (P(x) ∧ S(x)),"for all x, both P(x) and S(x) are true"
+(p ∨ q) ∧ (s ∨ r),"either p or q, and either s or r"
+"∀x ∀y ∀z ((T(x, y) ∧ T(y, z)) → T(x, z))","for all x, y, and z, if T(x, y) and T(y, z) then T(x, z)"
+∀x in the domain Q(x),"for all x in the domain, Q(x) is true"
+"∀x, Q(x)","for all x, Q(x)"
+p → q ↔ ¬(p ∧ ¬q),if p then q is equivalent to not both p and not q
+σ3(A),the third singular value of matrix A
+"∃x ∃a P(x, a)","there exist x and a such that P(x, a) is true"
+∀y Q(y),"for every y, Q of y holds"
+cond(B),the condition number of matrix B
+A ≺ 0,matrix A is negative definite
+"{v₁, v₂, ..., vₙ} forms a basis","the vectors v1, v2, through vn form a basis"
+"∃x ∀y ∃z F(x, y, z)","there exists x such that for all y, there exists z such that F(x, y, z)"
+"⟨w, u⟩",the inner product of w and u
+rank(C),the rank of matrix C
+"∀a in the domain, Q(a)","for all a in the domain, Q(a)"
+"∀y ∃a R(y, a)","for all y, there exists a such that R(y, a) is true"
+A = UΣVᵀ,matrix A equals U times Sigma times V transpose
+AᵀM,the transpose of A times M
+Bu = λu,matrix B times vector u equals λ times vector u
+"(u₁, u₂, u₃)","the vector with components u1, u2, and u3"
+v ⋅ (x + b),the dot product of v with the sum of x and b
+nullity(B),the nullity of matrix B
+∃x ∀y (P(y) → y = x),"there exists x such that for all y, if P(y) then y equals x"
+Q₃₃,the 3 by 3 matrix Q
+A ∈ ℝᵐˣⁿ,matrix A is an m by n real matrix
+(C + M)⁻¹,the inverse of the sum of matrices C and M
+B*,the conjugate transpose of matrix B
+‖x‖ₚ,the p-norm of vector x
+(αM)⁻¹,the inverse of α times matrix M
+im(L),the image of linear transformation L
+∀x in D P(x),"for every x in D, P of x holds"
+B ≈ C,matrix B is approximately equal to matrix C
+∃x P(x) ∨ Q(y),there exists x P(x) or Q(y)
+"{u₁, u₂, ..., uₙ} is linearly independent","the vectors {u₁, u₂, ..., uₙ} are linearly independent"
+det(kA),the determinant of k times matrix A
+B · v,matrix B applied to vector v
+"d(u, x)",the distance between vectors u and x
+s → t,s entails t
+B is positive definite,matrix B is positive definite
+∃x R(x),there is some x for which R of x holds
+e^M,the matrix exponential of M
+M is diagonal,matrix M is diagonal
+v ⋅ (x + a),the dot product of v with the sum of x and a
+αv,the scalar alpha times vector v
+xᵀ,the transpose of vector x
+(B - λI)u = 0,matrix B minus λ times the identity matrix times vector u equals zero
+‖M‖₂,the 2-norm of matrix M
+∀z (P(z) → Q(z)),"for all z, if P(z) then Q(z)"
+κ(B),the condition number of matrix B
+Bu = x,the linear system B times u equals x
+M = PDP⁻¹,matrix M equals P times D times P inverse
+Cₘₙ,the m by n matrix C
+p ↔ t,p is equivalent to t
+q → r,q entails r
+C · w,matrix C applied to vector w
+B²,matrix B squared
+ABᵀ,matrix A times the transpose of B
+Bᵀx,the transpose of matrix B times vector x
+s → r,if s then r
+u + x,the sum of vectors u and x
+∃z (P(z) → S(z)),there exists z such that if P(z) then S(z)
+"∀x ∀y (S(x) ∧ T(y) → ∃z U(x, y, z))","for all x and y, if S(x) and T(y) then there exists z such that U(x, y, z)"
+det(αA),the determinant of α times matrix A
+M⁻¹,the inverse of matrix M
+(A - μI)v = 0,matrix A minus μ times the identity matrix times vector v equals zero
+(AM)ᵀ,the transpose of the product of matrices A and M
+∃y Q(y),there is some y for which Q of y holds
+B ∧ ¬B,B and not B is a contradiction
+|A|,the determinant of matrix A
+chol(B),the Cholesky decomposition of matrix B
+p ∧ r,both p and r
+cw,the scalar c times vector w
+A · P,the product of matrices A and P
+proj_x(w),the projection of w onto x
+"span{v₁, v₂, v₃}","the span of vectors v1, v2, and v3"
+(q ∧ p) → (s ∨ r),if both q and p then either s or r
+det(C - λI) = 0,the determinant of matrix C minus λ times the identity equals zero
+t ↔ A,t is equivalent to A
+r → (r ∨ s),if r then r or s
+∀z (P(z) ∨ R(z)),"for all z, either P(z) or R(z) is true"
+σ1(C),the first singular value of matrix C
+"⟨v, u⟩",the inner product of vectors v and u
+(q ∧ r) → (p ∨ s),if both q and r then either p or s
+∀z P(z),"for all z, P(z) is true"
+∃x in the domain D (Prime(x) ∧ Positive(x)),there exists x in the domain D such that both Prime(x) and Positive(x)
+nullity(C),the nullity of matrix C
+f: V → ℝ,f is a linear functional from V to the reals
+λ3(C),the third eigenvalue of matrix C
+change of basis matrix,the change of basis matrix
+w + u,the sum of vectors w and u
+∃a in D Q(a),there exists a in D such that Q(a) is true
+I,the identity matrix
+‖u‖₂,the Euclidean norm of vector u
+w ⋅ (z + a),the dot product of w with the sum of z and a
+A → (B ∨ C) ↔ (A → B) ∨ (A → C),"if A then B oC C is eBuivalent to if A then B, oC if A then C"
+(p ∧ r) ∨ q,"either both p and r, or q"
+∀x in the natural numbers (Positive(x) → Even(x)),"for all x in the natural numbers, if Positive(x) then Even(x)"
+"x = [x₁, x₂, ..., xₙ]","the vector x with components x1, x2, through xn"
+S ⊆ ℝⁿ,S is a subspace of n-dimensional real space
+∃x in the domain D (Positive(x) ∧ Even(x)),there exists x in the domain D such that both Positive(x) and Even(x)
+tr(A) = Σλᵢ,the trace of A equals the sum of its eigenvalues
+∃x in set S Prime(x),there exists x in set S such that Prime(x)
+q ↔ t,q is equivalent to t
+w ∈ ℝⁿ,vector w is in the n-dimensional real space
+QR,the QR decomposition
+¬q,not q
+∀y (Q(y) ↔ R(y)),"for all y, Q(y) if and only if R(y)"
+∀y Q(y),"for all y, Q(y) is true"
+"∃x ∀y P(x, y)","there exists x such that for all y, P(x, y) is true"
+|P|,the determinant of matrix P
+w ⋅ u,the dot product of vectors w and u
+C = PDP⁻¹,matrix C equals P times D times P inverse
+∃y in the domain P(y),there exists y in the domain such that P(y) is true
+"∃x ∀y S(x, y)","there exists x such that for all y, S(x, y) holds"
+"∀y ∃z P(y, z)","for all y, there exists z such that P(y, z) is true"
+zᵢ,the i-th component of vector z
+‖C‖∞,the infinity norm of matrix C
+p → (r → (s → q)),if p then if r then if s then q
+B · u,matrix B applied to vector u
+(v - y) × a,the cross product of the difference of v and y with a
+(P → Q) ↔ (¬Q → ¬P),if P then Q is eQuivalent to if not Q then not P
+(A ↔ B) ↔ ((A → B) ∧ (B → A)),A if and only if B is eBuivalent to if A then B and if B then A
+(p ∧ q) → r,if both p and q then r
+"∀x ∃z R(x, z)","for all x, there exists z such that R(x, z) is true"
+(∀x P(x)) ∨ (∀x Q(x)) → ∀x (P(x) ∨ Q(x)),"if foC all x P(x) oC foC all x Q(x), then foC all x, P(x) oC Q(x)"
+∃z P(z),there is some z for which P of z holds
+p ∧ t,p is true and t is true
+q ∧ A,q is true and A is true
+(B - μI)v = 0,matrix B minus μ times the identity matrix times vector v equals zero
+A is diagonal,matrix A is diagonal
+p → A,if p is true then A is true
+∀a in D Q(a),"for every a in D, Q of a holds"
+p ∧ A,both p and A
+"∀y ∃a Q(y, a)","for all y, there exists a such that Q(y, a) is true"
+"∀y in the domain, P(y)","for all y in the domain, P(y)"
+(kM)ᵀ,the transpose of k times matrix M
+"⟨v, y⟩",the inner product of vectors v and y
+(r ∧ p) ∨ q,"either both r and p, or q"
+p_C(λ) = 0,the characteristic equation of matrix C
+e^B,the matrix exponential of B
+"∃a in D, P(a)",there exists a in D such that P(a)
+[P]ᵢⱼ,the i j entry of matrix P
+¬∃y R(y) ↔ ∀y ¬R(y),not there exists y R(y) is equivalent to for all y not R(y)
+∃x (Q(x) ∧ S(x)),there exists x such that both Q(x) and S(x) are true
+∀x in the domain D Positive(x),"for all x in the domain D, Positive(x)"
+‖w + u‖²,the squared norm of the sum of w and u
+s → A,if s is true then A is true
+Au = λu,the matrix A times vector u equals the scalar lambda times vector u
+"∃x ∃y (∀z F(z, x) ∧ ∀z G(z, y))","there exist x and y such that for all z, F(z, x) and for all z, G(z, y)"
+col(A),the column space of matrix A
+(A - λI)w = 0,matrix A minus λ times the identity matrix times vector w equals zero
+"∀y ∀a P(y, a)","for all y and for all a, P(y, a) is true"
+"∀y ∀a Q(y, a)","for all y and for all a, Q(y, a) is true"
+CMᵀ,matrix C times the transpose of M
+"∀z ∃a R(z, a)","for all z, there exists a such that R(z, a) is true"
+t → s,if t then s
+A⁺,the Moore-Penrose pseudoinverse of matrix A
+L: ℝⁿ → ℝᵐ,L is a linear transformation from n-dimensional to m-dimensional real space
+p ↔ A,p is equivalent to A
+p ∧ (r ∨ q),p and either r or q
+(A → B) → ((B → r) → (A → r)),if A imAlies B then if B imAlies r then A imAlies r
+Aᵀu,the transpose of matrix A times vector u
+∀x in the real numbers (Odd(x) → Prime(x)),"for all x in the real numbers, if Odd(x) then Prime(x)"
+(C - λI)v = 0,matrix C minus λ times the identity matrix times vector v equals zero
+t → s,t implies s
+s ∧ t,s and t
+σ3(C),the third singular value of matrix C
+v ∥ w,vector v is parallel to vector w
+standard basis for ℝⁿ,the standard basis for n-dimensional real space
+"∃x ∃a Q(x, a)","there exist x and a such that Q(x, a) is true"
+((p → q) ∧ p) → q,"if p implies q and p, then q"
+Bv = λv,matrix B times vector v equals λ times vector v
+A ≻ 0,matrix A is positive definite
+"⟨w, x⟩",the inner product of w and x
+q ∨ (p ∧ r),q or both p and r
+p → s,if p is true then s is true
+q ∨ r,q or r
+w ⋅ x,the dot product of vectors w and x
+-v,the negative of vector v
+∃x in the domain D Positive(x),there exists x in the domain D such that Positive(x)
+C = [Cᵢⱼ],the matrix C with entries C i j
+(s ∨ p) ∧ (r ∨ q),"either s or p, and either r or q"
+A · w,matrix A applied to vector w
+∀x (P(x) → Q) ↔ (∃x P(x) → Q),foC all x if P(x) then Q is eBuivalent to if theCe exists x P(x) then Q
+tr(A),the trace of matrix A
+tr(kM),the trace of k times matrix M
+∀x in the domain D (Positive(x) → Even(x)),"for all x in the domain D, if Positive(x) then Even(x)"
+"∃x ∃y P(x, y)","there exist x and y such that P(x, y) is true"
+B = P,matrix B equals matrix P
+∃z in D P(z),there exists z in D such that P(z) is true
+comp_x(w),the component of w along x
+‖y‖₂,the Euclidean norm of vector y
+B = QR,matrix B equals Q times R
+r ↔ s,r is true if and only if s is true
+v ⋅ u,the dot product of vectors v and u
+∃x (R(x) → S(x)),there exists x such that if R(x) then S(x)
+‖v + y‖²,the squared norm of the sum of v and y
+‖M‖₁,the 1-norm of matrix M
+r ∨ A,r or A
+∀y (P(y) ∨ Q(y)),"for all y, either P(y) or Q(y) is true"
+"∃x ∃y R(x, y)","there exist x and y such that R(x, y) is true"
+r → A,if r is true then A is true
+A ∈ ℝ³ˣ³,matrix A is a 3 by 3 real matrix
+Qᵢⱼ,the entry in row i and column j of matrix Q
+∀x (Q(x) → R(x)),"for all x, if Q(x) then R(x)"
+∃!z P(z),there is exactly one z for which P of z holds
+W ⊕ V,the direct sum of subspaces W and V
+(kB)⁻¹,the inverse of k times matrix B
+"∀x in the domain, Q(x)","for all x in the domain, Q(x)"
+kA,the scalar k times matrix A
+det(C + M),the determinant of the sum of matrices C and M
+s → (q → (r → p)),if s then if q then if r then p
+∃!y P(y),there exists one and only one y such that P(y)
+∀y (P(y) ∧ S(y)),"for all y, both P(y) and S(y) are true"
+s → (p → (q → r)),if s then if p then if q then r
+A = B,matrix A equals matrix B
+k̂,the unit vector in the z direction
+∃z (Q(z) → R(z)),there exists z such that if Q(z) then R(z)
+null(A),the null space of matrix A
+"(w, u)",the inner product of w and u
+‖A‖₂,the 2-norm of matrix A
+∀x in the real numbers Positive(x),"for all x in the real numbers, Positive(x)"
+∀t (S(t) → t = a),"for all t, if S(t) then t equals a"
+Ax,matrix A times vector x
+A is invertible,matrix A is invertible
+w + u + a,"the sum of vectors w, u, and a"
+vᵀu,the transpose of v times u
+(C + M)ᵀ,the transpose of the sum of matrices C and M
+C + M,the sum of matrices C and M
+comp_u(w),the component of w along u
+(q ∧ t),q and t
+BM,the product of matrices B and M
+|C|,the determinant of matrix C
+(αC)⁻¹,the inverse of α times matrix C
+q ↔ s,q is true if and only if s is true
+A ≈ M,matrix A is approximately equal to matrix M
+(s ↔ q) ∧ (p ↔ r),"s if and only if q, and p if and only if r"
+r → t,if r is true then t is true
+"∃z, P(z)",there exists z such that P(z)
+tr(cA),the trace of c times matrix A
+λₘᵢₙ(C),the smallest eigenvalue of C
+"∀x ∀y (P(x) ∧ Q(y) → ∃z R(x, y, z))","for all x and y, if P(x) and Q(y) then there exists z such that R(x, y, z)"
+‖y‖₁,the L1 norm of vector y
+(r ∨ p) ∧ (s ∨ q),"either r or p, and either s or q"
+(s ∧ p) → (q ∨ r),if both s and p then either q or r
+t ∨ A,t is true or A is true
+"⟨v, w⟩",the inner product of vectors v and w
+"u = [u₁, u₂, u₃]","the vector u with components u1, u2, and u3"
+A · x,matrix A applied to vector x
+A = LLᵀ,matrix A equals L times L transpose
+(A - μI)u = 0,matrix A minus μ times the identity matrix times vector u equals zero
+∃!x Q(x),there exists one and only one x such that Q(x)
+"∃x ∀y ∃z P(x, y, z)","there exists x such that for all y, there exists z such that P(x, y, z)"
+t → r,t implies r
+t → (s ∧ t) ↔ (t → s) ∧ (t → t),"if t then both s and t is esuivalent to if t then s, and if t then t"
+B · C,the product of matrices B and C
+"∀y, P(y)","for all y, P(y)"
+LU,the LU decomposition
+Bv = x,the linear system B times v equals x
+"∀x ∃y S(x, y)","for all x, there exists y such that S(x, y) holds"
+q ↔ s,q if and only if s
+v ∧ w,the wedge product of vectors v and w
+w · y,the dot product of vectors w and y
+∃x in the domain D Prime(x),there exists x in the domain D such that Prime(x)
+q → s,q implies s
+w ∧ x,the wedge product of vectors w and x
+∀a in D P(a),"for all a in D, P(a) is true"
+∀y (S(y) → y = a),"for all y, if S(y) then y equals a"
+tr(C) = Σλᵢ,the trace of C equals the sum of its eigenvalues
+(cB)ᵀ,the transpose of c times matrix B
+∃z in D P(z),there is some z in D for which P of z holds
+∀x (Q(x) ∧ S(x)),"for all x, both Q(x) and S(x) are true"
+p ↔ t,p and t have the same truth value
+"∀x in D, R(x)","for all x in D, R(x)"
+"∃x in the domain, P(x)",there exists x in the domain such that P(x)
+im(T),the image of linear transformation T
+AᵀC,the transpose of A times C
+∃z in the domain Q(z),there is some z in the domain for which Q of z holds
+[A; B],matrix A stacked above matrix B
+v ∈ ℝⁿ,vector v is in the n-dimensional real space
+"w = [w₁, w₂, ..., wₙ]","the vector w with components w1, w2, through wn"
+∃x in set S Even(x),there exists x in set S such that Even(x)
+q ↔ A,q and A have the same truth value
+S ∩ V,the intersection of subspaces S and V
+r ∧ s,both r and s
+(w - y) × a,the cross product of the difference of w and y with a
+∃a in the domain Q(a),there exists a in the domain such that Q(a) is true
+"∃y in D, Q(y)",there exists y in D such that Q(y)
+Mᵢⱼ,the entry in row i and column j of matrix M
+∀x in the integers Positive(x),"for all x in the integers, Positive(x)"
+CM,the product of matrices C and M
+∀x in the domain R(x),"for every x in the domain, R of x holds"
+¬B,the negation of B
+C ∈ ℝⁿˣⁿ,matrix C is an n by n real matrix
+C = QΛQᵀ,matrix C equals Q times Lambda times Q transpose
+xᵢ,the i-th component of vector x
+∃y (P(y) ∨ R(y)),there exists y such that either P(y) or R(y) is true
+∃x in the real numbers Positive(x),there exists x in the real numbers such that Positive(x)
+v ∧ x,the wedge product of vectors v and x
+∃z (P(z) ∧ Q(z)),there exists z such that both P(z) and Q(z) are true
+∃y (P(y) ∨ Q(y)),there exists y such that either P(y) or Q(y) is true
+AB,the product of matrices A and B
+u × x,the cross product of vectors u and x
+q ∨ A,q is true or A is true
+M²,matrix M squared
+¬∀y R(y) ↔ ∃y ¬R(y),not for all y R(y) is equivalent to there exists y such that not R(y)
+L(v),the linear operator L applied to vector v
+"⟨u, x⟩",the inner product of vectors u and x
+V + V,the sum of subspaces V and V
+∃a in the domain Q(a),there is some a in the domain for which Q of a holds
+p → (q → (r → s)),if p then if q then if r then s
+((P → Q) ∧ ¬Q) → ¬P,"if P imPlies Q and not Q, then not P"
+‖w - u‖,the distance between vectors w and u
+∇²f(x) ⪰ 0,the Hessian of f at x is positive semidefinite
+B - P,the difference of matrices B and P
+Mv = μv,matrix M times vector v equals μ times vector v
+∃x in set S Odd(x),there exists x in set S such that Odd(x)
+p ∧ A,p is true and A is true
+(r ↔ p) ∧ (s ↔ q),"r if and only if p, and s if and only if q"
+|AP|,the determinant of the product of matrices A and P
+Qₘₙ,the m by n matrix Q
+Bᵀv,the transpose of matrix B times vector v
+αu,the scalar alpha times vector u
+Aₘₙ,the m by n matrix A
+"v = [v₁, v₂, ..., vₙ]","the vector v with components v1, v2, through vn"
+B is singular,matrix B is singular
+r → s,r entails s
+p → r,p entails r
+∃x in set S (Odd(x) ∧ Prime(x)),there exists x in set S such that both Odd(x) and Prime(x)
+tr(αB),the trace of α times matrix B
+uᵀAu,the quadratic form u transpose A u
+∃z (Q(z) ∧ R(z)),there exists z such that both Q(z) and R(z) are true
+¬(A ∧ B ∧ C) ↔ (¬A ∨ ¬B ∨ ¬C),"not all of A, B, and C is eBuivalent to not A, oC not B, oC not C"
+∀x (P(x) → R(x)),"for all x, if P(x) then R(x)"
+∃z (Q(z) ∧ S(z)),there exists z such that both Q(z) and S(z) are true
+"∀x ∀y (F(x) ∧ G(y) → ∃z H(x, y, z))","for all x and y, if F(x) and G(y) then there exists z such that H(x, y, z)"
+∀t (Q(t) → t = a),"for all t, if Q(t) then t equals a"
+r → q,r implies q
+Mᵀ,the transpose of matrix M
+A + C,the sum of matrices A and C
+∀x (P(x) ∧ Q(x)) ↔ ∀x P(x) ∧ ∀x Q(x),for all x both P(x) and Q(x) is equivalent to for all x P(x) and for all x Q(x)
+∃x in the real numbers Odd(x),there exists x in the real numbers such that Odd(x)
+dim(U),the dimension of subspace U
+∀x in the natural numbers (Odd(x) → Prime(x)),"for all x in the natural numbers, if Odd(x) then Prime(x)"
+v ⋅ (y + a),the dot product of v with the sum of y and a
+r → (q → (p → s)),if r then if q then if p then s
+L(cv),L applied to c times v
+∀z (P(z) ∧ S(z)),"for all z, both P(z) and S(z) are true"
+U ⊕ V,the direct sum of subspaces U and V
+A → q,if A then q
+∀y (Q(y) → S(y)),"for all y, if Q(y) then S(y)"
+range(A),the range of matrix A
+(p ∨ q) ∧ r,"either p or q, and also r"
+λₘₐₓ(A),the largest eigenvalue of A
+Bᵀu,the transpose of matrix B times vector u
+B = PDP⁻¹,matrix B equals P times D times P inverse
+L(w),the linear operator L applied to vector w
+"∃x ∃z Q(x, z)","there exist x and z such that Q(x, z) is true"
+A · u,matrix A applied to vector u
+∀y (P(y) ↔ Q(y)),"for all y, P(y) if and only if Q(y)"
