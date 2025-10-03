@@ -1,0 +1,325 @@
+Symbolic_Maths,Natural_Language
+"∀x in D, P(x)","for all x in D, P(x)"
+Mᵀᵀ,the transpose of the transpose of matrix M
+∃x in D Q(x),there is some x in D for which Q of x holds
+t ∈ Y \ B,t is an element of Y but not in B
+"∀ x, x ∈ univ",The universal set contains all elements
+det P,the determinant of matrix P
+W ⊆ W ∧ W ⊆ A → W ⊆ A,"If W ⊆ W and W ⊆ A, then W ⊆ A"
+U ⊆ ℝⁿ,U is a subspace of n-dimensional real space
+∀x (P(x) → Q(x)) ∧ ∀x P(x) → ∀x Q(x),"if for all x P(x) implies Q(x) and for all x P(x), then for all x Q(x)"
+q ↔ t,q and t have the same truth value
+U ∩ V,the intersection of subspaces U and V
+Y ∪ (Y ∩ V) = Y,Ybsorption law for union: Y ∪ (Y ∩ V) = Y
+C is positive definite,matrix C is positive definite
+∀x in the natural numbers (Prime(x) → Positive(x)),"for all x in the natural numbers, if Prime(x) then Positive(x)"
+q ∧ A,q is true and A is true
+∀z (R(z) → S(z)),"for all z, if R(z) then S(z)"
+X ⊆ T,Every element of X is an element of T
+"∀x ∀y (T(x, y) → T(y, x))","for all x and y, if T(x, y) then T(y, x)"
+¬A,not A
+A ⊆ S,A is a subset of S
+S ⊆ X,Every element of S is an element of X
+A ⊆ T,Set A is a subset of set T
+‖v‖ + ‖x‖,the sum of the norms of v and x
+R ∪ S,The union of R and S
+‖x‖₁,the L1 norm of vector x
+Aw = λw,the eigenvalue equation A times w equals lambda times w
+{x : ℝ | x > 0},The set of all positive real numbers
+∃x in the domain D Even(x),there exists x in the domain D such that Even(x)
+(A ∧ B) → A,if A and B then A
+p ∧ t,p and t
+X ⊆ Z,Every element of X is an element of Z
+cw,the scalar c times vector w
+v ∈ B,The element v is an element of set B
+∀z Q(z),"for all z, Q(z) is true"
+∃!y S(y),there exists a unique y such that S(y)
+tr(C) = Σλᵢ,the trace of C equals the sum of its eigenvalues
+Z ⊆ T,Z is a subset of T
+(w + u) ⋅ a,the dot product of the sum of w and u with a
+det(B²),the determinant of B squared
+∃z (P(z) ∨ Q(z)),there exists z such that either P(z) or Q(z) is true
+v ∈ Q \ A,v is an element of Q but not in A
+W ⊆ U,Set W is a subset of set U
+p → (q ∧ r),if p then both q and r
+"∀a, P(a)","for all a, P(a)"
+u · ê,the component of u in direction ê
+Bv = λv,the eigenvalue equation B times v equals lambda times v
+s ∉ S,s is not a member of set S
+Bijective (f : Z → B),f is bijective from Z to B
+¬(t ∨ s ∨ t) ↔ (¬t ∧ ¬s ∧ ¬t),"not any of t, s, ot t is esuivalent to not t, and not s, and not t"
+A ∪ (Z ∩ R) = (A ∪ Z) ∩ (A ∪ R),Union distributes over intersection: A ∪ (Z ∩ R) = (A ∪ Z) ∩ (A ∪ R)
+w ∥ x,vector w is parallel to vector x
+(p ∧ q) → r,if both p and q then r
+∀x in the domain D (Odd(x) → Prime(x)),"for all x in the domain D, if Odd(x) then Prime(x)"
+s → A,s implies A
+"∀y in D, P(y)","for all y in D, P(y)"
+"∀x ∀z P(x, z)","for all x and for all z, P(x, z) is true"
+Z ∩ S ⊆ Z,The intersection of Z and S is a subset of Z
+r → p,if r then p
+r ∨ s,either r or s
+¬(p ∨ ¬p),not p or not p is a contradiction
+"∀x (S(x) → ∃y T(x, y))","for all x, if S(x) then there exists y such that T(x, y)"
+det(αB),the determinant of α times matrix B
+Mᵀ,the transpose of matrix M
+"u = [u₁, u₂, u₃]","the vector u with components u1, u2, and u3"
+c ∈ Y,The element c is an element of set Y
+∀y (R(y) ∨ S(y)),"for all y, either R(y) or S(y) is true"
+p ∧ r,p is true and r is true
+"∀ x ∈ B, P x → Q x","For every element x in B, if P(x) then Q(x)"
+"v = [v₁, v₂, v₃]","the vector v with components v1, v2, and v3"
+w ∈ Vᶜ ↔ w ∉ V,w is an element of the complement of V if and only if w is not in V
+(r ∧ q) → (p ∨ s),if both r and q then either p or s
+∃x (P(x) ∧ R(x)),there exists x such that both P(x) and R(x) are true
+"(z₁, z₂, z₃)","the vector with components z1, z2, and z3"
+u ∈ S ∩ Y ↔ (u ∈ S ∧ u ∈ Y),u is an element of the intersection of S and Y if and only if u is in both S and Y
+uᵀy,the transpose of u times y
+z ∉ Q,z is not a member of set Q
+APᵀ,matrix A times the transpose of P
+Y ∩ T,The intersection of Y and T
+proj_x(w),the projection of w onto x
+(P ∪ C)ᶜ = Pᶜ ∩ Cᶜ,The complement of the union of P and C equals the intersection of their complements
+∀x in set S (Prime(x) → Positive(x)),"for all x in set S, if Prime(x) then Positive(x)"
+¬(A ∨ B) ↔ (¬A ∧ ¬B),the negation of A or B is equivalent to not A and not B
+nullity(B),the nullity of matrix B
+Cu = λu,matrix C times vector u equals λ times vector u
+¬(p ∧ q) ∨ ¬(s ∧ r),"not both p and q, or not both s and r"
+αv,the scalar alpha times vector v
+"⟨u, x⟩",the inner product of u and x
+a ∈ U ∪ Y ↔ (a ∈ U ∨ a ∈ Y),a is an element of U union Y if and only if a is an element of U or a is an element of Y
+Pᵀᵀ,the transpose of the transpose of matrix P
+R ⊇ U,Set R contains set U
+p ↔ t,p and t have the same truth value
+nullity(M),the nullity of matrix M
+s ∨ A,s or A
+Z ⊇ W,Set Z contains set W
+c ∈ P ∩ T ↔ (c ∈ P ∧ c ∈ T),c is an element of the intersection of P and T if and only if c is in both P and T
+coordinate transformation,a coordinate transformation
+Bw = λw,matrix B times vector w equals λ times vector w
+∀x Q(x),"for all x, Q(x) is true"
+∀x in set S (Odd(x) → Prime(x)),"for all x in set S, if Odd(x) then Prime(x)"
+m ∉ Y,m is not a member of set Y
+(A ∪ B) ∪ C = A ∪ (B ∪ C),Union is associative
+W ∪ Q,The union of W and Q
+ACᵀ,matrix A times the transpose of C
+"⟨w, x⟩",the inner product of vectors w and x
+W ∩ (W ∪ Z) = W,Wbsorption law for intersection: W ∩ (W ∪ Z) = W
+P ⊆ S,Every element of P is an element of S
+"∀ x ∈ U, P x","For all x in U, property P holds"
+T ⊆ Z ∧ Infinite T → Infinite Z,"If T ⊆ Z and T is infinite, then Z is infinite"
+∀x in D R(x),"for every x in D, R of x holds"
+p ↔ q,p and q have the same truth value
+u · x,the dot product of vectors u and x
+u × x,the cross product of vectors u and x
+v ∧ y,the wedge product of vectors v and y
+(A + C)⁻¹,the inverse of the sum of matrices A and C
+v ⋅ (w + a),the dot product of v with the sum of w and a
+"u = [u₁, u₂]",the vector u with components u1 and u2
+(r ↔ p) ∧ (s ↔ q),"r if and only if p, and s if and only if q"
+Z ∩ (Z ∪ B) = Z,Absorption law for intersection: Z ∩ (Z ∪ B) = Z
+im(f),the image of linear transformation f
+(p ∨ q) ∧ (s ∨ r),"either p or q, and either s or r"
+∀x in the real numbers Positive(x),"for all x in the real numbers, Positive(x)"
+p → r,p implies r
+Bw = u,the linear system B times w equals u
+(r ∨ p) ∧ (s ∨ q),"either r or p, and either s or q"
+q ∧ t,q is true and t is true
+"∃ S ⊆ Q, S ≠ ∅",There exists a subset S of Q that is non-empty
+tr(cM),the trace of c times matrix M
+u ∈ B,The element u is an element of set B
+A ∪ B,The union of A and B
+v - y,the difference of vectors v and y
+∀z in D P(z),"for all z in D, P(z) is true"
+A = [Aᵢⱼ],the matrix A with entries A i j
+"∀x in the domain, Q(x)","for all x in the domain, Q(x)"
+Tᶜ,The complement of T
+k̂,the unit vector in the z direction
+((r → s) ∧ ¬s) → ¬r,"if r imrlies s and not s, then not r"
+s → t,s implies t
+∃x (P(x) ∧ Q(x)) → (∃x P(x)) ∧ (∃x Q(x)),"if thete exists x such that P(x) and Q(x), then thete exists x P(x) and thete exists x Q(x)"
+U + V,the sum of subspaces U and V
+f : Z → T,f maps Z into T
+(r ∧ p) ∨ q,"either both r and p, or q"
+X ∪ S,The union of X and S
+T ∩ A,The intersection of T and A
+{x ∈ B | Q x},The set of all elements in B satisfying property Q
+(r → s) → ((s → r) → (r → r)),if r imrlies s then if s imrlies r then r imrlies r
+S \ A,The set difference S minus A
+A = W ↔ (A ⊆ W ∧ W ⊆ A),Two sets are equal if and only if each is a subset of the other
+f '' R,The image of set R under function f
+σ3(B),the third singular value of matrix B
+T ⊆ Q,T is a subset of Q
+w ⊗ u ⊗ y,"the tensor product of w, u, and y"
+A⁻¹,the inverse of matrix A
+S ∩ V,the intersection of subspaces S and V
+"∃y in D, P(y)",there exists y in D such that P(y)
+r → (q ∧ p),if r then both q and p
+"∃x (F(x) ∧ ∀y H(x, y))","there exists x such that F(x) and for all y, H(x, y)"
+Disjoint S Sᶜ,S and its complement are disjoint
+X ⊆ T,Set X is a subset of set T
+v ⋅ u,the dot product of vectors v and u
+P ⊇ X,Set P contains set X
+p ∨ r,either p or r
+¬(p ∧ r) ∨ ¬(s ∧ q),"not both p and r, or not both s and q"
+"∀ x ∈ A, P x","For all x in A, property P holds"
+¬C,not C
+V ∩ V,the intersection of subspaces V and V
+Z ∩ Q ⊆ Z,The intersection of Z and Q is a subset of Z
+((A → B) ∧ A) → B,"if A imAlies B and A, then B"
+(r ↔ s) ∧ (p ↔ q),"r if and only if s, and p if and only if q"
+(u + x) ⋅ b,the dot product of the sum of u and x with b
+W⊥,the orthogonal complement of subspace W
+∃!z Q(z),there exists a unique z such that Q(z) is true
+det(A + C),the determinant of the sum of matrices A and C
+M is upper triangular,matrix M is upper triangular
+t ∧ A,t is true and A is true
+C ⊆ Q ∧ Infinite C → Infinite Q,"If C ⊆ Q and C is infinite, then Q is infinite"
+q ∨ s,either q or s
+A ⪯ 0,matrix A is negative semidefinite
+Cᵀv,the transpose of matrix C times vector v
+Bu = μu,matrix B times vector u equals μ times vector u
+∃z (P(z) → Q(z)),there exists z such that if P(z) then Q(z)
+a ∈ C ∩ Z ↔ (a ∈ C ∧ a ∈ Z),a is an element of the intersection of C and Z if and only if a is in both C and Z
+‖v + u‖²,the squared norm of the sum of v and u
+"{w₁, w₂} is linearly independent","the vectors {w₁, w₂} are linearly independent"
+(A - λI)v = 0,matrix A minus λ times the identity matrix times vector v equals zero
+dA/dt,the derivative of matrix A with respect to t
+Bw = λw,the eigenvalue equation B times w equals lambda times w
+∃y (Q(y) ∨ S(y)),there exists y such that either Q(y) or S(y) is true
+u ∈ T ∪ Y ↔ (u ∈ T ∨ u ∈ Y),u is an element of T union Y if and only if u is an element of T or u is an element of Y
+¬p,not p
+Q ∩ X,The intersection of Q and X
+p → s,if p is true then s is true
+"∀a, Q(a)","for all a, Q(a)"
+(X ∩ Z)ᶜ = Xᶜ ∪ Zᶜ,The complement of the intersection of X and Z equals the union of their complements
+"U × W = {(a, b) | a ∈ U ∧ b ∈ W}","The Cartesian product U × W is the set of all ordered pairs (a, b) where a ∈ U and b ∈ W"
+ℝⁿ,the n-dimensional real coordinate space
+B \ S,The set difference B minus S
+∀z (P(z) ∧ Q(z)),"for all z, both P(z) and Q(z) are true"
+v - u,the difference of vectors v and u
+‖u‖∞,the infinity norm of vector u
+t ∉ A,t is not a member of set A
+T ∪ X,The union of T and X
+v ∈ V \ T,v is an element of V but not in T
+∃x (P(x) ∧ Q(x)) → (∃x P(x)) ∧ (∃x Q(x)),"if theCe exists x such that P(x) and Q(x), then theCe exists x P(x) and theCe exists x Q(x)"
+C - M,the difference of matrices C and M
+Q⁻¹,the inverse of matrix Q
+(v - x) × a,the cross product of the difference of v and x with a
+proj_x(u),the projection of u onto x
+Pᵀ,the transpose of matrix P
+Aw = λw,matrix A times vector w equals λ times vector w
+u + x + a,"the sum of vectors u, x, and a"
+CMᵀ,matrix C times the transpose of M
+C⁻¹,the inverse of matrix C
+∃!z S(z),there exists one and only one z such that S(z)
+m ∈ R ∪ V ↔ (m ∈ R ∨ m ∈ V),m is an element of R union V if and only if m is an element of R or m is an element of V
+Q ∩ P,The intersection of Q and P
+Cⁿ,matrix C to the power n
+m ∈ Y ∪ C ↔ (m ∈ Y ∨ m ∈ C),m is an element of Y union C if and only if m is an element of Y or m is an element of C
+U ∪ T,The union of U and T
+C · w,matrix C applied to vector w
+V ∪ B,The union of V and B
+p ↔ r,p is equivalent to r
+Cx,matrix C times vector x
+"R × A = {(a, b) | a ∈ R ∧ b ∈ A}","The Cartesian product R × A is the set of all ordered pairs (a, b) where a ∈ R and b ∈ A"
+q → (p → (r → s)),if q then if p then if r then s
+V ⊆ A ∧ A ⊆ B → V ⊆ B,"If V ⊆ A and A ⊆ B, then V ⊆ B"
+Tijective (f : Y → T),f is bijective from Y to T
+trace(A),the trace of matrix A
+(r ∧ p) → q,if both r and p then q
+M = QΛQᵀ,matrix M equals Q times Lambda times Q transpose
+p → t,if p then t
+b ∈ V,The element b is an element of set V
+f : X → T,f maps X into T
+∃y (P(y) ∨ Q(y)),there exists y such that either P(y) or Q(y) is true
+Z ⊆ Z ∪ S,Z is a subset of the union of Z and S
+∀x in the domain R(x),"for all x in the domain, R(x) is true"
+"R = C ↔ ∀ x, x ∈ R ↔ x ∈ C",Sets R and C are equal if they have the same elements
+u ∈ V ∪ T ↔ (u ∈ V ∨ u ∈ T),u is an element of V union T if and only if u is an element of V or u is an element of T
+(A → q) ∧ (A ∧ ¬q),"if A then q, and A and not q, is a contradiction"
+‖v‖ + ‖z‖,the sum of the norms of v and z
+A ∩ Y,The intersection of A and Y
+(W ∪ R)ᶜ = Wᶜ ∩ Rᶜ,The complement of the union of W and R equals the intersection of their complements
+T × C,The Cartesian product of T and C
+n ∈ Z,The element n is an element of set Z
+C ⊆ Z,C is a subset of Z
+∃!z Q(z),there exists a unique z such that Q(z)
+P \ W,The set difference P minus W
+C = QΛQᵀ,matrix C equals Q times Lambda times Q transpose
+"∃x ∀y P(x, y)","there exists x such that for all y, P(x, y) is true"
+B · x,matrix B applied to vector x
+a ∈ U ∩ W ↔ (a ∈ U ∧ a ∈ W),a is an element of the intersection of U and W if and only if a is in both U and W
+Y ∪ (S ∩ C) = (Y ∪ S) ∩ (Y ∪ C),Union distributes over intersection: Y ∪ (S ∩ C) = (Y ∪ S) ∩ (Y ∪ C)
+((r ∨ s) ∧ ¬r) → s,"if r or s and not r, then s"
+t → A,t entails A
+U ∪ R,The union of U and R
+(s ∧ q) → (r ∨ p),if both s and q then either r or p
+v ∉ W,v is not a member of set W
+‖u - x‖,the distance between vectors u and x
+(A → B) → ((B → r) → (A → r)),if A imAlies B then if B imAlies r then A imAlies r
+Cᶜ,The complement of C
+U ∩ (U ∪ R) = U,Ubsorption law for intersection: U ∩ (U ∪ R) = U
+W ⊇ Q,Set W contains set Q
+¬(A ∨ ¬A),not A or not A is a contradiction
+‖y‖₂,the Euclidean norm of vector y
+(w - u) × a,the cross product of the difference of w and u with a
+B \ C,The set difference B minus C
+P \ V,The set difference P minus V
+(cC)⁻¹,the inverse of c times matrix C
+(w - y) × a,the cross product of the difference of w and y with a
+v ∉ P,v is not a member of set P
+"[x₁, x₂, x₃]","the vector with components x1, x2, and x3"
+p → (s → (q → r)),if p then if s then if q then r
+∅ ⊆ X,The empty set is a subset of every set X
+‖w + x‖²,the squared norm of the sum of w and x
+∀z (P(z) → Q(z)),"for all z, if P(z) then Q(z)"
+A ∪ (A ∩ U) = A,Absorption law for union: A ∪ (A ∩ U) = A
+t ∈ Wᶜ ↔ t ∉ W,t is an element of the complement of W if and only if t is not in W
+∃!x S(x),there exists a unique x such that S(x) is true
+rank(M),the rank of matrix M
+Bᵀᵀ,the transpose of the transpose of matrix B
+∀x in the real numbers Even(x),"for all x in the real numbers, Even(x)"
+C ⊆ S → Sᶜ ⊆ Cᶜ,"If C ⊆ S, then Sᶜ ⊆ Cᶜ"
+r → (p → (q → s)),if r then if p then if q then s
+"Y = S ↔ ∀ x, x ∈ Y ↔ x ∈ S",Sets Y and S are equal if they have the same elements
+[v]_B,the coordinate vector of v with respect to basis B
+∃y P(y),there exists y such that P(y) is true
+(p ∧ q) → p,if p and q then p
+s ∈ V ∪ A ↔ (s ∈ V ∨ s ∈ A),s is an element of V union A if and only if s is an element of V or s is an element of A
+(A - μI)v = 0,matrix A minus μ times the identity matrix times vector v equals zero
+A = M,matrix A equals matrix M
+m ∈ S,The element m is an element of set S
+s → r,s implies r
+"x = [x₁, x₂]",the vector x with components x1 and x2
+(r ∨ q) ∧ p,"either r or q, and also p"
+Cw = μw,matrix C times vector w equals μ times vector w
+"∃y in the domain, Q(y)",there exists y in the domain such that Q(y)
+∀x (Q(x) → R(x)),"for all x, if Q(x) then R(x)"
+∀x in set S Prime(x),"for all x in set S, Prime(x)"
+W ∩ V,the intersection of subspaces W and V
+"C × R = {(a, b) | a ∈ C ∧ b ∈ R}","The Cartesian product C × R is the set of all ordered pairs (a, b) where a ∈ C and b ∈ R"
+X ⊆ Y ∧ Y ⊆ X → X = Y,"If X is a subset of Y and Y is a subset of X, then X equals Y"
+C ∪ V,The union of C and V
+det(C + M),the determinant of the sum of matrices C and M
+∀x in the natural numbers Even(x),"for all x in the natural numbers, Even(x)"
+S ∪ V,The union of S and V
+M is orthogonal,matrix M is orthogonal
+(A ↔ B) ↔ ((A ∧ B) ∨ (¬A ∧ ¬B)),"A if and only if B is eBuivalent to both A and B, oC neitheC A noC B"
+b ∈ T ∪ R ↔ (b ∈ T ∨ b ∈ R),b is an element of T union R if and only if b is an element of T or b is an element of R
+wᵀ,the transpose of vector w
+∀a Q(a),"for all a, Q(a) is true"
+V ∪ C,The union of V and C
+z ∈ S,The element z is an element of set S
+Bv = u,the linear system B times v equals u
+q → p,if q then p
+"∀x ∀a R(x, a)","for all x and for all a, R(x, a) is true"
+B + C,the sum of matrices B and C
+standard basis for ℝⁿ,the standard basis for n-dimensional real space
+cond₂(A) = σₘₐₓ/σₘᵢₙ,the 2-norm condition number equals the ratio of largest to smallest singular values
+"∃x ∃a Q(x, a)","there exist x and a such that Q(x, a) is true"
+(r ↔ q) ∧ (p ↔ s),"r if and only if q, and p if and only if s"
+U ⊆ V ∧ V ⊆ Q → U ⊆ Q,"If U ⊆ V and V ⊆ Q, then U ⊆ Q"
+∃x in the domain D Prime(x),there exists x in the domain D such that Prime(x)
+exp(B),the matrix exponential of B
+f '' P ⊆ A,The image of P under f is a subset of A
+∀x in D P(x),"for every x in D, P of x holds"
