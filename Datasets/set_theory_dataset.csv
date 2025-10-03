@@ -1,0 +1,1102 @@
+Maths,natural_language
+A ⊆ R,A is a subset of R
+A ⊆ S,A is a subset of S
+A ⊆ V,A is a subset of V
+A ⊆ X,A is a subset of X
+A ⊆ Y,A is a subset of Y
+A ∈ 𝒫(A),A is an element of its own power set
+T ∩ (T ∪ P) = T,Absorption law for intersection: T ∩ (T ∪ P) = T
+T ∩ (T ∪ R) = T,Absorption law for intersection: T ∩ (T ∪ R) = T
+T ∩ (T ∪ U) = T,Absorption law for intersection: T ∩ (T ∪ U) = T
+Z ∩ (Z ∪ B) = Z,Absorption law for intersection: Z ∩ (Z ∪ B) = Z
+Z ∩ (Z ∪ Z) = Z,Absorption law for intersection: Z ∩ (Z ∪ Z) = Z
+A ∪ (A ∩ U) = A,Absorption law for union: A ∪ (A ∩ U) = A
+A ∪ (A ∩ Y) = A,Absorption law for union: A ∪ (A ∩ Y) = A
+T ∪ (T ∩ R) = T,Absorption law for union: T ∪ (T ∩ R) = T
+Z ∪ (Z ∩ B) = Z,Absorption law for union: Z ∪ (Z ∩ B) = Z
+Z ∪ (Z ∩ R) = Z,Absorption law for union: Z ∪ (Z ∩ R) = Z
+Z ∪ (Z ∩ X) = Z,Absorption law for union: Z ∪ (Z ∩ X) = Z
+B ⊆ R,B is a subset of R
+C ⊆ Q,C is a subset of Q
+C ⊆ V,C is a subset of V
+C ⊆ Z,C is a subset of Z
+C ∈ 𝒫(C),C is an element of its own power set
+C ∩ (C ∪ W) = C,Cbsorption law for intersection: C ∩ (C ∪ W) = C
+(Aᶜ)ᶜ = A,Double complement of A is A
+(Cᶜ)ᶜ = C,Double complement of C is C
+(Pᶜ)ᶜ = P,Double complement of P is P
+(Rᶜ)ᶜ = R,Double complement of R is R
+(Tᶜ)ᶜ = T,Double complement of T is T
+(Vᶜ)ᶜ = V,Double complement of V is V
+(Wᶜ)ᶜ = W,Double complement of W is W
+(Xᶜ)ᶜ = X,Double complement of X is X
+(Zᶜ)ᶜ = Z,Double complement of Z is Z
+"∀ x, x ∈ univ",Every element is an element of the universal set
+B ⊆ P,Every element of B is an element of P
+C ⊆ Z,Every element of C is an element of Z
+P ⊆ S,Every element of P is an element of S
+P ⊆ X,Every element of P is an element of X
+Q ⊆ P,Every element of Q is an element of P
+R ⊆ T,Every element of R is an element of T
+R ⊆ W,Every element of R is an element of W
+R ⊆ Z,Every element of R is an element of Z
+S ⊆ V,Every element of S is an element of V
+S ⊆ X,Every element of S is an element of X
+T ⊆ B,Every element of T is an element of B
+T ⊆ V,Every element of T is an element of V
+U ⊆ T,Every element of U is an element of T
+U ⊆ Y,Every element of U is an element of Y
+W ⊆ V,Every element of W is an element of V
+W ⊆ Z,Every element of W is an element of Z
+X ⊆ T,Every element of X is an element of T
+X ⊆ Z,Every element of X is an element of Z
+Z ⊆ T,Every element of Z is an element of T
+Z ⊆ V,Every element of Z is an element of V
+Z ⊆ X,Every element of Z is an element of X
+B ⊆ univ,Every set B is a subset of the universal set
+C ⊆ univ,Every set C is a subset of the universal set
+U ⊆ univ,Every set U is a subset of the universal set
+W ⊆ univ,Every set W is a subset of the universal set
+X ⊆ univ,Every set X is a subset of the universal set
+Y ⊆ univ,Every set Y is a subset of the universal set
+Z ⊆ univ,Every set Z is a subset of the universal set
+"∀ S, S ⊆ A → S ∈ 𝒫(A)",Every subset of A is an element of the power set of A
+"∀ S, S ⊆ B → S ∈ 𝒫(B)",Every subset of B is an element of the power set of B
+"∀ S, S ⊆ P → S ∈ 𝒫(P)",Every subset of P is an element of the power set of P
+"∀ S, S ⊆ Q → S ∈ 𝒫(Q)",Every subset of Q is an element of the power set of Q
+"∀ S, S ⊆ R → S ∈ 𝒫(R)",Every subset of R is an element of the power set of R
+"∀ S, S ⊆ U → S ∈ 𝒫(U)",Every subset of U is an element of the power set of U
+"∀ S, S ⊆ V → S ∈ 𝒫(V)",Every subset of V is an element of the power set of V
+"∀ S, S ⊆ W → S ∈ 𝒫(W)",Every subset of W is an element of the power set of W
+"∀ S, S ⊆ X → S ∈ 𝒫(X)",Every subset of X is an element of the power set of X
+"∀ S, S ⊆ Z → S ∈ 𝒫(Z)",Every subset of Z is an element of the power set of Z
+"∀ S ⊆ B, Finite S","For all subsets S of B, S is finite"
+"∀ S ⊆ R, Finite S","For all subsets S of R, S is finite"
+"∀ S ⊆ U, Finite S","For all subsets S of U, S is finite"
+"∀ S ⊆ V, Finite S","For all subsets S of V, S is finite"
+"∀ S ⊆ Y, Finite S","For all subsets S of Y, S is finite"
+"∀ x ∈ A, P x","For all x in A, property P holds"
+"∀ x ∈ B, P x","For all x in B, property P holds"
+"∀ x ∈ C, P x","For all x in C, property P holds"
+"∀ x ∈ P, P x","For all x in P, property P holds"
+"∀ x ∈ Q, P x","For all x in Q, property P holds"
+"∀ x ∈ R, P x","For all x in R, property P holds"
+"∀ x ∈ S, P x","For all x in S, property P holds"
+"∀ x ∈ T, P x","For all x in T, property P holds"
+"∀ x ∈ U, P x","For all x in U, property P holds"
+"∀ x ∈ V, P x","For all x in V, property P holds"
+"∀ x ∈ W, P x","For all x in W, property P holds"
+"∀ x ∈ Y, P x","For all x in Y, property P holds"
+"∀ x ∈ A, P x → Q x","For every element x in A, if P(x) then Q(x)"
+"∀ x ∈ B, P x → Q x","For every element x in B, if P(x) then Q(x)"
+"∀ x ∈ C, P x → Q x","For every element x in C, if P(x) then Q(x)"
+"∀ x ∈ Q, P x → Q x","For every element x in Q, if P(x) then Q(x)"
+"∀ x ∈ R, P x → Q x","For every element x in R, if P(x) then Q(x)"
+"∀ x ∈ T, P x → Q x","For every element x in T, if P(x) then Q(x)"
+"∀ x ∈ V, P x → Q x","For every element x in V, if P(x) then Q(x)"
+"∀ x ∈ W, P x → Q x","For every element x in W, if P(x) then Q(x)"
+"∀ x ∈ Z, P x → Q x","For every element x in Z, if P(x) then Q(x)"
+A ⊆ A ∧ A ⊆ A → A = A,"If A is a subset of A and A is a subset of A, then A equals A"
+A ⊆ U ∧ U ⊆ A → A = U,"If A is a subset of U and U is a subset of A, then A equals U"
+Finite A ∧ Finite V → Finite (A ∪ V),"If A is finite and V is finite, then A ∪ V is finite"
+Finite A ∧ Finite W → Finite (A ∪ W),"If A is finite and W is finite, then A ∪ W is finite"
+A ⊆ C ∧ Infinite A → Infinite C,"If A ⊆ C and A is infinite, then C is infinite"
+A ⊆ W ∧ Infinite A → Infinite W,"If A ⊆ W and A is infinite, then W is infinite"
+C ⊆ R ∧ R ⊆ C → C = R,"If C is a subset of R and R is a subset of C, then C equals R"
+C ⊆ B → Bᶜ ⊆ Cᶜ,"If C ⊆ B, then Bᶜ ⊆ Cᶜ"
+C ⊆ Q ∧ Infinite C → Infinite Q,"If C ⊆ Q and C is infinite, then Q is infinite"
+C ⊆ Q → Qᶜ ⊆ Cᶜ,"If C ⊆ Q, then Qᶜ ⊆ Cᶜ"
+C ⊆ S → Sᶜ ⊆ Cᶜ,"If C ⊆ S, then Sᶜ ⊆ Cᶜ"
+P ⊆ A ∧ A ⊆ P → P = A,"If P is a subset of A and A is a subset of P, then P equals A"
+P ⊆ C ∧ C ⊆ P → P = C,"If P is a subset of C and C is a subset of P, then P equals C"
+P ⊆ W ∧ W ⊆ P → P = W,"If P is a subset of W and W is a subset of P, then P equals W"
+P ⊆ Z ∧ Z ⊆ P → P = Z,"If P is a subset of Z and Z is a subset of P, then P equals Z"
+P ⊆ S ∧ Infinite P → Infinite S,"If P ⊆ S and P is infinite, then S is infinite"
+P ⊆ T ∧ T ⊆ T → P ⊆ T,"If P ⊆ T and T ⊆ T, then P ⊆ T"
+P ⊆ U ∧ U ⊆ Y → P ⊆ Y,"If P ⊆ U and U ⊆ Y, then P ⊆ Y"
+Disjoint Q S → Q ∩ S = ∅,"If Q and S are disjoint, then Q ∩ S = ∅"
+Disjoint Q Y → Q ∩ Y = ∅,"If Q and Y are disjoint, then Q ∩ Y = ∅"
+Q ⊆ C ∧ C ⊆ Q → Q = C,"If Q is a subset of C and C is a subset of Q, then Q equals C"
+Q ⊆ X ∧ X ⊆ Q → Q = X,"If Q is a subset of X and X is a subset of Q, then Q equals X"
+Finite Q ∧ Finite V → Finite (Q ∪ V),"If Q is finite and V is finite, then Q ∪ V is finite"
+Q ⊆ C → Cᶜ ⊆ Qᶜ,"If Q ⊆ C, then Cᶜ ⊆ Qᶜ"
+Q ⊆ Q ∧ Q ⊆ A → Q ⊆ A,"If Q ⊆ Q and Q ⊆ A, then Q ⊆ A"
+Q ⊆ V ∧ Infinite Q → Infinite V,"If Q ⊆ V and Q is infinite, then V is infinite"
+Q ⊆ X → Xᶜ ⊆ Qᶜ,"If Q ⊆ X, then Xᶜ ⊆ Qᶜ"
+R ⊆ X ∧ X ⊆ R → R = X,"If R is a subset of X and X is a subset of R, then R equals X"
+Finite R ∧ Finite T → Finite (R ∪ T),"If R is finite and T is finite, then R ∪ T is finite"
+Finite R ∧ Finite Z → Finite (R ∪ Z),"If R is finite and Z is finite, then R ∪ Z is finite"
+R ⊆ S → Sᶜ ⊆ Rᶜ,"If R ⊆ S, then Sᶜ ⊆ Rᶜ"
+R ⊆ T ∧ Infinite R → Infinite T,"If R ⊆ T and R is infinite, then T is infinite"
+R ⊆ U ∧ Infinite R → Infinite U,"If R ⊆ U and R is infinite, then U is infinite"
+R ⊆ W ∧ W ⊆ Y → R ⊆ Y,"If R ⊆ W and W ⊆ Y, then R ⊆ Y"
+R ⊆ W ∧ W ⊆ Z → R ⊆ Z,"If R ⊆ W and W ⊆ Z, then R ⊆ Z"
+Disjoint S R → S ∩ R = ∅,"If S and R are disjoint, then S ∩ R = ∅"
+S ⊆ P ∧ P ⊆ S → S = P,"If S is a subset of P and P is a subset of S, then S equals P"
+Finite S ∧ Finite T → Finite (S ∪ T),"If S is finite and T is finite, then S ∪ T is finite"
+S ⊆ Q → Qᶜ ⊆ Sᶜ,"If S ⊆ Q, then Qᶜ ⊆ Sᶜ"
+S ⊆ S → Sᶜ ⊆ Sᶜ,"If S ⊆ S, then Sᶜ ⊆ Sᶜ"
+S ⊆ U → Uᶜ ⊆ Sᶜ,"If S ⊆ U, then Uᶜ ⊆ Sᶜ"
+S ⊆ Y ∧ Y ⊆ S → S ⊆ S,"If S ⊆ Y and Y ⊆ S, then S ⊆ S"
+Disjoint T W → T ∩ W = ∅,"If T and W are disjoint, then T ∩ W = ∅"
+T ⊆ Z ∧ Infinite T → Infinite Z,"If T ⊆ Z and T is infinite, then Z is infinite"
+Disjoint U P → U ∩ P = ∅,"If U and P are disjoint, then U ∩ P = ∅"
+Disjoint U S → U ∩ S = ∅,"If U and S are disjoint, then U ∩ S = ∅"
+U ⊆ V ∧ V ⊆ U → U = V,"If U is a subset of V and V is a subset of U, then U equals V"
+U ⊆ T ∧ T ⊆ S → U ⊆ S,"If U ⊆ T and T ⊆ S, then U ⊆ S"
+U ⊆ V ∧ V ⊆ Q → U ⊆ Q,"If U ⊆ V and V ⊆ Q, then U ⊆ Q"
+U ⊆ V → Vᶜ ⊆ Uᶜ,"If U ⊆ V, then Vᶜ ⊆ Uᶜ"
+V ⊆ A ∧ A ⊆ V → V = A,"If V is a subset of A and A is a subset of V, then V equals A"
+V ⊆ X ∧ X ⊆ V → V = X,"If V is a subset of X and X is a subset of V, then V equals X"
+V ⊆ Y ∧ Y ⊆ V → V = Y,"If V is a subset of Y and Y is a subset of V, then V equals Y"
+V ⊆ Z ∧ Z ⊆ V → V = Z,"If V is a subset of Z and Z is a subset of V, then V equals Z"
+V ⊆ A ∧ A ⊆ B → V ⊆ B,"If V ⊆ A and A ⊆ B, then V ⊆ B"
+V ⊆ V ∧ Infinite V → Infinite V,"If V ⊆ V and V is infinite, then V is infinite"
+V ⊆ W ∧ W ⊆ T → V ⊆ T,"If V ⊆ W and W ⊆ T, then V ⊆ T"
+Disjoint W Y → W ∩ Y = ∅,"If W and Y are disjoint, then W ∩ Y = ∅"
+Finite W ∧ Finite Y → Finite (W ∪ Y),"If W is finite and Y is finite, then W ∪ Y is finite"
+W ⊆ B ∧ B ⊆ Z → W ⊆ Z,"If W ⊆ B and B ⊆ Z, then W ⊆ Z"
+W ⊆ S → Sᶜ ⊆ Wᶜ,"If W ⊆ S, then Sᶜ ⊆ Wᶜ"
+W ⊆ W ∧ W ⊆ A → W ⊆ A,"If W ⊆ W and W ⊆ A, then W ⊆ A"
+X ⊆ Y ∧ Y ⊆ X → X = Y,"If X is a subset of Y and Y is a subset of X, then X equals Y"
+X ⊆ B ∧ B ⊆ U → X ⊆ U,"If X ⊆ B and B ⊆ U, then X ⊆ U"
+X ⊆ R → Rᶜ ⊆ Xᶜ,"If X ⊆ R, then Rᶜ ⊆ Xᶜ"
+Disjoint Y P → Y ∩ P = ∅,"If Y and P are disjoint, then Y ∩ P = ∅"
+Y ⊆ B ∧ B ⊆ Y → Y = B,"If Y is a subset of B and B is a subset of Y, then Y equals B"
+Y ⊆ Z ∧ Z ⊆ Y → Y = Z,"If Y is a subset of Z and Z is a subset of Y, then Y equals Z"
+Finite Y ∧ Finite R → Finite (Y ∪ R),"If Y is finite and R is finite, then Y ∪ R is finite"
+Y ⊆ A ∧ A ⊆ W → Y ⊆ W,"If Y ⊆ A and A ⊆ W, then Y ⊆ W"
+Y ⊆ T ∧ T ⊆ A → Y ⊆ A,"If Y ⊆ T and T ⊆ A, then Y ⊆ A"
+Y ⊆ X ∧ X ⊆ B → Y ⊆ B,"If Y ⊆ X and X ⊆ B, then Y ⊆ B"
+Z ⊆ T ∧ T ⊆ Z → Z = T,"If Z is a subset of T and T is a subset of Z, then Z equals T"
+Z ⊆ V ∧ V ⊆ Q → Z ⊆ Q,"If Z ⊆ V and V ⊆ Q, then Z ⊆ Q"
+Z ⊆ V ∧ V ⊆ X → Z ⊆ X,"If Z ⊆ V and V ⊆ X, then Z ⊆ X"
+Z ⊆ V → Vᶜ ⊆ Zᶜ,"If Z ⊆ V, then Vᶜ ⊆ Zᶜ"
+Z ⊆ W ∧ Infinite Z → Infinite W,"If Z ⊆ W and Z is infinite, then W is infinite"
+"Injective f → ∀ x y ∈ A, f x = f y → x = y","If f is injective, then for all x, y in A, f(x) = f(y) implies x = y"
+"Injective f → ∀ x y ∈ C, f x = f y → x = y","If f is injective, then for all x, y in C, f(x) = f(y) implies x = y"
+"Injective f → ∀ x y ∈ R, f x = f y → x = y","If f is injective, then for all x, y in R, f(x) = f(y) implies x = y"
+"Injective f → ∀ x y ∈ T, f x = f y → x = y","If f is injective, then for all x, y in T, f(x) = f(y) implies x = y"
+"Injective f → ∀ x y ∈ U, f x = f y → x = y","If f is injective, then for all x, y in U, f(x) = f(y) implies x = y"
+"Injective f → ∀ x y ∈ V, f x = f y → x = y","If f is injective, then for all x, y in V, f(x) = f(y) implies x = y"
+"Injective f → ∀ x y ∈ W, f x = f y → x = y","If f is injective, then for all x, y in W, f(x) = f(y) implies x = y"
+"Injective f → ∀ x y ∈ X, f x = f y → x = y","If f is injective, then for all x, y in X, f(x) = f(y) implies x = y"
+"Injective f → ∀ x y ∈ Z, f x = f y → x = y","If f is injective, then for all x, y in Z, f(x) = f(y) implies x = y"
+A ∩ (S ∪ P) = (A ∩ S) ∪ (A ∩ P),Intersection distributes over union: A ∩ (S ∪ P) = (A ∩ S) ∪ (A ∩ P)
+P ∩ (A ∪ W) = (P ∩ A) ∪ (P ∩ W),Intersection distributes over union: P ∩ (A ∪ W) = (P ∩ A) ∪ (P ∩ W)
+P ∩ (B ∪ P) = (P ∩ B) ∪ (P ∩ P),Intersection distributes over union: P ∩ (B ∪ P) = (P ∩ B) ∪ (P ∩ P)
+P ∩ (R ∪ P) = (P ∩ R) ∪ (P ∩ P),Intersection distributes over union: P ∩ (R ∪ P) = (P ∩ R) ∪ (P ∩ P)
+Q ∩ (W ∪ C) = (Q ∩ W) ∪ (Q ∩ C),Intersection distributes over union: Q ∩ (W ∪ C) = (Q ∩ W) ∪ (Q ∩ C)
+R ∩ (A ∪ A) = (R ∩ A) ∪ (R ∩ A),Intersection distributes over union: R ∩ (A ∪ A) = (R ∩ A) ∪ (R ∩ A)
+R ∩ (Q ∪ S) = (R ∩ Q) ∪ (R ∩ S),Intersection distributes over union: R ∩ (Q ∪ S) = (R ∩ Q) ∪ (R ∩ S)
+R ∩ (Z ∪ T) = (R ∩ Z) ∪ (R ∩ T),Intersection distributes over union: R ∩ (Z ∪ T) = (R ∩ Z) ∪ (R ∩ T)
+S ∩ (P ∪ U) = (S ∩ P) ∪ (S ∩ U),Intersection distributes over union: S ∩ (P ∪ U) = (S ∩ P) ∪ (S ∩ U)
+S ∩ (S ∪ S) = (S ∩ S) ∪ (S ∩ S),Intersection distributes over union: S ∩ (S ∪ S) = (S ∩ S) ∪ (S ∩ S)
+T ∩ (B ∪ T) = (T ∩ B) ∪ (T ∩ T),Intersection distributes over union: T ∩ (B ∪ T) = (T ∩ B) ∪ (T ∩ T)
+T ∩ (X ∪ B) = (T ∩ X) ∪ (T ∩ B),Intersection distributes over union: T ∩ (X ∪ B) = (T ∩ X) ∪ (T ∩ B)
+U ∩ (A ∪ A) = (U ∩ A) ∪ (U ∩ A),Intersection distributes over union: U ∩ (A ∪ A) = (U ∩ A) ∪ (U ∩ A)
+U ∩ (A ∪ B) = (U ∩ A) ∪ (U ∩ B),Intersection distributes over union: U ∩ (A ∪ B) = (U ∩ A) ∪ (U ∩ B)
+U ∩ (U ∪ Q) = (U ∩ U) ∪ (U ∩ Q),Intersection distributes over union: U ∩ (U ∪ Q) = (U ∩ U) ∪ (U ∩ Q)
+V ∩ (U ∪ C) = (V ∩ U) ∪ (V ∩ C),Intersection distributes over union: V ∩ (U ∪ C) = (V ∩ U) ∪ (V ∩ C)
+V ∩ (W ∪ V) = (V ∩ W) ∪ (V ∩ V),Intersection distributes over union: V ∩ (W ∪ V) = (V ∩ W) ∪ (V ∩ V)
+V ∩ (Z ∪ C) = (V ∩ Z) ∪ (V ∩ C),Intersection distributes over union: V ∩ (Z ∪ C) = (V ∩ Z) ∪ (V ∩ C)
+W ∩ (P ∪ Q) = (W ∩ P) ∪ (W ∩ Q),Intersection distributes over union: W ∩ (P ∪ Q) = (W ∩ P) ∪ (W ∩ Q)
+X ∩ (S ∪ A) = (X ∩ S) ∪ (X ∩ A),Intersection distributes over union: X ∩ (S ∪ A) = (X ∩ S) ∪ (X ∩ A)
+X ∩ (W ∪ B) = (X ∩ W) ∪ (X ∩ B),Intersection distributes over union: X ∩ (W ∪ B) = (X ∩ W) ∪ (X ∩ B)
+X ∩ (W ∪ S) = (X ∩ W) ∪ (X ∩ S),Intersection distributes over union: X ∩ (W ∪ S) = (X ∩ W) ∪ (X ∩ S)
+Y ∩ (B ∪ Z) = (Y ∩ B) ∪ (Y ∩ Z),Intersection distributes over union: Y ∩ (B ∪ Z) = (Y ∩ B) ∪ (Y ∩ Z)
+Y ∩ (P ∪ Q) = (Y ∩ P) ∪ (Y ∩ Q),Intersection distributes over union: Y ∩ (P ∪ Q) = (Y ∩ P) ∪ (Y ∩ Q)
+Z ∩ (B ∪ X) = (Z ∩ B) ∪ (Z ∩ X),Intersection distributes over union: Z ∩ (B ∪ X) = (Z ∩ B) ∪ (Z ∩ X)
+Z ∩ (R ∪ Y) = (Z ∩ R) ∪ (Z ∩ Y),Intersection distributes over union: Z ∩ (R ∪ Y) = (Z ∩ R) ∪ (Z ∩ Y)
+Z ∩ (S ∪ R) = (Z ∩ S) ∪ (Z ∩ R),Intersection distributes over union: Z ∩ (S ∪ R) = (Z ∩ S) ∪ (Z ∩ R)
+Z ∩ (Y ∪ Q) = (Z ∩ Y) ∪ (Z ∩ Q),Intersection distributes over union: Z ∩ (Y ∪ Q) = (Z ∩ Y) ∪ (Z ∩ Q)
+"∀ x, x ∉ ∅",No element is an element of the empty set
+P ⊆ B,P is a subset of B
+P ∈ 𝒫(P),P is an element of its own power set
+P ∩ (P ∪ T) = P,Pbsorption law for intersection: P ∩ (P ∪ T) = P
+P ∪ (P ∩ T) = P,Pbsorption law for union: P ∪ (P ∩ T) = P
+Disjoint Q Qᶜ,Q and its complement are disjoint
+Q ⊆ U,Q is a subset of U
+Q ∩ (Q ∪ B) = Q,Qbsorption law for intersection: Q ∩ (Q ∪ B) = Q
+Q ∪ (Q ∩ S) = Q,Qbsorption law for union: Q ∪ (Q ∩ S) = Q
+R ⊆ C,R is a subset of C
+R ⊆ R ∪ Q,R is a subset of the union of R and Q
+R ⊆ R ∪ V,R is a subset of the union of R and V
+R ⊆ R ∪ X,R is a subset of the union of R and X
+R ∩ (R ∪ R) = R,Rbsorption law for intersection: R ∩ (R ∪ R) = R
+Disjoint S Sᶜ,S and its complement are disjoint
+S ⊆ B,S is a subset of B
+S ⊆ U,S is a subset of U
+S ⊆ V,S is a subset of V
+S ⊆ W,S is a subset of W
+S ⊆ Z,S is a subset of Z
+S ⊆ S ∪ U,S is a subset of the union of S and U
+S ∈ 𝒫(S),S is an element of its own power set
+S ∪ (S ∩ R) = S,Sbsorption law for union: S ∪ (S ∩ R) = S
+S ∪ (S ∩ S) = S,Sbsorption law for union: S ∪ (S ∩ S) = S
+S ∪ (S ∩ Z) = S,Sbsorption law for union: S ∪ (S ∩ Z) = S
+A ⊇ P,Set A contains set P
+A ⊇ R,Set A contains set R
+A ⊇ U,Set A contains set U
+A ⊇ V,Set A contains set V
+A ⊇ Z,Set A contains set Z
+A ⊆ T,Set A is a subset of set T
+B ⊇ P,Set B contains set P
+B ⊇ R,Set B contains set R
+B ⊇ W,Set B contains set W
+B ⊆ C,Set B is a subset of set C
+C ⊇ B,Set C contains set B
+C ⊇ T,Set C contains set T
+C ⊇ X,Set C contains set X
+C ⊆ Y,Set C is a subset of set Y
+P ⊇ Q,Set P contains set Q
+P ⊇ R,Set P contains set R
+P ⊇ W,Set P contains set W
+P ⊇ X,Set P contains set X
+P ⊆ S,Set P is a subset of set S
+P ⊆ V,Set P is a subset of set V
+Q ⊇ A,Set Q contains set A
+Q ⊇ X,Set Q contains set X
+Q ⊇ Y,Set Q contains set Y
+R ⊇ B,Set R contains set B
+R ⊇ P,Set R contains set P
+R ⊇ Q,Set R contains set Q
+R ⊇ U,Set R contains set U
+R ⊇ Y,Set R contains set Y
+R ⊆ Y,Set R is a subset of set Y
+S ⊇ B,Set S contains set B
+S ⊇ C,Set S contains set C
+S ⊇ Q,Set S contains set Q
+S ⊇ X,Set S contains set X
+S ⊆ T,Set S is a subset of set T
+S ⊆ U,Set S is a subset of set U
+T ⊇ P,Set T contains set P
+T ⊇ Q,Set T contains set Q
+T ⊇ S,Set T contains set S
+T ⊇ W,Set T contains set W
+T ⊇ Y,Set T contains set Y
+U ⊇ C,Set U contains set C
+U ⊇ R,Set U contains set R
+U ⊇ X,Set U contains set X
+U ⊇ Y,Set U contains set Y
+U ⊆ Q,Set U is a subset of set Q
+U ⊆ R,Set U is a subset of set R
+V ⊇ C,Set V contains set C
+V ⊇ T,Set V contains set T
+V ⊇ Y,Set V contains set Y
+V ⊇ Z,Set V contains set Z
+W ⊇ A,Set W contains set A
+W ⊇ B,Set W contains set B
+W ⊇ C,Set W contains set C
+W ⊇ P,Set W contains set P
+W ⊇ Q,Set W contains set Q
+W ⊇ R,Set W contains set R
+W ⊇ S,Set W contains set S
+W ⊇ U,Set W contains set U
+W ⊇ X,Set W contains set X
+W ⊇ Z,Set W contains set Z
+W ⊆ R,Set W is a subset of set R
+W ⊆ U,Set W is a subset of set U
+X ⊇ B,Set X contains set B
+X ⊇ C,Set X contains set C
+X ⊇ P,Set X contains set P
+X ⊇ W,Set X contains set W
+X ⊇ Y,Set X contains set Y
+X ⊆ T,Set X is a subset of set T
+X ⊆ V,Set X is a subset of set V
+Y ⊇ P,Set Y contains set P
+Y ⊇ Q,Set Y contains set Q
+Y ⊇ T,Set Y contains set T
+Y ⊇ W,Set Y contains set W
+Y ⊆ A,Set Y is a subset of set A
+Z ⊇ P,Set Z contains set P
+Z ⊇ W,Set Z contains set W
+Z ⊇ X,Set Z contains set X
+Z ⊆ S,Set Z is a subset of set S
+Z ⊆ U,Set Z is a subset of set U
+"C = Y ↔ ∀ x, x ∈ C ↔ x ∈ Y",Sets C and Y are equal if they have the same elements
+"Q = W ↔ ∀ x, x ∈ Q ↔ x ∈ W",Sets Q and W are equal if they have the same elements
+"Q = Z ↔ ∀ x, x ∈ Q ↔ x ∈ Z",Sets Q and Z are equal if they have the same elements
+"R = B ↔ ∀ x, x ∈ R ↔ x ∈ B",Sets R and B are equal if they have the same elements
+"R = C ↔ ∀ x, x ∈ R ↔ x ∈ C",Sets R and C are equal if they have the same elements
+"T = V ↔ ∀ x, x ∈ T ↔ x ∈ V",Sets T and V are equal if they have the same elements
+"T = Z ↔ ∀ x, x ∈ T ↔ x ∈ Z",Sets T and Z are equal if they have the same elements
+"U = W ↔ ∀ x, x ∈ U ↔ x ∈ W",Sets U and W are equal if they have the same elements
+"Y = S ↔ ∀ x, x ∈ Y ↔ x ∈ S",Sets Y and S are equal if they have the same elements
+"Z = A ↔ ∀ x, x ∈ Z ↔ x ∈ A",Sets Z and A are equal if they have the same elements
+"Z = T ↔ ∀ x, x ∈ Z ↔ x ∈ T",Sets Z and T are equal if they have the same elements
+Disjoint T Tᶜ,T and its complement are disjoint
+T ⊆ Q,T is a subset of Q
+T ⊆ X,T is a subset of X
+T ⊆ T ∪ A,T is a subset of the union of T and A
+T ⊆ T ∪ U,T is a subset of the union of T and U
+T ∈ 𝒫(T),T is an element of its own power set
+"A × Q = {(a, b) | a ∈ A ∧ b ∈ Q}","The Cartesian product A × Q is the set of all ordered pairs (a, b) where a ∈ A and b ∈ Q"
+"A × V = {(a, b) | a ∈ A ∧ b ∈ V}","The Cartesian product A × V is the set of all ordered pairs (a, b) where a ∈ A and b ∈ V"
+"C × C = {(a, b) | a ∈ C ∧ b ∈ C}","The Cartesian product C × C is the set of all ordered pairs (a, b) where a ∈ C and b ∈ C"
+"C × R = {(a, b) | a ∈ C ∧ b ∈ R}","The Cartesian product C × R is the set of all ordered pairs (a, b) where a ∈ C and b ∈ R"
+"C × S = {(a, b) | a ∈ C ∧ b ∈ S}","The Cartesian product C × S is the set of all ordered pairs (a, b) where a ∈ C and b ∈ S"
+"C × U = {(a, b) | a ∈ C ∧ b ∈ U}","The Cartesian product C × U is the set of all ordered pairs (a, b) where a ∈ C and b ∈ U"
+"C × Z = {(a, b) | a ∈ C ∧ b ∈ Z}","The Cartesian product C × Z is the set of all ordered pairs (a, b) where a ∈ C and b ∈ Z"
+"P × B = {(a, b) | a ∈ P ∧ b ∈ B}","The Cartesian product P × B is the set of all ordered pairs (a, b) where a ∈ P and b ∈ B"
+"P × S = {(a, b) | a ∈ P ∧ b ∈ S}","The Cartesian product P × S is the set of all ordered pairs (a, b) where a ∈ P and b ∈ S"
+"Q × Z = {(a, b) | a ∈ Q ∧ b ∈ Z}","The Cartesian product Q × Z is the set of all ordered pairs (a, b) where a ∈ Q and b ∈ Z"
+"R × A = {(a, b) | a ∈ R ∧ b ∈ A}","The Cartesian product R × A is the set of all ordered pairs (a, b) where a ∈ R and b ∈ A"
+"S × B = {(a, b) | a ∈ S ∧ b ∈ B}","The Cartesian product S × B is the set of all ordered pairs (a, b) where a ∈ S and b ∈ B"
+"S × S = {(a, b) | a ∈ S ∧ b ∈ S}","The Cartesian product S × S is the set of all ordered pairs (a, b) where a ∈ S and b ∈ S"
+"T × C = {(a, b) | a ∈ T ∧ b ∈ C}","The Cartesian product T × C is the set of all ordered pairs (a, b) where a ∈ T and b ∈ C"
+"T × Q = {(a, b) | a ∈ T ∧ b ∈ Q}","The Cartesian product T × Q is the set of all ordered pairs (a, b) where a ∈ T and b ∈ Q"
+"T × U = {(a, b) | a ∈ T ∧ b ∈ U}","The Cartesian product T × U is the set of all ordered pairs (a, b) where a ∈ T and b ∈ U"
+"U × U = {(a, b) | a ∈ U ∧ b ∈ U}","The Cartesian product U × U is the set of all ordered pairs (a, b) where a ∈ U and b ∈ U"
+"U × W = {(a, b) | a ∈ U ∧ b ∈ W}","The Cartesian product U × W is the set of all ordered pairs (a, b) where a ∈ U and b ∈ W"
+"X × Q = {(a, b) | a ∈ X ∧ b ∈ Q}","The Cartesian product X × Q is the set of all ordered pairs (a, b) where a ∈ X and b ∈ Q"
+"X × T = {(a, b) | a ∈ X ∧ b ∈ T}","The Cartesian product X × T is the set of all ordered pairs (a, b) where a ∈ X and b ∈ T"
+"Y × V = {(a, b) | a ∈ Y ∧ b ∈ V}","The Cartesian product Y × V is the set of all ordered pairs (a, b) where a ∈ Y and b ∈ V"
+"Y × Y = {(a, b) | a ∈ Y ∧ b ∈ Y}","The Cartesian product Y × Y is the set of all ordered pairs (a, b) where a ∈ Y and b ∈ Y"
+A × R,The Cartesian product of A and R
+A × S,The Cartesian product of A and S
+P × P,The Cartesian product of P and P
+Q × W,The Cartesian product of Q and W
+R × B,The Cartesian product of R and B
+S × T,The Cartesian product of S and T
+S × W,The Cartesian product of S and W
+S × X,The Cartesian product of S and X
+S × Z,The Cartesian product of S and Z
+T × C,The Cartesian product of T and C
+T × P,The Cartesian product of T and P
+U × B,The Cartesian product of U and B
+U × T,The Cartesian product of U and T
+X × P,The Cartesian product of X and P
+Y × B,The Cartesian product of Y and B
+Z × U,The Cartesian product of Z and U
+Aᶜ,The complement of A
+Bᶜ,The complement of B
+Cᶜ,The complement of C
+Pᶜ,The complement of P
+Qᶜ,The complement of Q
+Rᶜ,The complement of R
+Sᶜ,The complement of S
+Tᶜ,The complement of T
+Uᶜ,The complement of U
+Vᶜ,The complement of V
+Wᶜ,The complement of W
+Xᶜ,The complement of X
+Yᶜ,The complement of Y
+Zᶜ,The complement of Z
+(A ∩ T)ᶜ = Aᶜ ∪ Tᶜ,The complement of the intersection of A and T equals the union of their complements
+(C ∩ T)ᶜ = Cᶜ ∪ Tᶜ,The complement of the intersection of C and T equals the union of their complements
+(C ∩ Z)ᶜ = Cᶜ ∪ Zᶜ,The complement of the intersection of C and Z equals the union of their complements
+(P ∩ W)ᶜ = Pᶜ ∪ Wᶜ,The complement of the intersection of P and W equals the union of their complements
+(R ∩ P)ᶜ = Rᶜ ∪ Pᶜ,The complement of the intersection of R and P equals the union of their complements
+(R ∩ S)ᶜ = Rᶜ ∪ Sᶜ,The complement of the intersection of R and S equals the union of their complements
+(R ∩ Y)ᶜ = Rᶜ ∪ Yᶜ,The complement of the intersection of R and Y equals the union of their complements
+(S ∩ C)ᶜ = Sᶜ ∪ Cᶜ,The complement of the intersection of S and C equals the union of their complements
+(S ∩ Q)ᶜ = Sᶜ ∪ Qᶜ,The complement of the intersection of S and Q equals the union of their complements
+(S ∩ W)ᶜ = Sᶜ ∪ Wᶜ,The complement of the intersection of S and W equals the union of their complements
+(T ∩ P)ᶜ = Tᶜ ∪ Pᶜ,The complement of the intersection of T and P equals the union of their complements
+(T ∩ R)ᶜ = Tᶜ ∪ Rᶜ,The complement of the intersection of T and R equals the union of their complements
+(T ∩ S)ᶜ = Tᶜ ∪ Sᶜ,The complement of the intersection of T and S equals the union of their complements
+(X ∩ V)ᶜ = Xᶜ ∪ Vᶜ,The complement of the intersection of X and V equals the union of their complements
+(X ∩ Z)ᶜ = Xᶜ ∪ Zᶜ,The complement of the intersection of X and Z equals the union of their complements
+(Y ∩ A)ᶜ = Yᶜ ∪ Aᶜ,The complement of the intersection of Y and A equals the union of their complements
+(Z ∩ X)ᶜ = Zᶜ ∪ Xᶜ,The complement of the intersection of Z and X equals the union of their complements
+(A ∪ C)ᶜ = Aᶜ ∩ Cᶜ,The complement of the union of A and C equals the intersection of their complements
+(A ∪ Q)ᶜ = Aᶜ ∩ Qᶜ,The complement of the union of A and Q equals the intersection of their complements
+(A ∪ W)ᶜ = Aᶜ ∩ Wᶜ,The complement of the union of A and W equals the intersection of their complements
+(C ∪ Q)ᶜ = Cᶜ ∩ Qᶜ,The complement of the union of C and Q equals the intersection of their complements
+(C ∪ Y)ᶜ = Cᶜ ∩ Yᶜ,The complement of the union of C and Y equals the intersection of their complements
+(P ∪ C)ᶜ = Pᶜ ∩ Cᶜ,The complement of the union of P and C equals the intersection of their complements
+(P ∪ W)ᶜ = Pᶜ ∩ Wᶜ,The complement of the union of P and W equals the intersection of their complements
+(P ∪ Y)ᶜ = Pᶜ ∩ Yᶜ,The complement of the union of P and Y equals the intersection of their complements
+(Q ∪ Q)ᶜ = Qᶜ ∩ Qᶜ,The complement of the union of Q and Q equals the intersection of their complements
+(Q ∪ U)ᶜ = Qᶜ ∩ Uᶜ,The complement of the union of Q and U equals the intersection of their complements
+(Q ∪ W)ᶜ = Qᶜ ∩ Wᶜ,The complement of the union of Q and W equals the intersection of their complements
+(R ∪ R)ᶜ = Rᶜ ∩ Rᶜ,The complement of the union of R and R equals the intersection of their complements
+(R ∪ U)ᶜ = Rᶜ ∩ Uᶜ,The complement of the union of R and U equals the intersection of their complements
+(R ∪ W)ᶜ = Rᶜ ∩ Wᶜ,The complement of the union of R and W equals the intersection of their complements
+(V ∪ R)ᶜ = Vᶜ ∩ Rᶜ,The complement of the union of V and R equals the intersection of their complements
+(W ∪ B)ᶜ = Wᶜ ∩ Bᶜ,The complement of the union of W and B equals the intersection of their complements
+(W ∪ C)ᶜ = Wᶜ ∩ Cᶜ,The complement of the union of W and C equals the intersection of their complements
+(W ∪ R)ᶜ = Wᶜ ∩ Rᶜ,The complement of the union of W and R equals the intersection of their complements
+(X ∪ T)ᶜ = Xᶜ ∩ Tᶜ,The complement of the union of X and T equals the intersection of their complements
+(Y ∪ Q)ᶜ = Yᶜ ∩ Qᶜ,The complement of the union of Y and Q equals the intersection of their complements
+(Z ∪ U)ᶜ = Zᶜ ∩ Uᶜ,The complement of the union of Z and U equals the intersection of their complements
+a ∈ P,The element a is an element of set P
+a ∈ R,The element a is an element of set R
+a ∈ T,The element a is an element of set T
+b ∈ U,The element b is an element of set U
+b ∈ V,The element b is an element of set V
+b ∈ W,The element b is an element of set W
+b ∈ Y,The element b is an element of set Y
+c ∈ R,The element c is an element of set R
+c ∈ S,The element c is an element of set S
+c ∈ Y,The element c is an element of set Y
+k ∈ C,The element k is an element of set C
+k ∈ S,The element k is an element of set S
+k ∈ W,The element k is an element of set W
+k ∈ X,The element k is an element of set X
+k ∈ Z,The element k is an element of set Z
+m ∈ C,The element m is an element of set C
+m ∈ P,The element m is an element of set P
+m ∈ Q,The element m is an element of set Q
+m ∈ S,The element m is an element of set S
+m ∈ T,The element m is an element of set T
+m ∈ Z,The element m is an element of set Z
+n ∈ V,The element n is an element of set V
+n ∈ Z,The element n is an element of set Z
+s ∈ W,The element s is an element of set W
+s ∈ X,The element s is an element of set X
+t ∈ R,The element t is an element of set R
+t ∈ S,The element t is an element of set S
+t ∈ U,The element t is an element of set U
+t ∈ W,The element t is an element of set W
+t ∈ X,The element t is an element of set X
+t ∈ Y,The element t is an element of set Y
+u ∈ B,The element u is an element of set B
+v ∈ B,The element v is an element of set B
+v ∈ S,The element v is an element of set S
+v ∈ V,The element v is an element of set V
+v ∈ W,The element v is an element of set W
+v ∈ X,The element v is an element of set X
+w ∈ U,The element w is an element of set U
+w ∈ V,The element w is an element of set V
+w ∈ W,The element w is an element of set W
+x ∈ B,The element x is an element of set B
+x ∈ Q,The element x is an element of set Q
+x ∈ T,The element x is an element of set T
+y ∈ B,The element y is an element of set B
+y ∈ R,The element y is an element of set R
+y ∈ T,The element y is an element of set T
+z ∈ C,The element z is an element of set C
+z ∈ S,The element z is an element of set S
+z ∈ W,The element z is an element of set W
+z ∈ X,The element z is an element of set X
+"∀ x, x ∉ ∅",The empty set contains no elements
+∅ ⊆ A,The empty set is a subset of every set A
+∅ ⊆ B,The empty set is a subset of every set B
+∅ ⊆ C,The empty set is a subset of every set C
+∅ ⊆ P,The empty set is a subset of every set P
+∅ ⊆ Q,The empty set is a subset of every set Q
+∅ ⊆ R,The empty set is a subset of every set R
+∅ ⊆ S,The empty set is a subset of every set S
+∅ ⊆ U,The empty set is a subset of every set U
+∅ ⊆ V,The empty set is a subset of every set V
+∅ ⊆ X,The empty set is a subset of every set X
+∅ ⊆ Y,The empty set is a subset of every set Y
+∅ ⊆ Z,The empty set is a subset of every set Z
+∅ ∈ 𝒫(B),The empty set is an element of the power set of B
+∅ ∈ 𝒫(C),The empty set is an element of the power set of C
+∅ ∈ 𝒫(R),The empty set is an element of the power set of R
+∅ ∈ 𝒫(U),The empty set is an element of the power set of U
+∅ ∈ 𝒫(W),The empty set is an element of the power set of W
+∅ ∈ 𝒫(Y),The empty set is an element of the power set of Y
+∅ ∈ 𝒫(Z),The empty set is an element of the power set of Z
+f '' A ⊆ U,The image of A under f is a subset of U
+f '' P ⊆ A,The image of P under f is a subset of A
+f '' T ⊆ X,The image of T under f is a subset of X
+f '' U ⊆ T,The image of U under f is a subset of T
+f '' Q,The image of set Q under function f
+f '' R,The image of set R under function f
+f '' S,The image of set S under function f
+f '' T,The image of set T under function f
+f '' W,The image of set W under function f
+f '' X,The image of set X under function f
+f '' Y,The image of set Y under function f
+A ∩ A ⊆ A,The intersection of A and A is a subset of A
+A ∩ S,The intersection of A and S
+A ∩ U,The intersection of A and U
+A ∩ V,The intersection of A and V
+A ∩ X,The intersection of A and X
+A ∩ Y,The intersection of A and Y
+A ∩ Z,The intersection of A and Z
+B ∩ P,The intersection of B and P
+B ∩ X,The intersection of B and X
+C ∩ S,The intersection of C and S
+C ∩ V,The intersection of C and V
+C ∩ W,The intersection of C and W
+C ∩ X,The intersection of C and X
+C ∩ Z,The intersection of C and Z
+P ∩ C,The intersection of P and C
+P ∩ P ⊆ P,The intersection of P and P is a subset of P
+P ∩ W,The intersection of P and W
+Q ∩ P,The intersection of Q and P
+Q ∩ W,The intersection of Q and W
+Q ∩ X,The intersection of Q and X
+R ∩ C,The intersection of R and C
+R ∩ P ⊆ R,The intersection of R and P is a subset of R
+R ∩ R ⊆ R,The intersection of R and R is a subset of R
+R ∩ T ⊆ R,The intersection of R and T is a subset of R
+S ∩ A ⊆ S,The intersection of S and A is a subset of S
+S ∩ T,The intersection of S and T
+S ∩ X ⊆ S,The intersection of S and X is a subset of S
+T ∩ A,The intersection of T and A
+T ∩ Q,The intersection of T and Q
+T ∩ S,The intersection of T and S
+T ∩ U,The intersection of T and U
+T ∩ W,The intersection of T and W
+T ∩ Z,The intersection of T and Z
+U ∩ B,The intersection of U and B
+U ∩ P,The intersection of U and P
+U ∩ T,The intersection of U and T
+U ∩ V,The intersection of U and V
+U ∩ Y,The intersection of U and Y
+V ∩ P,The intersection of V and P
+V ∩ R,The intersection of V and R
+W ∩ A,The intersection of W and A
+W ∩ B,The intersection of W and B
+W ∩ C,The intersection of W and C
+W ∩ P,The intersection of W and P
+W ∩ T,The intersection of W and T
+W ∩ X,The intersection of W and X
+X ∩ B,The intersection of X and B
+X ∩ U,The intersection of X and U
+Y ∩ R,The intersection of Y and R
+Y ∩ S,The intersection of Y and S
+Y ∩ T,The intersection of Y and T
+Y ∩ U,The intersection of Y and U
+Y ∩ V,The intersection of Y and V
+Y ∩ Z,The intersection of Y and Z
+Z ∩ C ⊆ Z,The intersection of Z and C is a subset of Z
+Z ∩ Q ⊆ Z,The intersection of Z and Q is a subset of Z
+Z ∩ R,The intersection of Z and R
+Z ∩ S ⊆ Z,The intersection of Z and S is a subset of Z
+Z ∩ U,The intersection of Z and U
+Z ∩ V,The intersection of Z and V
+Z ∩ X,The intersection of Z and X
+Z ∩ Y,The intersection of Z and Y
+𝒫(A) = {S | S ⊆ A},The power set of A is the set of all subsets of A
+𝒫(C) = {S | S ⊆ C},The power set of C is the set of all subsets of C
+𝒫(P) = {S | S ⊆ P},The power set of P is the set of all subsets of P
+𝒫(R) = {S | S ⊆ R},The power set of R is the set of all subsets of R
+𝒫(S) = {S | S ⊆ S},The power set of S is the set of all subsets of S
+𝒫(V) = {S | S ⊆ V},The power set of V is the set of all subsets of V
+𝒫(X) = {S | S ⊆ X},The power set of X is the set of all subsets of X
+𝒫(Y) = {S | S ⊆ Y},The power set of Y is the set of all subsets of Y
+𝒫(Z) = {S | S ⊆ Z},The power set of Z is the set of all subsets of Z
+f ⁻¹' B,The preimage of set B under function f
+f ⁻¹' P,The preimage of set P under function f
+f ⁻¹' S,The preimage of set S under function f
+f ⁻¹' U,The preimage of set U under function f
+f ⁻¹' V,The preimage of set V under function f
+f ⁻¹' X,The preimage of set X under function f
+B \ C,The set difference B minus C
+B \ P,The set difference B minus P
+B \ R,The set difference B minus R
+B \ S,The set difference B minus S
+B \ V,The set difference B minus V
+B \ X,The set difference B minus X
+B \ Y,The set difference B minus Y
+C \ W,The set difference C minus W
+P \ V,The set difference P minus V
+P \ W,The set difference P minus W
+Q \ T,The set difference Q minus T
+Q \ U,The set difference Q minus U
+R \ C,The set difference R minus C
+R \ P,The set difference R minus P
+R \ Q,The set difference R minus Q
+R \ S,The set difference R minus S
+S \ A,The set difference S minus A
+S \ B,The set difference S minus B
+S \ Q,The set difference S minus Q
+S \ R,The set difference S minus R
+S \ U,The set difference S minus U
+T \ C,The set difference T minus C
+T \ P,The set difference T minus P
+T \ W,The set difference T minus W
+U \ B,The set difference U minus B
+U \ Q,The set difference U minus Q
+U \ R,The set difference U minus R
+V \ S,The set difference V minus S
+V \ T,The set difference V minus T
+V \ Y,The set difference V minus Y
+V \ Z,The set difference V minus Z
+W \ Y,The set difference W minus Y
+X \ Q,The set difference X minus Q
+Y \ A,The set difference Y minus A
+Y \ U,The set difference Y minus U
+Z \ W,The set difference Z minus W
+Z \ Y,The set difference Z minus Y
+{x ∈ A | Q x},The set of all elements in A satisfying property Q
+{x ∈ B | Q x},The set of all elements in B satisfying property Q
+{x ∈ C | Q x},The set of all elements in C satisfying property Q
+{x ∈ P | Q x},The set of all elements in P satisfying property Q
+{x ∈ X | Q x},The set of all elements in X satisfying property Q
+{x ∈ Z | Q x},The set of all elements in Z satisfying property Q
+{x | P x},The set of all elements x such that property P holds
+"{n : ℕ | ∃ k, n = 2 * k}",The set of all even natural numbers
+{n : ℤ | n < 10},The set of all integers less than 10
+{n : ℕ | n > 5},The set of all natural numbers greater than 5
+"{n : ℤ | ∃ k, n = 2 * k + 1}",The set of all odd integers
+{x : ℝ | x > 0},The set of all positive real numbers
+{x : ℝ | 0 < x ∧ x < 1},The set of all real numbers between 0 and 1
+A ∪ B,The union of A and B
+A ∪ P,The union of A and P
+A ∪ Q,The union of A and Q
+A ∪ T,The union of A and T
+A ∪ W,The union of A and W
+A ∪ X,The union of A and X
+B ∪ A,The union of B and A
+B ∪ S,The union of B and S
+B ∪ Y,The union of B and Y
+C ∪ Q,The union of C and Q
+C ∪ R,The union of C and R
+C ∪ S,The union of C and S
+C ∪ T,The union of C and T
+C ∪ V,The union of C and V
+C ∪ Cᶜ = univ,The union of C and its complement equals the universal set
+P ∪ C,The union of P and C
+P ∪ T,The union of P and T
+P ∪ U,The union of P and U
+Q ∪ Qᶜ = univ,The union of Q and its complement equals the universal set
+R ∪ S,The union of R and S
+R ∪ Y,The union of R and Y
+S ∪ A,The union of S and A
+S ∪ P,The union of S and P
+S ∪ R,The union of S and R
+S ∪ V,The union of S and V
+S ∪ X,The union of S and X
+T ∪ B,The union of T and B
+T ∪ X,The union of T and X
+U ∪ B,The union of U and B
+U ∪ Q,The union of U and Q
+U ∪ R,The union of U and R
+U ∪ T,The union of U and T
+U ∪ Uᶜ = univ,The union of U and its complement equals the universal set
+V ∪ B,The union of V and B
+V ∪ C,The union of V and C
+V ∪ P,The union of V and P
+V ∪ W,The union of V and W
+V ∪ X,The union of V and X
+V ∪ Z,The union of V and Z
+W ∪ Q,The union of W and Q
+W ∪ R,The union of W and R
+W ∪ U,The union of W and U
+X ∪ S,The union of X and S
+X ∪ T,The union of X and T
+X ∪ Xᶜ = univ,The union of X and its complement equals the universal set
+Y ∪ P,The union of Y and P
+Y ∪ W,The union of Y and W
+Z ∪ A,The union of Z and A
+Z ∪ T,The union of Z and T
+Z ∪ U,The union of Z and U
+Z ∪ W,The union of Z and W
+"∀ x, x ∈ univ",The universal set contains all elements
+"∃ S ⊆ A, S ≠ ∅",There exists a subset S of A that is non-empty
+"∃ S ⊆ B, S ≠ ∅",There exists a subset S of B that is non-empty
+"∃ S ⊆ C, S ≠ ∅",There exists a subset S of C that is non-empty
+"∃ S ⊆ P, S ≠ ∅",There exists a subset S of P that is non-empty
+"∃ S ⊆ Q, S ≠ ∅",There exists a subset S of Q that is non-empty
+"∃ S ⊆ R, S ≠ ∅",There exists a subset S of R that is non-empty
+"∃ S ⊆ S, S ≠ ∅",There exists a subset S of S that is non-empty
+"∃ S ⊆ T, S ≠ ∅",There exists a subset S of T that is non-empty
+"∃ S ⊆ U, S ≠ ∅",There exists a subset S of U that is non-empty
+"∃ S ⊆ V, S ≠ ∅",There exists a subset S of V that is non-empty
+"∃ S ⊆ Y, S ≠ ∅",There exists a subset S of Y that is non-empty
+"∃ S ⊆ Z, S ≠ ∅",There exists a subset S of Z that is non-empty
+"∃! x ∈ A, P x",There exists a unique element x in A satisfying P
+"∃! x ∈ B, P x",There exists a unique element x in B satisfying P
+"∃! x ∈ C, P x",There exists a unique element x in C satisfying P
+"∃! x ∈ P, P x",There exists a unique element x in P satisfying P
+"∃! x ∈ R, P x",There exists a unique element x in R satisfying P
+"∃! x ∈ V, P x",There exists a unique element x in V satisfying P
+"∃! x ∈ X, P x",There exists a unique element x in X satisfying P
+"∃ x ∈ A, Q x",There exists an element x in A such that property Q holds
+"∃ x ∈ B, Q x",There exists an element x in B such that property Q holds
+"∃ x ∈ C, Q x",There exists an element x in C such that property Q holds
+"∃ x ∈ P, Q x",There exists an element x in P such that property Q holds
+"∃ x ∈ Q, Q x",There exists an element x in Q such that property Q holds
+"∃ x ∈ R, Q x",There exists an element x in R such that property Q holds
+"∃ x ∈ S, Q x",There exists an element x in S such that property Q holds
+"∃ x ∈ T, Q x",There exists an element x in T such that property Q holds
+"∃ x ∈ U, Q x",There exists an element x in U such that property Q holds
+"∃ x ∈ V, Q x",There exists an element x in V such that property Q holds
+"∃ x ∈ W, Q x",There exists an element x in W such that property Q holds
+"∃ x ∈ Y, Q x",There exists an element x in Y such that property Q holds
+"∃ x ∈ Z, Q x",There exists an element x in Z such that property Q holds
+A = W ↔ (A ⊆ W ∧ W ⊆ A),Two sets are equal if and only if each is a subset of the other
+T = C ↔ (T ⊆ C ∧ C ⊆ T),Two sets are equal if and only if each is a subset of the other
+V = S ↔ (V ⊆ S ∧ S ⊆ V),Two sets are equal if and only if each is a subset of the other
+U ∈ 𝒫(U),U is an element of its own power set
+U ∩ (U ∪ Q) = U,Ubsorption law for intersection: U ∩ (U ∪ Q) = U
+U ∩ (U ∪ R) = U,Ubsorption law for intersection: U ∩ (U ∪ R) = U
+U ∩ (U ∪ W) = U,Ubsorption law for intersection: U ∩ (U ∪ W) = U
+U ∪ (U ∩ Q) = U,Ubsorption law for union: U ∪ (U ∩ Q) = U
+U ∪ (U ∩ U) = U,Ubsorption law for union: U ∪ (U ∩ U) = U
+U ∪ (U ∩ V) = U,Ubsorption law for union: U ∪ (U ∩ V) = U
+A ∪ (U ∩ X) = (A ∪ U) ∩ (A ∪ X),Union distributes over intersection: A ∪ (U ∩ X) = (A ∪ U) ∩ (A ∪ X)
+A ∪ (Z ∩ R) = (A ∪ Z) ∩ (A ∪ R),Union distributes over intersection: A ∪ (Z ∩ R) = (A ∪ Z) ∩ (A ∪ R)
+P ∪ (S ∩ X) = (P ∪ S) ∩ (P ∪ X),Union distributes over intersection: P ∪ (S ∩ X) = (P ∪ S) ∩ (P ∪ X)
+P ∪ (U ∩ B) = (P ∪ U) ∩ (P ∪ B),Union distributes over intersection: P ∪ (U ∩ B) = (P ∪ U) ∩ (P ∪ B)
+P ∪ (U ∩ Q) = (P ∪ U) ∩ (P ∪ Q),Union distributes over intersection: P ∪ (U ∩ Q) = (P ∪ U) ∩ (P ∪ Q)
+P ∪ (Z ∩ V) = (P ∪ Z) ∩ (P ∪ V),Union distributes over intersection: P ∪ (Z ∩ V) = (P ∪ Z) ∩ (P ∪ V)
+Q ∪ (A ∩ S) = (Q ∪ A) ∩ (Q ∪ S),Union distributes over intersection: Q ∪ (A ∩ S) = (Q ∪ A) ∩ (Q ∪ S)
+Q ∪ (P ∩ S) = (Q ∪ P) ∩ (Q ∪ S),Union distributes over intersection: Q ∪ (P ∩ S) = (Q ∪ P) ∩ (Q ∪ S)
+Q ∪ (V ∩ X) = (Q ∪ V) ∩ (Q ∪ X),Union distributes over intersection: Q ∪ (V ∩ X) = (Q ∪ V) ∩ (Q ∪ X)
+R ∪ (Y ∩ Z) = (R ∪ Y) ∩ (R ∪ Z),Union distributes over intersection: R ∪ (Y ∩ Z) = (R ∪ Y) ∩ (R ∪ Z)
+T ∪ (U ∩ A) = (T ∪ U) ∩ (T ∪ A),Union distributes over intersection: T ∪ (U ∩ A) = (T ∪ U) ∩ (T ∪ A)
+T ∪ (V ∩ Q) = (T ∪ V) ∩ (T ∪ Q),Union distributes over intersection: T ∪ (V ∩ Q) = (T ∪ V) ∩ (T ∪ Q)
+T ∪ (Z ∩ R) = (T ∪ Z) ∩ (T ∪ R),Union distributes over intersection: T ∪ (Z ∩ R) = (T ∪ Z) ∩ (T ∪ R)
+U ∪ (B ∩ S) = (U ∪ B) ∩ (U ∪ S),Union distributes over intersection: U ∪ (B ∩ S) = (U ∪ B) ∩ (U ∪ S)
+U ∪ (S ∩ V) = (U ∪ S) ∩ (U ∪ V),Union distributes over intersection: U ∪ (S ∩ V) = (U ∪ S) ∩ (U ∪ V)
+U ∪ (U ∩ X) = (U ∪ U) ∩ (U ∪ X),Union distributes over intersection: U ∪ (U ∩ X) = (U ∪ U) ∩ (U ∪ X)
+V ∪ (W ∩ Q) = (V ∪ W) ∩ (V ∪ Q),Union distributes over intersection: V ∪ (W ∩ Q) = (V ∪ W) ∩ (V ∪ Q)
+V ∪ (Y ∩ B) = (V ∪ Y) ∩ (V ∪ B),Union distributes over intersection: V ∪ (Y ∩ B) = (V ∪ Y) ∩ (V ∪ B)
+W ∪ (Y ∩ T) = (W ∪ Y) ∩ (W ∪ T),Union distributes over intersection: W ∪ (Y ∩ T) = (W ∪ Y) ∩ (W ∪ T)
+X ∪ (A ∩ C) = (X ∪ A) ∩ (X ∪ C),Union distributes over intersection: X ∪ (A ∩ C) = (X ∪ A) ∩ (X ∪ C)
+X ∪ (P ∩ P) = (X ∪ P) ∩ (X ∪ P),Union distributes over intersection: X ∪ (P ∩ P) = (X ∪ P) ∩ (X ∪ P)
+X ∪ (P ∩ S) = (X ∪ P) ∩ (X ∪ S),Union distributes over intersection: X ∪ (P ∩ S) = (X ∪ P) ∩ (X ∪ S)
+X ∪ (Q ∩ V) = (X ∪ Q) ∩ (X ∪ V),Union distributes over intersection: X ∪ (Q ∩ V) = (X ∪ Q) ∩ (X ∪ V)
+X ∪ (U ∩ V) = (X ∪ U) ∩ (X ∪ V),Union distributes over intersection: X ∪ (U ∩ V) = (X ∪ U) ∩ (X ∪ V)
+Y ∪ (A ∩ W) = (Y ∪ A) ∩ (Y ∪ W),Union distributes over intersection: Y ∪ (A ∩ W) = (Y ∪ A) ∩ (Y ∪ W)
+Y ∪ (Q ∩ A) = (Y ∪ Q) ∩ (Y ∪ A),Union distributes over intersection: Y ∪ (Q ∩ A) = (Y ∪ Q) ∩ (Y ∪ A)
+Y ∪ (S ∩ C) = (Y ∪ S) ∩ (Y ∪ C),Union distributes over intersection: Y ∪ (S ∩ C) = (Y ∪ S) ∩ (Y ∪ C)
+Y ∪ (V ∩ B) = (Y ∪ V) ∩ (Y ∪ B),Union distributes over intersection: Y ∪ (V ∩ B) = (Y ∪ V) ∩ (Y ∪ B)
+Y ∪ (X ∩ Y) = (Y ∪ X) ∩ (Y ∪ Y),Union distributes over intersection: Y ∪ (X ∩ Y) = (Y ∪ X) ∩ (Y ∪ Y)
+Z ∪ (A ∩ V) = (Z ∪ A) ∩ (Z ∪ V),Union distributes over intersection: Z ∪ (A ∩ V) = (Z ∪ A) ∩ (Z ∪ V)
+Z ∪ (B ∩ S) = (Z ∪ B) ∩ (Z ∪ S),Union distributes over intersection: Z ∪ (B ∩ S) = (Z ∪ B) ∩ (Z ∪ S)
+Z ∪ (U ∩ A) = (Z ∪ U) ∩ (Z ∪ A),Union distributes over intersection: Z ∪ (U ∩ A) = (Z ∪ U) ∩ (Z ∪ A)
+Disjoint V Vᶜ,V and its complement are disjoint
+V ⊆ A,V is a subset of A
+V ⊆ P,V is a subset of P
+V ⊆ Q,V is a subset of Q
+V ⊆ U,V is a subset of U
+V ⊆ X,V is a subset of X
+V ⊆ Z,V is a subset of Z
+V ∈ 𝒫(V),V is an element of its own power set
+V ∩ (V ∪ S) = V,Vbsorption law for intersection: V ∩ (V ∪ S) = V
+V ∪ (V ∩ U) = V,Vbsorption law for union: V ∪ (V ∩ U) = V
+W ⊆ P,W is a subset of P
+W ⊆ Y,W is a subset of Y
+W ∩ (W ∪ C) = W,Wbsorption law for intersection: W ∩ (W ∪ C) = W
+W ∩ (W ∪ Z) = W,Wbsorption law for intersection: W ∩ (W ∪ Z) = W
+W ∪ (W ∩ P) = W,Wbsorption law for union: W ∪ (W ∩ P) = W
+W ∪ (W ∩ R) = W,Wbsorption law for union: W ∪ (W ∩ R) = W
+Disjoint X Xᶜ,X and its complement are disjoint
+X ⊆ U,X is a subset of U
+X ⊆ Y,X is a subset of Y
+X ⊆ X ∪ S,X is a subset of the union of X and S
+X ∈ 𝒫(X),X is an element of its own power set
+X ∩ (X ∪ R) = X,Xbsorption law for intersection: X ∩ (X ∪ R) = X
+X ∪ (X ∩ R) = X,Xbsorption law for union: X ∪ (X ∩ R) = X
+Y ⊆ Y ∪ A,Y is a subset of the union of Y and A
+Y ∩ (Y ∪ W) = Y,Ybsorption law for intersection: Y ∩ (Y ∪ W) = Y
+Y ∪ (Y ∩ U) = Y,Ybsorption law for union: Y ∪ (Y ∩ U) = Y
+Y ∪ (Y ∩ V) = Y,Ybsorption law for union: Y ∪ (Y ∩ V) = Y
+Y ∪ (Y ∩ W) = Y,Ybsorption law for union: Y ∪ (Y ∩ W) = Y
+Disjoint Z Zᶜ,Z and its complement are disjoint
+Z ⊆ A,Z is a subset of A
+Z ⊆ T,Z is a subset of T
+Z ⊆ W,Z is a subset of W
+Z ⊆ Z ∪ S,Z is a subset of the union of Z and S
+Z ∈ 𝒫(Z),Z is an element of its own power set
+a ∈ C \ W,a is an element of C but not in W
+a ∈ T \ Q,a is an element of T but not in Q
+a ∈ U ∪ Y ↔ (a ∈ U ∨ a ∈ Y),a is an element of U union Y if and only if a is an element of U or a is an element of Y
+a ∈ X ∪ Z ↔ (a ∈ X ∨ a ∈ Z),a is an element of X union Z if and only if a is an element of X or a is an element of Z
+a ∈ Y ∪ Q ↔ (a ∈ Y ∨ a ∈ Q),a is an element of Y union Q if and only if a is an element of Y or a is an element of Q
+a ∈ Z ∪ B ↔ (a ∈ Z ∨ a ∈ B),a is an element of Z union B if and only if a is an element of Z or a is an element of B
+a ∈ Rᶜ ↔ a ∉ R,a is an element of the complement of R if and only if a is not in R
+a ∈ Wᶜ ↔ a ∉ W,a is an element of the complement of W if and only if a is not in W
+a ∈ Xᶜ ↔ a ∉ X,a is an element of the complement of X if and only if a is not in X
+a ∈ A ∩ R ↔ (a ∈ A ∧ a ∈ R),a is an element of the intersection of A and R if and only if a is in both A and R
+a ∈ C ∩ R ↔ (a ∈ C ∧ a ∈ R),a is an element of the intersection of C and R if and only if a is in both C and R
+a ∈ C ∩ Y ↔ (a ∈ C ∧ a ∈ Y),a is an element of the intersection of C and Y if and only if a is in both C and Y
+a ∈ C ∩ Z ↔ (a ∈ C ∧ a ∈ Z),a is an element of the intersection of C and Z if and only if a is in both C and Z
+a ∈ P ∩ C ↔ (a ∈ P ∧ a ∈ C),a is an element of the intersection of P and C if and only if a is in both P and C
+a ∈ U ∩ W ↔ (a ∈ U ∧ a ∈ W),a is an element of the intersection of U and W if and only if a is in both U and W
+a ∈ V ∩ T ↔ (a ∈ V ∧ a ∈ T),a is an element of the intersection of V and T if and only if a is in both V and T
+a ∈ W ∩ B ↔ (a ∈ W ∧ a ∈ B),a is an element of the intersection of W and B if and only if a is in both W and B
+a ∈ X ∩ A ↔ (a ∈ X ∧ a ∈ A),a is an element of the intersection of X and A if and only if a is in both X and A
+a ∈ Z ∩ T ↔ (a ∈ Z ∧ a ∈ T),a is an element of the intersection of Z and T if and only if a is in both Z and T
+a ∉ C,a is not a member of set C
+a ∉ T,a is not a member of set T
+b ∈ A ∪ Q ↔ (b ∈ A ∨ b ∈ Q),b is an element of A union Q if and only if b is an element of A or b is an element of Q
+b ∈ C \ P,b is an element of C but not in P
+b ∈ P \ X,b is an element of P but not in X
+b ∈ Q ∪ Y ↔ (b ∈ Q ∨ b ∈ Y),b is an element of Q union Y if and only if b is an element of Q or b is an element of Y
+b ∈ T ∪ R ↔ (b ∈ T ∨ b ∈ R),b is an element of T union R if and only if b is an element of T or b is an element of R
+b ∈ V \ R,b is an element of V but not in R
+b ∈ W \ C,b is an element of W but not in C
+b ∈ W \ X,b is an element of W but not in X
+b ∈ Aᶜ ↔ b ∉ A,b is an element of the complement of A if and only if b is not in A
+b ∈ C ∩ X ↔ (b ∈ C ∧ b ∈ X),b is an element of the intersection of C and X if and only if b is in both C and X
+b ∈ R ∩ P ↔ (b ∈ R ∧ b ∈ P),b is an element of the intersection of R and P if and only if b is in both R and P
+b ∈ Z ∩ X ↔ (b ∈ Z ∧ b ∈ X),b is an element of the intersection of Z and X if and only if b is in both Z and X
+b ∉ A,b is not a member of set A
+b ∉ C,b is not a member of set C
+b ∉ P,b is not a member of set P
+b ∉ R,b is not a member of set R
+b ∉ Z,b is not a member of set Z
+c ∈ P ∪ R ↔ (c ∈ P ∨ c ∈ R),c is an element of P union R if and only if c is an element of P or c is an element of R
+c ∈ Q \ V,c is an element of Q but not in V
+c ∈ S \ P,c is an element of S but not in P
+c ∈ Y \ R,c is an element of Y but not in R
+c ∈ Bᶜ ↔ c ∉ B,c is an element of the complement of B if and only if c is not in B
+c ∈ Yᶜ ↔ c ∉ Y,c is an element of the complement of Y if and only if c is not in Y
+c ∈ P ∩ T ↔ (c ∈ P ∧ c ∈ T),c is an element of the intersection of P and T if and only if c is in both P and T
+c ∈ R ∩ W ↔ (c ∈ R ∧ c ∈ W),c is an element of the intersection of R and W if and only if c is in both R and W
+c ∈ S ∩ C ↔ (c ∈ S ∧ c ∈ C),c is an element of the intersection of S and C if and only if c is in both S and C
+c ∈ U ∩ T ↔ (c ∈ U ∧ c ∈ T),c is an element of the intersection of U and T if and only if c is in both U and T
+c ∈ X ∩ W ↔ (c ∈ X ∧ c ∈ W),c is an element of the intersection of X and W if and only if c is in both X and W
+c ∈ X ∩ Y ↔ (c ∈ X ∧ c ∈ Y),c is an element of the intersection of X and Y if and only if c is in both X and Y
+c ∉ A,c is not a member of set A
+c ∉ B,c is not a member of set B
+c ∉ C,c is not a member of set C
+c ∉ R,c is not a member of set R
+c ∉ S,c is not a member of set S
+c ∉ W,c is not a member of set W
+Pijective (f : C → P),f is bijective from C to P
+Rijective (f : P → R),f is bijective from P to R
+Xijective (f : P → X),f is bijective from P to X
+Vijective (f : R → V),f is bijective from R to V
+Yijective (f : R → Y),f is bijective from R to Y
+Tijective (f : S → T),f is bijective from S to T
+Xijective (f : T → X),f is bijective from T to X
+Pijective (f : U → P),f is bijective from U to P
+Vijective (f : U → V),f is bijective from U to V
+Tijective (f : X → T),f is bijective from X to T
+Tijective (f : Y → T),f is bijective from Y to T
+Xijective (f : Y → X),f is bijective from Y to X
+Bijective (f : Z → B),f is bijective from Z to B
+Injective (f : S → Q),f is injective on S
+Injective (f : T → W),f is injective on T
+Injective (f : V → Q),f is injective on V
+Injective (f : X → P),f is injective on X
+Injective (f : Y → V),f is injective on Y
+Surjective (f : A → R),f is surjective from A to R
+Surjective (f : Q → R),f is surjective from Q to R
+Surjective (f : R → U),f is surjective from R to U
+Surjective (f : T → B),f is surjective from T to B
+Surjective (f : U → X),f is surjective from U to X
+Surjective (f : U → Y),f is surjective from U to Y
+Surjective (f : V → S),f is surjective from V to S
+Surjective (f : V → X),f is surjective from V to X
+Surjective (f : W → R),f is surjective from W to R
+Surjective (f : Y → X),f is surjective from Y to X
+Surjective (f : Y → Y),f is surjective from Y to Y
+f : A → W,f maps A into W
+f : C → P,f maps C into P
+f : P → C,f maps P into C
+f : P → U,f maps P into U
+f : S → T,f maps S into T
+f : U → V,f maps U into V
+f : U → W,f maps U into W
+f : V → C,f maps V into C
+f : V → Q,f maps V into Q
+f : V → W,f maps V into W
+f : W → S,f maps W into S
+f : X → T,f maps X into T
+f : X → X,f maps X into X
+f : Y → Z,f maps Y into Z
+f : Z → Q,f maps Z into Q
+f : Z → T,f maps Z into T
+f : Z → W,f maps Z into W
+f : Z → X,f maps Z into X
+k ∈ C \ Z,k is an element of C but not in Z
+k ∈ S \ C,k is an element of S but not in C
+k ∈ S \ Q,k is an element of S but not in Q
+k ∈ S ∪ Q ↔ (k ∈ S ∨ k ∈ Q),k is an element of S union Q if and only if k is an element of S or k is an element of Q
+k ∈ Vᶜ ↔ k ∉ V,k is an element of the complement of V if and only if k is not in V
+k ∈ Zᶜ ↔ k ∉ Z,k is an element of the complement of Z if and only if k is not in Z
+k ∈ B ∩ V ↔ (k ∈ B ∧ k ∈ V),k is an element of the intersection of B and V if and only if k is in both B and V
+k ∈ C ∩ P ↔ (k ∈ C ∧ k ∈ P),k is an element of the intersection of C and P if and only if k is in both C and P
+k ∈ R ∩ W ↔ (k ∈ R ∧ k ∈ W),k is an element of the intersection of R and W if and only if k is in both R and W
+k ∉ C,k is not a member of set C
+k ∉ W,k is not a member of set W
+k ∉ X,k is not a member of set X
+m ∈ B ∪ P ↔ (m ∈ B ∨ m ∈ P),m is an element of B union P if and only if m is an element of B or m is an element of P
+m ∈ C \ Y,m is an element of C but not in Y
+m ∈ P \ A,m is an element of P but not in A
+m ∈ R ∪ V ↔ (m ∈ R ∨ m ∈ V),m is an element of R union V if and only if m is an element of R or m is an element of V
+m ∈ T ∪ R ↔ (m ∈ T ∨ m ∈ R),m is an element of T union R if and only if m is an element of T or m is an element of R
+m ∈ U ∪ Z ↔ (m ∈ U ∨ m ∈ Z),m is an element of U union Z if and only if m is an element of U or m is an element of Z
+m ∈ V \ P,m is an element of V but not in P
+m ∈ W \ S,m is an element of W but not in S
+m ∈ W ∪ X ↔ (m ∈ W ∨ m ∈ X),m is an element of W union X if and only if m is an element of W or m is an element of X
+m ∈ Y ∪ C ↔ (m ∈ Y ∨ m ∈ C),m is an element of Y union C if and only if m is an element of Y or m is an element of C
+m ∈ Q ∩ X ↔ (m ∈ Q ∧ m ∈ X),m is an element of the intersection of Q and X if and only if m is in both Q and X
+m ∈ S ∩ Z ↔ (m ∈ S ∧ m ∈ Z),m is an element of the intersection of S and Z if and only if m is in both S and Z
+m ∈ X ∩ R ↔ (m ∈ X ∧ m ∈ R),m is an element of the intersection of X and R if and only if m is in both X and R
+m ∉ Q,m is not a member of set Q
+m ∉ X,m is not a member of set X
+m ∉ Y,m is not a member of set Y
+n ∈ P ∪ X ↔ (n ∈ P ∨ n ∈ X),n is an element of P union X if and only if n is an element of P or n is an element of X
+n ∈ R ∪ A ↔ (n ∈ R ∨ n ∈ A),n is an element of R union A if and only if n is an element of R or n is an element of A
+n ∈ R ∪ Q ↔ (n ∈ R ∨ n ∈ Q),n is an element of R union Q if and only if n is an element of R or n is an element of Q
+n ∈ T \ X,n is an element of T but not in X
+n ∈ T ∪ W ↔ (n ∈ T ∨ n ∈ W),n is an element of T union W if and only if n is an element of T or n is an element of W
+n ∈ U \ C,n is an element of U but not in C
+n ∈ V \ U,n is an element of V but not in U
+n ∈ V ∪ Q ↔ (n ∈ V ∨ n ∈ Q),n is an element of V union Q if and only if n is an element of V or n is an element of Q
+n ∈ V ∪ R ↔ (n ∈ V ∨ n ∈ R),n is an element of V union R if and only if n is an element of V or n is an element of R
+n ∈ Xᶜ ↔ n ∉ X,n is an element of the complement of X if and only if n is not in X
+n ∈ C ∩ P ↔ (n ∈ C ∧ n ∈ P),n is an element of the intersection of C and P if and only if n is in both C and P
+n ∈ C ∩ Y ↔ (n ∈ C ∧ n ∈ Y),n is an element of the intersection of C and Y if and only if n is in both C and Y
+n ∈ R ∩ A ↔ (n ∈ R ∧ n ∈ A),n is an element of the intersection of R and A if and only if n is in both R and A
+n ∈ Z ∩ V ↔ (n ∈ Z ∧ n ∈ V),n is an element of the intersection of Z and V if and only if n is in both Z and V
+n ∉ R,n is not a member of set R
+n ∉ X,n is not a member of set X
+n ∉ Z,n is not a member of set Z
+s ∈ A ∪ S ↔ (s ∈ A ∨ s ∈ S),s is an element of A union S if and only if s is an element of A or s is an element of S
+s ∈ B \ R,s is an element of B but not in R
+s ∈ P ∪ T ↔ (s ∈ P ∨ s ∈ T),s is an element of P union T if and only if s is an element of P or s is an element of T
+s ∈ R \ V,s is an element of R but not in V
+s ∈ T ∪ X ↔ (s ∈ T ∨ s ∈ X),s is an element of T union X if and only if s is an element of T or s is an element of X
+s ∈ V ∪ A ↔ (s ∈ V ∨ s ∈ A),s is an element of V union A if and only if s is an element of V or s is an element of A
+s ∈ V ∪ W ↔ (s ∈ V ∨ s ∈ W),s is an element of V union W if and only if s is an element of V or s is an element of W
+s ∈ X \ P,s is an element of X but not in P
+s ∈ Z ∪ P ↔ (s ∈ Z ∨ s ∈ P),s is an element of Z union P if and only if s is an element of Z or s is an element of P
+s ∈ Z ∪ W ↔ (s ∈ Z ∨ s ∈ W),s is an element of Z union W if and only if s is an element of Z or s is an element of W
+s ∈ Zᶜ ↔ s ∉ Z,s is an element of the complement of Z if and only if s is not in Z
+s ∈ P ∩ Y ↔ (s ∈ P ∧ s ∈ Y),s is an element of the intersection of P and Y if and only if s is in both P and Y
+s ∈ X ∩ R ↔ (s ∈ X ∧ s ∈ R),s is an element of the intersection of X and R if and only if s is in both X and R
+s ∉ S,s is not a member of set S
+s ∉ T,s is not a member of set T
+t ∈ A ∪ U ↔ (t ∈ A ∨ t ∈ U),t is an element of A union U if and only if t is an element of A or t is an element of U
+t ∈ B ∪ X ↔ (t ∈ B ∨ t ∈ X),t is an element of B union X if and only if t is an element of B or t is an element of X
+t ∈ C \ U,t is an element of C but not in U
+t ∈ R \ S,t is an element of R but not in S
+t ∈ X ∪ A ↔ (t ∈ X ∨ t ∈ A),t is an element of X union A if and only if t is an element of X or t is an element of A
+t ∈ Y \ B,t is an element of Y but not in B
+t ∈ Y ∪ C ↔ (t ∈ Y ∨ t ∈ C),t is an element of Y union C if and only if t is an element of Y or t is an element of C
+t ∈ Aᶜ ↔ t ∉ A,t is an element of the complement of A if and only if t is not in A
+t ∈ Pᶜ ↔ t ∉ P,t is an element of the complement of P if and only if t is not in P
+t ∈ Vᶜ ↔ t ∉ V,t is an element of the complement of V if and only if t is not in V
+t ∈ Wᶜ ↔ t ∉ W,t is an element of the complement of W if and only if t is not in W
+t ∈ P ∩ Q ↔ (t ∈ P ∧ t ∈ Q),t is an element of the intersection of P and Q if and only if t is in both P and Q
+t ∈ S ∩ A ↔ (t ∈ S ∧ t ∈ A),t is an element of the intersection of S and A if and only if t is in both S and A
+t ∈ S ∩ P ↔ (t ∈ S ∧ t ∈ P),t is an element of the intersection of S and P if and only if t is in both S and P
+t ∈ V ∩ X ↔ (t ∈ V ∧ t ∈ X),t is an element of the intersection of V and X if and only if t is in both V and X
+t ∉ A,t is not a member of set A
+t ∉ W,t is not a member of set W
+t ∉ Z,t is not a member of set Z
+u ∈ B \ Q,u is an element of B but not in Q
+u ∈ Q \ Z,u is an element of Q but not in Z
+u ∈ Q ∪ A ↔ (u ∈ Q ∨ u ∈ A),u is an element of Q union A if and only if u is an element of Q or u is an element of A
+u ∈ T ∪ Y ↔ (u ∈ T ∨ u ∈ Y),u is an element of T union Y if and only if u is an element of T or u is an element of Y
+u ∈ V \ T,u is an element of V but not in T
+u ∈ V ∪ T ↔ (u ∈ V ∨ u ∈ T),u is an element of V union T if and only if u is an element of V or u is an element of T
+u ∈ W \ X,u is an element of W but not in X
+u ∈ W ∪ T ↔ (u ∈ W ∨ u ∈ T),u is an element of W union T if and only if u is an element of W or u is an element of T
+u ∈ X \ V,u is an element of X but not in V
+u ∈ Y ∪ U ↔ (u ∈ Y ∨ u ∈ U),u is an element of Y union U if and only if u is an element of Y or u is an element of U
+u ∈ Y ∪ X ↔ (u ∈ Y ∨ u ∈ X),u is an element of Y union X if and only if u is an element of Y or u is an element of X
+u ∈ Z \ Y,u is an element of Z but not in Y
+u ∈ S ∩ Y ↔ (u ∈ S ∧ u ∈ Y),u is an element of the intersection of S and Y if and only if u is in both S and Y
+u ∈ X ∩ Y ↔ (u ∈ X ∧ u ∈ Y),u is an element of the intersection of X and Y if and only if u is in both X and Y
+v ∈ C ∪ Z ↔ (v ∈ C ∨ v ∈ Z),v is an element of C union Z if and only if v is an element of C or v is an element of Z
+v ∈ P ∪ Y ↔ (v ∈ P ∨ v ∈ Y),v is an element of P union Y if and only if v is an element of P or v is an element of Y
+v ∈ Q \ A,v is an element of Q but not in A
+v ∈ Q ∪ P ↔ (v ∈ Q ∨ v ∈ P),v is an element of Q union P if and only if v is an element of Q or v is an element of P
+v ∈ R ∪ Y ↔ (v ∈ R ∨ v ∈ Y),v is an element of R union Y if and only if v is an element of R or v is an element of Y
+v ∈ S ∪ P ↔ (v ∈ S ∨ v ∈ P),v is an element of S union P if and only if v is an element of S or v is an element of P
+v ∈ T \ W,v is an element of T but not in W
+v ∈ V \ T,v is an element of V but not in T
+v ∈ Z ∪ S ↔ (v ∈ Z ∨ v ∈ S),v is an element of Z union S if and only if v is an element of Z or v is an element of S
+v ∈ Bᶜ ↔ v ∉ B,v is an element of the complement of B if and only if v is not in B
+v ∈ Qᶜ ↔ v ∉ Q,v is an element of the complement of Q if and only if v is not in Q
+v ∈ Rᶜ ↔ v ∉ R,v is an element of the complement of R if and only if v is not in R
+v ∈ P ∩ S ↔ (v ∈ P ∧ v ∈ S),v is an element of the intersection of P and S if and only if v is in both P and S
+v ∈ Q ∩ W ↔ (v ∈ Q ∧ v ∈ W),v is an element of the intersection of Q and W if and only if v is in both Q and W
+v ∈ S ∩ A ↔ (v ∈ S ∧ v ∈ A),v is an element of the intersection of S and A if and only if v is in both S and A
+v ∈ W ∩ U ↔ (v ∈ W ∧ v ∈ U),v is an element of the intersection of W and U if and only if v is in both W and U
+v ∈ X ∩ S ↔ (v ∈ X ∧ v ∈ S),v is an element of the intersection of X and S if and only if v is in both X and S
+v ∉ A,v is not a member of set A
+v ∉ B,v is not a member of set B
+v ∉ P,v is not a member of set P
+v ∉ R,v is not a member of set R
+v ∉ T,v is not a member of set T
+v ∉ W,v is not a member of set W
+v ∉ Y,v is not a member of set Y
+w ∈ B ∪ Q ↔ (w ∈ B ∨ w ∈ Q),w is an element of B union Q if and only if w is an element of B or w is an element of Q
+w ∈ U ∪ T ↔ (w ∈ U ∨ w ∈ T),w is an element of U union T if and only if w is an element of U or w is an element of T
+w ∈ V ∪ T ↔ (w ∈ V ∨ w ∈ T),w is an element of V union T if and only if w is an element of V or w is an element of T
+w ∈ X \ T,w is an element of X but not in T
+w ∈ X \ Y,w is an element of X but not in Y
+w ∈ Vᶜ ↔ w ∉ V,w is an element of the complement of V if and only if w is not in V
+w ∈ Yᶜ ↔ w ∉ Y,w is an element of the complement of Y if and only if w is not in Y
+w ∈ C ∩ A ↔ (w ∈ C ∧ w ∈ A),w is an element of the intersection of C and A if and only if w is in both C and A
+w ∈ P ∩ U ↔ (w ∈ P ∧ w ∈ U),w is an element of the intersection of P and U if and only if w is in both P and U
+w ∈ S ∩ V ↔ (w ∈ S ∧ w ∈ V),w is an element of the intersection of S and V if and only if w is in both S and V
+w ∉ X,w is not a member of set X
+x ∈ C ∪ U ↔ (x ∈ C ∨ x ∈ U),x is an element of C union U if and only if x is an element of C or x is an element of U
+x ∈ V ∪ Q ↔ (x ∈ V ∨ x ∈ Q),x is an element of V union Q if and only if x is an element of V or x is an element of Q
+x ∈ Sᶜ ↔ x ∉ S,x is an element of the complement of S if and only if x is not in S
+x ∈ Uᶜ ↔ x ∉ U,x is an element of the complement of U if and only if x is not in U
+x ∈ Vᶜ ↔ x ∉ V,x is an element of the complement of V if and only if x is not in V
+x ∈ Xᶜ ↔ x ∉ X,x is an element of the complement of X if and only if x is not in X
+x ∈ V ∩ B ↔ (x ∈ V ∧ x ∈ B),x is an element of the intersection of V and B if and only if x is in both V and B
+x ∉ Q,x is not a member of set Q
+x ∉ T,x is not a member of set T
+x ∉ U,x is not a member of set U
+x ∉ V,x is not a member of set V
+y ∈ B \ Q,y is an element of B but not in Q
+y ∈ B ∪ P ↔ (y ∈ B ∨ y ∈ P),y is an element of B union P if and only if y is an element of B or y is an element of P
+y ∈ P \ V,y is an element of P but not in V
+y ∈ P ∪ T ↔ (y ∈ P ∨ y ∈ T),y is an element of P union T if and only if y is an element of P or y is an element of T
+y ∈ P ∪ U ↔ (y ∈ P ∨ y ∈ U),y is an element of P union U if and only if y is an element of P or y is an element of U
+y ∈ Q \ U,y is an element of Q but not in U
+y ∈ U ∪ S ↔ (y ∈ U ∨ y ∈ S),y is an element of U union S if and only if y is an element of U or y is an element of S
+y ∈ W ∪ V ↔ (y ∈ W ∨ y ∈ V),y is an element of W union V if and only if y is an element of W or y is an element of V
+y ∈ Aᶜ ↔ y ∉ A,y is an element of the complement of A if and only if y is not in A
+y ∈ Sᶜ ↔ y ∉ S,y is an element of the complement of S if and only if y is not in S
+y ∈ Zᶜ ↔ y ∉ Z,y is an element of the complement of Z if and only if y is not in Z
+y ∈ R ∩ T ↔ (y ∈ R ∧ y ∈ T),y is an element of the intersection of R and T if and only if y is in both R and T
+y ∈ R ∩ Y ↔ (y ∈ R ∧ y ∈ Y),y is an element of the intersection of R and Y if and only if y is in both R and Y
+y ∈ V ∩ Z ↔ (y ∈ V ∧ y ∈ Z),y is an element of the intersection of V and Z if and only if y is in both V and Z
+y ∈ X ∩ V ↔ (y ∈ X ∧ y ∈ V),y is an element of the intersection of X and V if and only if y is in both X and V
+y ∈ Y ∩ R ↔ (y ∈ Y ∧ y ∈ R),y is an element of the intersection of Y and R if and only if y is in both Y and R
+y ∈ Z ∩ B ↔ (y ∈ Z ∧ y ∈ B),y is an element of the intersection of Z and B if and only if y is in both Z and B
+y ∈ Z ∩ Q ↔ (y ∈ Z ∧ y ∈ Q),y is an element of the intersection of Z and Q if and only if y is in both Z and Q
+y ∉ C,y is not a member of set C
+y ∉ Q,y is not a member of set Q
+y ∉ R,y is not a member of set R
+y ∉ X,y is not a member of set X
+y ∉ Z,y is not a member of set Z
+z ∈ S ∪ A ↔ (z ∈ S ∨ z ∈ A),z is an element of S union A if and only if z is an element of S or z is an element of A
+z ∈ S ∪ B ↔ (z ∈ S ∨ z ∈ B),z is an element of S union B if and only if z is an element of S or z is an element of B
+z ∈ T ∪ Q ↔ (z ∈ T ∨ z ∈ Q),z is an element of T union Q if and only if z is an element of T or z is an element of Q
+z ∈ X ∪ P ↔ (z ∈ X ∨ z ∈ P),z is an element of X union P if and only if z is an element of X or z is an element of P
+z ∈ Y ∪ A ↔ (z ∈ Y ∨ z ∈ A),z is an element of Y union A if and only if z is an element of Y or z is an element of A
+z ∈ Y ∪ Z ↔ (z ∈ Y ∨ z ∈ Z),z is an element of Y union Z if and only if z is an element of Y or z is an element of Z
+z ∈ Bᶜ ↔ z ∉ B,z is an element of the complement of B if and only if z is not in B
+z ∈ Qᶜ ↔ z ∉ Q,z is an element of the complement of Q if and only if z is not in Q
+z ∈ Vᶜ ↔ z ∉ V,z is an element of the complement of V if and only if z is not in V
+z ∈ B ∩ T ↔ (z ∈ B ∧ z ∈ T),z is an element of the intersection of B and T if and only if z is in both B and T
+z ∈ T ∩ S ↔ (z ∈ T ∧ z ∈ S),z is an element of the intersection of T and S if and only if z is in both T and S
+z ∈ T ∩ W ↔ (z ∈ T ∧ z ∈ W),z is an element of the intersection of T and W if and only if z is in both T and W
+z ∈ V ∩ R ↔ (z ∈ V ∧ z ∈ R),z is an element of the intersection of V and R if and only if z is in both V and R
+z ∈ V ∩ U ↔ (z ∈ V ∧ z ∈ U),z is an element of the intersection of V and U if and only if z is in both V and U
+z ∈ W ∩ V ↔ (z ∈ W ∧ z ∈ V),z is an element of the intersection of W and V if and only if z is in both W and V
+z ∈ X ∩ Y ↔ (z ∈ X ∧ z ∈ Y),z is an element of the intersection of X and Y if and only if z is in both X and Y
+z ∉ B,z is not a member of set B
+z ∉ Q,z is not a member of set Q
+z ∉ X,z is not a member of set X
+A ∪ ∅ = A,The union of A and the empty set equals A
+A ∩ ∅ = ∅,The intersection of A and the empty set equals the empty set
+A ∪ U = U,The union of A and the universal set equals the universal set
+A ∩ U = A,The intersection of A and the universal set equals A
+A ∪ Aᶜ = U,The union of A and its complement equals the universal set
+A ∩ Aᶜ = ∅,The intersection of A and its complement equals the empty set
+∅ᶜ = U,The complement of the empty set is the universal set
+Uᶜ = ∅,The complement of the universal set is the empty set
+A ∪ A = A,The union of A with itself equals A
+A ∩ A = A,The intersection of A with itself equals A
+A ∪ B = B ∪ A,Union is commutative
+A ∩ B = B ∩ A,Intersection is commutative
+(A ∪ B) ∪ C = A ∪ (B ∪ C),Union is associative
+(A ∩ B) ∩ C = A ∩ (B ∩ C),Intersection is associative
+A \ B = A ∩ Bᶜ,Set difference equals intersection with complement
+A \ ∅ = A,The difference of A and the empty set equals A
+∅ \ A = ∅,The difference of the empty set and A equals the empty set
+A \ A = ∅,The difference of A and itself equals the empty set
+A ⊆ B ↔ A ∪ B = B,A is a subset of B if and only if their union equals B
+A ⊆ B ↔ A ∩ B = A,A is a subset of B if and only if their intersection equals A
+A ⊆ B ↔ A ∩ Bᶜ = ∅,A is a subset of B if and only if A intersected with the complement of B is empty
+A \ (B ∪ C) = (A \ B) ∩ (A \ C),Set difference distributes over union
+A \ (B ∩ C) = (A \ B) ∪ (A \ C),Set difference anti-distributes over intersection
+|𝒫(A)| = 2^|A|,The cardinality of the power set of A equals 2 to the power of the cardinality of A
+A ⊆ B → 𝒫(A) ⊆ 𝒫(B),If A is a subset of B then the power set of A is a subset of the power set of B
+A ⊆ B ↔ ∀x (x ∈ A → x ∈ B),"A is a subset of B if and only if for all x, if x is an element of A then x is an element of B"
+A = B ↔ ∀x (x ∈ A ↔ x ∈ B),"A equals B if and only if for all x, x is an element of A if and only if x is an element of B"
+A ∩ B = ∅ ↔ A and B are disjoint,A intersected with B equals the empty set if and only if A and B are disjoint

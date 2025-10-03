@@ -1,0 +1,1069 @@
+Linear_Algebra,Natural_Language
+"v = [v₁, v₂, ..., vₙ]","the vector v with components v1, v2, through vn"
+"v = [v₁, v₂, v₃]","the vector v with components v1, v2, and v3"
+"v = [v₁, v₂]",the vector v with components v1 and v2
+"[v₁, v₂, v₃]","the vector with components v1, v2, and v3"
+"(v₁, v₂, v₃)","the vector with components v1, v2, and v3"
+vᵢ,the i-th component of vector v
+"w = [w₁, w₂, ..., wₙ]","the vector w with components w1, w2, through wn"
+"w = [w₁, w₂, w₃]","the vector w with components w1, w2, and w3"
+"w = [w₁, w₂]",the vector w with components w1 and w2
+"[w₁, w₂, w₃]","the vector with components w1, w2, and w3"
+"(w₁, w₂, w₃)","the vector with components w1, w2, and w3"
+wᵢ,the i-th component of vector w
+"u = [u₁, u₂, ..., uₙ]","the vector u with components u1, u2, through un"
+"u = [u₁, u₂, u₃]","the vector u with components u1, u2, and u3"
+"u = [u₁, u₂]",the vector u with components u1 and u2
+"[u₁, u₂, u₃]","the vector with components u1, u2, and u3"
+"(u₁, u₂, u₃)","the vector with components u1, u2, and u3"
+uᵢ,the i-th component of vector u
+"x = [x₁, x₂, ..., xₙ]","the vector x with components x1, x2, through xn"
+"x = [x₁, x₂, x₃]","the vector x with components x1, x2, and x3"
+"x = [x₁, x₂]",the vector x with components x1 and x2
+"[x₁, x₂, x₃]","the vector with components x1, x2, and x3"
+"(x₁, x₂, x₃)","the vector with components x1, x2, and x3"
+xᵢ,the i-th component of vector x
+"y = [y₁, y₂, ..., yₙ]","the vector y with components y1, y2, through yn"
+"y = [y₁, y₂, y₃]","the vector y with components y1, y2, and y3"
+"y = [y₁, y₂]",the vector y with components y1 and y2
+"[y₁, y₂, y₃]","the vector with components y1, y2, and y3"
+"(y₁, y₂, y₃)","the vector with components y1, y2, and y3"
+yᵢ,the i-th component of vector y
+"z = [z₁, z₂, ..., zₙ]","the vector z with components z1, z2, through zn"
+"z = [z₁, z₂, z₃]","the vector z with components z1, z2, and z3"
+"z = [z₁, z₂]",the vector z with components z1 and z2
+"[z₁, z₂, z₃]","the vector with components z1, z2, and z3"
+"(z₁, z₂, z₃)","the vector with components z1, z2, and z3"
+zᵢ,the i-th component of vector z
+v = [v₁; v₂; v₃],"the column vector v with components v1, v2, and v3"
+vᵀ,the transpose of vector v
+[v₁ v₂ v₃],"the row vector with components v1, v2, and v3"
+w = [w₁; w₂; w₃],"the column vector w with components w1, w2, and w3"
+wᵀ,the transpose of vector w
+[w₁ w₂ w₃],"the row vector with components w1, w2, and w3"
+u = [u₁; u₂; u₃],"the column vector u with components u1, u2, and u3"
+uᵀ,the transpose of vector u
+[u₁ u₂ u₃],"the row vector with components u1, u2, and u3"
+x = [x₁; x₂; x₃],"the column vector x with components x1, x2, and x3"
+xᵀ,the transpose of vector x
+[x₁ x₂ x₃],"the row vector with components x1, x2, and x3"
+v + w,the sum of vectors v and w
+v - w,the difference of vectors v and w
+v + w + a,"the sum of vectors v, w, and a"
+cv,the scalar c times vector v
+αv,the scalar alpha times vector v
+kv,the scalar k times vector v
+-v,the negative of vector v
+v ⋅ w,the dot product of vectors v and w
+"⟨v, w⟩",the inner product of vectors v and w
+v · w,the dot product of vectors v and w
+vᵀw,the transpose of v times w
+v × w,the cross product of vectors v and w
+v ∧ w,the wedge product of vectors v and w
+v + u,the sum of vectors v and u
+v - u,the difference of vectors v and u
+v + u + a,"the sum of vectors v, u, and a"
+v ⋅ u,the dot product of vectors v and u
+"⟨v, u⟩",the inner product of vectors v and u
+v · u,the dot product of vectors v and u
+vᵀu,the transpose of v times u
+v × u,the cross product of vectors v and u
+v ∧ u,the wedge product of vectors v and u
+v + x,the sum of vectors v and x
+v - x,the difference of vectors v and x
+v + x + a,"the sum of vectors v, x, and a"
+v ⋅ x,the dot product of vectors v and x
+"⟨v, x⟩",the inner product of vectors v and x
+v · x,the dot product of vectors v and x
+vᵀx,the transpose of v times x
+v × x,the cross product of vectors v and x
+v ∧ x,the wedge product of vectors v and x
+v + y,the sum of vectors v and y
+v - y,the difference of vectors v and y
+v + y + a,"the sum of vectors v, y, and a"
+v ⋅ y,the dot product of vectors v and y
+"⟨v, y⟩",the inner product of vectors v and y
+v · y,the dot product of vectors v and y
+vᵀy,the transpose of v times y
+v × y,the cross product of vectors v and y
+v ∧ y,the wedge product of vectors v and y
+w + u,the sum of vectors w and u
+w - u,the difference of vectors w and u
+w + u + a,"the sum of vectors w, u, and a"
+cw,the scalar c times vector w
+αw,the scalar alpha times vector w
+kw,the scalar k times vector w
+-w,the negative of vector w
+w ⋅ u,the dot product of vectors w and u
+"⟨w, u⟩",the inner product of vectors w and u
+w · u,the dot product of vectors w and u
+wᵀu,the transpose of w times u
+w × u,the cross product of vectors w and u
+w ∧ u,the wedge product of vectors w and u
+w + x,the sum of vectors w and x
+w - x,the difference of vectors w and x
+w + x + a,"the sum of vectors w, x, and a"
+w ⋅ x,the dot product of vectors w and x
+"⟨w, x⟩",the inner product of vectors w and x
+w · x,the dot product of vectors w and x
+wᵀx,the transpose of w times x
+w × x,the cross product of vectors w and x
+w ∧ x,the wedge product of vectors w and x
+w + y,the sum of vectors w and y
+w - y,the difference of vectors w and y
+w + y + a,"the sum of vectors w, y, and a"
+w ⋅ y,the dot product of vectors w and y
+"⟨w, y⟩",the inner product of vectors w and y
+w · y,the dot product of vectors w and y
+wᵀy,the transpose of w times y
+w × y,the cross product of vectors w and y
+w ∧ y,the wedge product of vectors w and y
+u + x,the sum of vectors u and x
+u - x,the difference of vectors u and x
+u + x + a,"the sum of vectors u, x, and a"
+cu,the scalar c times vector u
+αu,the scalar alpha times vector u
+ku,the scalar k times vector u
+-u,the negative of vector u
+u ⋅ x,the dot product of vectors u and x
+"⟨u, x⟩",the inner product of vectors u and x
+u · x,the dot product of vectors u and x
+uᵀx,the transpose of u times x
+u × x,the cross product of vectors u and x
+u ∧ x,the wedge product of vectors u and x
+u + y,the sum of vectors u and y
+u - y,the difference of vectors u and y
+u + y + a,"the sum of vectors u, y, and a"
+u ⋅ y,the dot product of vectors u and y
+"⟨u, y⟩",the inner product of vectors u and y
+u · y,the dot product of vectors u and y
+uᵀy,the transpose of u times y
+u × y,the cross product of vectors u and y
+u ∧ y,the wedge product of vectors u and y
+‖v‖,the norm of vector v
+‖v‖₂,the Euclidean norm of vector v
+‖v‖₁,the L1 norm of vector v
+‖v‖∞,the infinity norm of vector v
+‖v‖ₚ,the p-norm of vector v
+|v|,the magnitude of vector v
+‖w‖,the norm of vector w
+‖w‖₂,the Euclidean norm of vector w
+‖w‖₁,the L1 norm of vector w
+‖w‖∞,the infinity norm of vector w
+‖w‖ₚ,the p-norm of vector w
+|w|,the magnitude of vector w
+‖u‖,the norm of vector u
+‖u‖₂,the Euclidean norm of vector u
+‖u‖₁,the L1 norm of vector u
+‖u‖∞,the infinity norm of vector u
+‖u‖ₚ,the p-norm of vector u
+|u|,the magnitude of vector u
+‖x‖,the norm of vector x
+‖x‖₂,the Euclidean norm of vector x
+‖x‖₁,the L1 norm of vector x
+‖x‖∞,the infinity norm of vector x
+‖x‖ₚ,the p-norm of vector x
+|x|,the magnitude of vector x
+‖y‖,the norm of vector y
+‖y‖₂,the Euclidean norm of vector y
+‖y‖₁,the L1 norm of vector y
+‖y‖∞,the infinity norm of vector y
+‖y‖ₚ,the p-norm of vector y
+|y|,the magnitude of vector y
+‖z‖,the norm of vector z
+‖z‖₂,the Euclidean norm of vector z
+‖z‖₁,the L1 norm of vector z
+‖z‖∞,the infinity norm of vector z
+‖z‖ₚ,the p-norm of vector z
+|z|,the magnitude of vector z
+‖v - w‖,the distance between vectors v and w
+"d(v, w)",the distance between vectors v and w
+‖v - u‖,the distance between vectors v and u
+"d(v, u)",the distance between vectors v and u
+‖v - x‖,the distance between vectors v and x
+"d(v, x)",the distance between vectors v and x
+‖w - u‖,the distance between vectors w and u
+"d(w, u)",the distance between vectors w and u
+‖w - x‖,the distance between vectors w and x
+"d(w, x)",the distance between vectors w and x
+‖u - x‖,the distance between vectors u and x
+"d(u, x)",the distance between vectors u and x
+A = [Aᵢⱼ],the matrix A with entries A i j
+Aᵢⱼ,the entry in row i and column j of matrix A
+[A]ᵢⱼ,the i j entry of matrix A
+A ∈ ℝᵐˣⁿ,matrix A is an m by n real matrix
+A ∈ ℝⁿˣⁿ,matrix A is an n by n real matrix
+A ∈ ℝ³ˣ³,matrix A is a 3 by 3 real matrix
+A₃₃,the 3 by 3 matrix A
+Aₘₙ,the m by n matrix A
+Aᵀ,the transpose of matrix A
+Aᵀᵀ,the transpose of the transpose of matrix A
+(Aᵀ)ᵢⱼ,the i j entry of the transpose of matrix A
+tr(A),the trace of matrix A
+trace(A),the trace of matrix A
+det(A),the determinant of matrix A
+|A|,the determinant of matrix A
+det A,the determinant of matrix A
+A⁻¹,the inverse of matrix A
+A*,the conjugate transpose of matrix A
+B = [Bᵢⱼ],the matrix B with entries B i j
+Bᵢⱼ,the entry in row i and column j of matrix B
+[B]ᵢⱼ,the i j entry of matrix B
+B ∈ ℝᵐˣⁿ,matrix B is an m by n real matrix
+B ∈ ℝⁿˣⁿ,matrix B is an n by n real matrix
+B ∈ ℝ³ˣ³,matrix B is a 3 by 3 real matrix
+B₃₃,the 3 by 3 matrix B
+Bₘₙ,the m by n matrix B
+Bᵀ,the transpose of matrix B
+Bᵀᵀ,the transpose of the transpose of matrix B
+(Bᵀ)ᵢⱼ,the i j entry of the transpose of matrix B
+tr(B),the trace of matrix B
+trace(B),the trace of matrix B
+det(B),the determinant of matrix B
+|B|,the determinant of matrix B
+det B,the determinant of matrix B
+B⁻¹,the inverse of matrix B
+B*,the conjugate transpose of matrix B
+C = [Cᵢⱼ],the matrix C with entries C i j
+Cᵢⱼ,the entry in row i and column j of matrix C
+[C]ᵢⱼ,the i j entry of matrix C
+C ∈ ℝᵐˣⁿ,matrix C is an m by n real matrix
+C ∈ ℝⁿˣⁿ,matrix C is an n by n real matrix
+C ∈ ℝ³ˣ³,matrix C is a 3 by 3 real matrix
+C₃₃,the 3 by 3 matrix C
+Cₘₙ,the m by n matrix C
+Cᵀ,the transpose of matrix C
+Cᵀᵀ,the transpose of the transpose of matrix C
+(Cᵀ)ᵢⱼ,the i j entry of the transpose of matrix C
+tr(C),the trace of matrix C
+trace(C),the trace of matrix C
+det(C),the determinant of matrix C
+|C|,the determinant of matrix C
+det C,the determinant of matrix C
+C⁻¹,the inverse of matrix C
+C*,the conjugate transpose of matrix C
+M = [Mᵢⱼ],the matrix M with entries M i j
+Mᵢⱼ,the entry in row i and column j of matrix M
+[M]ᵢⱼ,the i j entry of matrix M
+M ∈ ℝᵐˣⁿ,matrix M is an m by n real matrix
+M ∈ ℝⁿˣⁿ,matrix M is an n by n real matrix
+M ∈ ℝ³ˣ³,matrix M is a 3 by 3 real matrix
+M₃₃,the 3 by 3 matrix M
+Mₘₙ,the m by n matrix M
+Mᵀ,the transpose of matrix M
+Mᵀᵀ,the transpose of the transpose of matrix M
+(Mᵀ)ᵢⱼ,the i j entry of the transpose of matrix M
+tr(M),the trace of matrix M
+trace(M),the trace of matrix M
+det(M),the determinant of matrix M
+|M|,the determinant of matrix M
+det M,the determinant of matrix M
+M⁻¹,the inverse of matrix M
+M*,the conjugate transpose of matrix M
+P = [Pᵢⱼ],the matrix P with entries P i j
+Pᵢⱼ,the entry in row i and column j of matrix P
+[P]ᵢⱼ,the i j entry of matrix P
+P ∈ ℝᵐˣⁿ,matrix P is an m by n real matrix
+P ∈ ℝⁿˣⁿ,matrix P is an n by n real matrix
+P ∈ ℝ³ˣ³,matrix P is a 3 by 3 real matrix
+P₃₃,the 3 by 3 matrix P
+Pₘₙ,the m by n matrix P
+Pᵀ,the transpose of matrix P
+Pᵀᵀ,the transpose of the transpose of matrix P
+(Pᵀ)ᵢⱼ,the i j entry of the transpose of matrix P
+tr(P),the trace of matrix P
+trace(P),the trace of matrix P
+det(P),the determinant of matrix P
+|P|,the determinant of matrix P
+det P,the determinant of matrix P
+P⁻¹,the inverse of matrix P
+P*,the conjugate transpose of matrix P
+Q = [Qᵢⱼ],the matrix Q with entries Q i j
+Qᵢⱼ,the entry in row i and column j of matrix Q
+[Q]ᵢⱼ,the i j entry of matrix Q
+Q ∈ ℝᵐˣⁿ,matrix Q is an m by n real matrix
+Q ∈ ℝⁿˣⁿ,matrix Q is an n by n real matrix
+Q ∈ ℝ³ˣ³,matrix Q is a 3 by 3 real matrix
+Q₃₃,the 3 by 3 matrix Q
+Qₘₙ,the m by n matrix Q
+Qᵀ,the transpose of matrix Q
+Qᵀᵀ,the transpose of the transpose of matrix Q
+(Qᵀ)ᵢⱼ,the i j entry of the transpose of matrix Q
+tr(Q),the trace of matrix Q
+trace(Q),the trace of matrix Q
+det(Q),the determinant of matrix Q
+|Q|,the determinant of matrix Q
+det Q,the determinant of matrix Q
+Q⁻¹,the inverse of matrix Q
+Q*,the conjugate transpose of matrix Q
+A + B,the sum of matrices A and B
+A - B,the difference of matrices A and B
+AB,the product of matrices A and B
+A · B,the product of matrices A and B
+kA,the scalar k times matrix A
+cA,the scalar c times matrix A
+AᵀB,the transpose of A times B
+ABᵀ,matrix A times the transpose of B
+AᵀBᵀ,the transpose of A times the transpose of B
+det(AB),the determinant of the product of matrices A and B
+|AB|,the determinant of the product of matrices A and B
+A = B,matrix A equals matrix B
+A ≈ B,matrix A is approximately equal to matrix B
+A + C,the sum of matrices A and C
+A - C,the difference of matrices A and C
+AC,the product of matrices A and C
+A · C,the product of matrices A and C
+AᵀC,the transpose of A times C
+ACᵀ,matrix A times the transpose of C
+AᵀCᵀ,the transpose of A times the transpose of C
+det(AC),the determinant of the product of matrices A and C
+|AC|,the determinant of the product of matrices A and C
+A = C,matrix A equals matrix C
+A ≈ C,matrix A is approximately equal to matrix C
+A + M,the sum of matrices A and M
+A - M,the difference of matrices A and M
+AM,the product of matrices A and M
+A · M,the product of matrices A and M
+AᵀM,the transpose of A times M
+AMᵀ,matrix A times the transpose of M
+AᵀMᵀ,the transpose of A times the transpose of M
+det(AM),the determinant of the product of matrices A and M
+|AM|,the determinant of the product of matrices A and M
+A = M,matrix A equals matrix M
+A ≈ M,matrix A is approximately equal to matrix M
+A + P,the sum of matrices A and P
+A - P,the difference of matrices A and P
+AP,the product of matrices A and P
+A · P,the product of matrices A and P
+AᵀP,the transpose of A times P
+APᵀ,matrix A times the transpose of P
+AᵀPᵀ,the transpose of A times the transpose of P
+det(AP),the determinant of the product of matrices A and P
+|AP|,the determinant of the product of matrices A and P
+A = P,matrix A equals matrix P
+A ≈ P,matrix A is approximately equal to matrix P
+B + C,the sum of matrices B and C
+B - C,the difference of matrices B and C
+BC,the product of matrices B and C
+B · C,the product of matrices B and C
+kB,the scalar k times matrix B
+cB,the scalar c times matrix B
+BᵀC,the transpose of B times C
+BCᵀ,matrix B times the transpose of C
+BᵀCᵀ,the transpose of B times the transpose of C
+det(BC),the determinant of the product of matrices B and C
+|BC|,the determinant of the product of matrices B and C
+B = C,matrix B equals matrix C
+B ≈ C,matrix B is approximately equal to matrix C
+B + M,the sum of matrices B and M
+B - M,the difference of matrices B and M
+BM,the product of matrices B and M
+B · M,the product of matrices B and M
+BᵀM,the transpose of B times M
+BMᵀ,matrix B times the transpose of M
+BᵀMᵀ,the transpose of B times the transpose of M
+det(BM),the determinant of the product of matrices B and M
+|BM|,the determinant of the product of matrices B and M
+B = M,matrix B equals matrix M
+B ≈ M,matrix B is approximately equal to matrix M
+B + P,the sum of matrices B and P
+B - P,the difference of matrices B and P
+BP,the product of matrices B and P
+B · P,the product of matrices B and P
+BᵀP,the transpose of B times P
+BPᵀ,matrix B times the transpose of P
+BᵀPᵀ,the transpose of B times the transpose of P
+det(BP),the determinant of the product of matrices B and P
+|BP|,the determinant of the product of matrices B and P
+B = P,matrix B equals matrix P
+B ≈ P,matrix B is approximately equal to matrix P
+C + M,the sum of matrices C and M
+C - M,the difference of matrices C and M
+CM,the product of matrices C and M
+C · M,the product of matrices C and M
+kC,the scalar k times matrix C
+cC,the scalar c times matrix C
+CᵀM,the transpose of C times M
+CMᵀ,matrix C times the transpose of M
+CᵀMᵀ,the transpose of C times the transpose of M
+M is upper triangular,matrix M is upper triangular
+B is invertible,matrix B is invertible
+C is positive definite,matrix C is positive definite
+B is upper triangular,matrix B is upper triangular
+0,the zero matrix
+C is upper triangular,matrix C is upper triangular
+A is lower triangular,matrix A is lower triangular
+B is lower triangular,matrix B is lower triangular
+A is singular,matrix A is singular
+C is diagonal,matrix C is diagonal
+B is symmetric,matrix B is symmetric
+B is diagonal,matrix B is diagonal
+C is symmetric,matrix C is symmetric
+M is positive definite,matrix M is positive definite
+M is orthogonal,matrix M is orthogonal
+M is invertible,matrix M is invertible
+C is lower triangular,matrix C is lower triangular
+C is singular,matrix C is singular
+Iₙ,the n by n identity matrix
+B is positive definite,matrix B is positive definite
+A is diagonal,matrix A is diagonal
+A is invertible,matrix A is invertible
+M is singular,matrix M is singular
+A is orthogonal,matrix A is orthogonal
+O,the zero matrix
+A is symmetric,matrix A is symmetric
+B is singular,matrix B is singular
+M is diagonal,matrix M is diagonal
+B is orthogonal,matrix B is orthogonal
+M is symmetric,matrix M is symmetric
+A is positive definite,matrix A is positive definite
+I₃,the 3 by 3 identity matrix
+C is invertible,matrix C is invertible
+M is lower triangular,matrix M is lower triangular
+0ₘₙ,the m by n zero matrix
+I,the identity matrix
+C is orthogonal,matrix C is orthogonal
+A is upper triangular,matrix A is upper triangular
+Av,matrix A times vector v
+A · v,matrix A applied to vector v
+T(v),the linear transformation T applied to vector v
+L(v),the linear operator L applied to vector v
+Aᵀv,the transpose of matrix A times vector v
+Aw,matrix A times vector w
+A · w,matrix A applied to vector w
+T(w),the linear transformation T applied to vector w
+L(w),the linear operator L applied to vector w
+Aᵀw,the transpose of matrix A times vector w
+Au,matrix A times vector u
+A · u,matrix A applied to vector u
+T(u),the linear transformation T applied to vector u
+L(u),the linear operator L applied to vector u
+Aᵀu,the transpose of matrix A times vector u
+Ax,matrix A times vector x
+A · x,matrix A applied to vector x
+T(x),the linear transformation T applied to vector x
+L(x),the linear operator L applied to vector x
+Aᵀx,the transpose of matrix A times vector x
+Bv,matrix B times vector v
+B · v,matrix B applied to vector v
+Bᵀv,the transpose of matrix B times vector v
+Bw,matrix B times vector w
+B · w,matrix B applied to vector w
+Bᵀw,the transpose of matrix B times vector w
+Bu,matrix B times vector u
+B · u,matrix B applied to vector u
+Bᵀu,the transpose of matrix B times vector u
+Bx,matrix B times vector x
+B · x,matrix B applied to vector x
+Bᵀx,the transpose of matrix B times vector x
+Cv,matrix C times vector v
+C · v,matrix C applied to vector v
+Cᵀv,the transpose of matrix C times vector v
+Cw,matrix C times vector w
+C · w,matrix C applied to vector w
+Cᵀw,the transpose of matrix C times vector w
+Cu,matrix C times vector u
+C · u,matrix C applied to vector u
+Cᵀu,the transpose of matrix C times vector u
+Cx,matrix C times vector x
+C · x,matrix C applied to vector x
+Cᵀx,the transpose of matrix C times vector x
+Av = λv,matrix A times vector v equals λ times vector v
+Av = λv,the matrix A times vector v equals the scalar lambda times vector v
+(A - λI)v = 0,matrix A minus λ times the identity matrix times vector v equals zero
+det(A - λI) = 0,the determinant of matrix A minus λ times the identity equals zero
+Av = μv,matrix A times vector v equals μ times vector v
+(A - μI)v = 0,matrix A minus μ times the identity matrix times vector v equals zero
+det(A - μI) = 0,the determinant of matrix A minus μ times the identity equals zero
+Aw = λw,matrix A times vector w equals λ times vector w
+Aw = λw,the matrix A times vector w equals the scalar lambda times vector w
+(A - λI)w = 0,matrix A minus λ times the identity matrix times vector w equals zero
+Aw = μw,matrix A times vector w equals μ times vector w
+(A - μI)w = 0,matrix A minus μ times the identity matrix times vector w equals zero
+Au = λu,matrix A times vector u equals λ times vector u
+Au = λu,the matrix A times vector u equals the scalar lambda times vector u
+(A - λI)u = 0,matrix A minus λ times the identity matrix times vector u equals zero
+Au = μu,matrix A times vector u equals μ times vector u
+(A - μI)u = 0,matrix A minus μ times the identity matrix times vector u equals zero
+Bv = λv,matrix B times vector v equals λ times vector v
+(B - λI)v = 0,matrix B minus λ times the identity matrix times vector v equals zero
+det(B - λI) = 0,the determinant of matrix B minus λ times the identity equals zero
+Bv = μv,matrix B times vector v equals μ times vector v
+(B - μI)v = 0,matrix B minus μ times the identity matrix times vector v equals zero
+det(B - μI) = 0,the determinant of matrix B minus μ times the identity equals zero
+Bw = λw,matrix B times vector w equals λ times vector w
+(B - λI)w = 0,matrix B minus λ times the identity matrix times vector w equals zero
+Bw = μw,matrix B times vector w equals μ times vector w
+(B - μI)w = 0,matrix B minus μ times the identity matrix times vector w equals zero
+Bu = λu,matrix B times vector u equals λ times vector u
+(B - λI)u = 0,matrix B minus λ times the identity matrix times vector u equals zero
+Bu = μu,matrix B times vector u equals μ times vector u
+(B - μI)u = 0,matrix B minus μ times the identity matrix times vector u equals zero
+Cv = λv,matrix C times vector v equals λ times vector v
+(C - λI)v = 0,matrix C minus λ times the identity matrix times vector v equals zero
+det(C - λI) = 0,the determinant of matrix C minus λ times the identity equals zero
+Cv = μv,matrix C times vector v equals μ times vector v
+(C - μI)v = 0,matrix C minus μ times the identity matrix times vector v equals zero
+det(C - μI) = 0,the determinant of matrix C minus μ times the identity equals zero
+Cw = λw,matrix C times vector w equals λ times vector w
+(C - λI)w = 0,matrix C minus λ times the identity matrix times vector w equals zero
+Cw = μw,matrix C times vector w equals μ times vector w
+(C - μI)w = 0,matrix C minus μ times the identity matrix times vector w equals zero
+Cu = λu,matrix C times vector u equals λ times vector u
+(C - λI)u = 0,matrix C minus λ times the identity matrix times vector u equals zero
+Cu = μu,matrix C times vector u equals μ times vector u
+(C - μI)u = 0,matrix C minus μ times the identity matrix times vector u equals zero
+Mv = λv,matrix M times vector v equals λ times vector v
+(M - λI)v = 0,matrix M minus λ times the identity matrix times vector v equals zero
+det(M - λI) = 0,the determinant of matrix M minus λ times the identity equals zero
+Mv = μv,matrix M times vector v equals μ times vector v
+(M - μI)v = 0,matrix M minus μ times the identity matrix times vector v equals zero
+det(M - μI) = 0,the determinant of matrix M minus μ times the identity equals zero
+ℝⁿ,the n-dimensional real coordinate space
+ℝ²,the 2-dimensional real coordinate space
+ℝ³,the 3-dimensional real coordinate space
+ℝ⁴,the 4-dimensional real coordinate space
+ℂⁿ,the n-dimensional complex coordinate space
+ℂ²,the 2-dimensional complex coordinate space
+ℂ³,the 3-dimensional complex coordinate space
+v ∈ ℝⁿ,vector v is in the n-dimensional real space
+v ∈ ℝ³,vector v is in 3-dimensional real space
+"span(v₁, v₂, ..., vₖ)","the span of vectors v1, v2, through vk"
+"span{v₁, v₂, v₃}","the span of vectors v1, v2, and v3"
+dim(V),the dimension of vector space V
+rank(A),the rank of matrix A
+null(A),the null space of matrix A
+ker(A),the kernel of matrix A
+im(A),the image of matrix A
+range(A),the range of matrix A
+col(A),the column space of matrix A
+row(A),the row space of matrix A
+w ∈ ℝⁿ,vector w is in the n-dimensional real space
+w ∈ ℝ³,vector w is in 3-dimensional real space
+"span(w₁, w₂, ..., wₖ)","the span of vectors w1, w2, through wk"
+u ∈ ℝⁿ,vector u is in the n-dimensional real space
+u ∈ ℝ³,vector u is in 3-dimensional real space
+"span(u₁, u₂, ..., uₖ)","the span of vectors u1, u2, through uk"
+x ∈ ℝⁿ,vector x is in the n-dimensional real space
+x ∈ ℝ³,vector x is in 3-dimensional real space
+"span(x₁, x₂, ..., xₖ)","the span of vectors x1, x2, through xk"
+Av = w,the linear system A times v equals w
+Ax = b,the linear system A times x equals b
+Ax = 0,the homogeneous linear system A times x equals zero
+Av = λv,the eigenvalue equation A times v equals lambda times v
+Av = u,the linear system A times v equals u
+Av = x,the linear system A times v equals x
+Aw = u,the linear system A times w equals u
+Aw = λw,the eigenvalue equation A times w equals lambda times w
+Aw = x,the linear system A times w equals x
+Au = x,the linear system A times u equals x
+Au = λu,the eigenvalue equation A times u equals lambda times u
+Bv = w,the linear system B times v equals w
+Bx = b,the linear system B times x equals b
+Bv = λv,the eigenvalue equation B times v equals lambda times v
+Bv = u,the linear system B times v equals u
+Bv = x,the linear system B times v equals x
+Bw = u,the linear system B times w equals u
+Bw = λw,the eigenvalue equation B times w equals lambda times w
+Bw = x,the linear system B times w equals x
+Bu = x,the linear system B times u equals x
+Bu = λu,the eigenvalue equation B times u equals lambda times u
+A = LU,matrix A equals L times U
+LU,the LU decomposition
+A = QR,matrix A equals Q times R
+QR,the QR decomposition
+A = UΣVᵀ,matrix A equals U times Sigma times V transpose
+SVD(A),the singular value decomposition of matrix A
+A = PDP⁻¹,matrix A equals P times D times P inverse
+A = QΛQᵀ,matrix A equals Q times Lambda times Q transpose
+A = LLᵀ,matrix A equals L times L transpose
+chol(A),the Cholesky decomposition of matrix A
+B = LU,matrix B equals L times U
+B = QR,matrix B equals Q times R
+B = UΣVᵀ,matrix B equals U times Sigma times V transpose
+SVD(B),the singular value decomposition of matrix B
+B = PDP⁻¹,matrix B equals P times D times P inverse
+B = QΛQᵀ,matrix B equals Q times Lambda times Q transpose
+B = LLᵀ,matrix B equals L times L transpose
+chol(B),the Cholesky decomposition of matrix B
+C = LU,matrix C equals L times U
+C = QR,matrix C equals Q times R
+C = UΣVᵀ,matrix C equals U times Sigma times V transpose
+SVD(C),the singular value decomposition of matrix C
+C = PDP⁻¹,matrix C equals P times D times P inverse
+C = QΛQᵀ,matrix C equals Q times Lambda times Q transpose
+C = LLᵀ,matrix C equals L times L transpose
+chol(C),the Cholesky decomposition of matrix C
+M = LU,matrix M equals L times U
+M = QR,matrix M equals Q times R
+M = UΣVᵀ,matrix M equals U times Sigma times V transpose
+SVD(M),the singular value decomposition of matrix M
+M = PDP⁻¹,matrix M equals P times D times P inverse
+M = QΛQᵀ,matrix M equals Q times Lambda times Q transpose
+M = LLᵀ,matrix M equals L times L transpose
+chol(M),the Cholesky decomposition of matrix M
+‖A‖,the norm of matrix A
+‖A‖₂,the 2-norm of matrix A
+‖A‖_F,the Frobenius norm of matrix A
+‖A‖₁,the 1-norm of matrix A
+‖A‖∞,the infinity norm of matrix A
+‖A‖*,the nuclear norm of matrix A
+‖B‖,the norm of matrix B
+‖B‖₂,the 2-norm of matrix B
+‖B‖_F,the Frobenius norm of matrix B
+‖B‖₁,the 1-norm of matrix B
+‖B‖∞,the infinity norm of matrix B
+‖B‖*,the nuclear norm of matrix B
+‖C‖,the norm of matrix C
+‖C‖₂,the 2-norm of matrix C
+‖C‖_F,the Frobenius norm of matrix C
+‖C‖₁,the 1-norm of matrix C
+‖C‖∞,the infinity norm of matrix C
+‖C‖*,the nuclear norm of matrix C
+‖M‖,the norm of matrix M
+‖M‖₂,the 2-norm of matrix M
+‖M‖_F,the Frobenius norm of matrix M
+‖M‖₁,the 1-norm of matrix M
+‖M‖∞,the infinity norm of matrix M
+‖M‖*,the nuclear norm of matrix M
+"⟨v, w⟩",the inner product of v and w
+"(v, w)",the inner product of v and w
+v ⊥ w,vector v is orthogonal to vector w
+v ∥ w,vector v is parallel to vector w
+"⟨v, u⟩",the inner product of v and u
+"(v, u)",the inner product of v and u
+v ⊥ u,vector v is orthogonal to vector u
+v ∥ u,vector v is parallel to vector u
+"⟨v, x⟩",the inner product of v and x
+"(v, x)",the inner product of v and x
+v ⊥ x,vector v is orthogonal to vector x
+v ∥ x,vector v is parallel to vector x
+"⟨w, u⟩",the inner product of w and u
+"(w, u)",the inner product of w and u
+w ⊥ u,vector w is orthogonal to vector u
+w ∥ u,vector w is parallel to vector u
+"⟨w, x⟩",the inner product of w and x
+"(w, x)",the inner product of w and x
+w ⊥ x,vector w is orthogonal to vector x
+w ∥ x,vector w is parallel to vector x
+"⟨u, x⟩",the inner product of u and x
+"(u, x)",the inner product of u and x
+u ⊥ x,vector u is orthogonal to vector x
+u ∥ x,vector u is parallel to vector x
+proj_v(u),the projection of u onto v
+proj_V(u),the projection of u onto subspace V
+u ⊥ v,u is orthogonal to v
+V⊥,the orthogonal complement of V
+orthogonal basis,an orthogonal basis
+orthonormal basis,an orthonormal basis
+vᵀAv,the quadratic form v transpose A v
+xᵀAx,the quadratic form x transpose A x
+wᵀAw,the quadratic form w transpose A w
+uᵀAu,the quadratic form u transpose A u
+vᵀBv,the quadratic form v transpose B v
+wᵀBw,the quadratic form w transpose B w
+uᵀBu,the quadratic form u transpose B u
+vᵀCv,the quadratic form v transpose C v
+wᵀCw,the quadratic form w transpose C w
+uᵀCu,the quadratic form u transpose C u
+A⁺,the Moore-Penrose pseudoinverse of matrix A
+pinv(A),the pseudoinverse of matrix A
+A†,the pseudoinverse of matrix A
+B⁺,the Moore-Penrose pseudoinverse of matrix B
+pinv(B),the pseudoinverse of matrix B
+B†,the pseudoinverse of matrix B
+C⁺,the Moore-Penrose pseudoinverse of matrix C
+pinv(C),the pseudoinverse of matrix C
+C†,the pseudoinverse of matrix C
+cond(A),the condition number of matrix A
+κ(A),the condition number of matrix A
+cond(B),the condition number of matrix B
+κ(B),the condition number of matrix B
+e₁,the first standard basis vector
+e₂,the second standard basis vector
+e₃,the third standard basis vector
+eᵢ,the i-th standard basis vector
+î,the unit vector in the x direction
+ĵ,the unit vector in the y direction
+k̂,the unit vector in the z direction
+û,the unit vector u
+v̂,the unit vector v
+proj_w(v),the projection of v onto w
+v · ê,the component of v in direction ê
+comp_w(v),the component of v along w
+proj_u(v),the projection of v onto u
+comp_u(v),the component of v along u
+proj_x(v),the projection of v onto x
+comp_x(v),the component of v along x
+proj_u(w),the projection of w onto u
+w · ê,the component of w in direction ê
+comp_u(w),the component of w along u
+proj_x(w),the projection of w onto x
+comp_x(w),the component of w along x
+proj_x(u),the projection of u onto x
+u · ê,the component of u in direction ê
+comp_x(u),the component of u along x
+A²,matrix A squared
+A³,matrix A cubed
+Aⁿ,matrix A to the power n
+A⁻²,the inverse of A squared
+exp(A),the matrix exponential of A
+e^A,the matrix exponential of A
+log(A),the matrix logarithm of A
+√A,the matrix square root of A
+nullity(A),the nullity of matrix A
+tr(A²),the trace of A squared
+det(A²),the determinant of A squared
+B²,matrix B squared
+B³,matrix B cubed
+Bⁿ,matrix B to the power n
+B⁻²,the inverse of B squared
+exp(B),the matrix exponential of B
+e^B,the matrix exponential of B
+log(B),the matrix logarithm of B
+√B,the matrix square root of B
+rank(B),the rank of matrix B
+nullity(B),the nullity of matrix B
+tr(B²),the trace of B squared
+det(B²),the determinant of B squared
+C²,matrix C squared
+C³,matrix C cubed
+Cⁿ,matrix C to the power n
+C⁻²,the inverse of C squared
+exp(C),the matrix exponential of C
+e^C,the matrix exponential of C
+log(C),the matrix logarithm of C
+√C,the matrix square root of C
+rank(C),the rank of matrix C
+nullity(C),the nullity of matrix C
+tr(C²),the trace of C squared
+det(C²),the determinant of C squared
+M²,matrix M squared
+M³,matrix M cubed
+Mⁿ,matrix M to the power n
+M⁻²,the inverse of M squared
+exp(M),the matrix exponential of M
+e^M,the matrix exponential of M
+log(M),the matrix logarithm of M
+√M,the matrix square root of M
+rank(M),the rank of matrix M
+nullity(M),the nullity of matrix M
+tr(M²),the trace of M squared
+det(M²),the determinant of M squared
+[A | B],the augmented matrix A augmented with B
+[A; B],matrix A stacked above matrix B
+"block diag(A₁, A₂, A₃)","the block diagonal matrix with blocks A1, A2, and A3"
+"diag(a₁, a₂, ..., aₙ)","the diagonal matrix with diagonal entries a1, a2, through an"
+"{v₁, v₂, v₃} is linearly independent","the vectors {v₁, v₂, v₃} are linearly independent"
+"{v₁, v₂, v₃} is linearly dependent","the vectors {v₁, v₂, v₃} are linearly dependent"
+"span{v₁, v₂, v₃}","the span of vectors {v₁, v₂, v₃}"
+"⟨{v₁, v₂, v₃}⟩","the subspace generated by vectors {v₁, v₂, v₃}"
+"{u₁, u₂, ..., uₙ} is linearly independent","the vectors {u₁, u₂, ..., uₙ} are linearly independent"
+"{u₁, u₂, ..., uₙ} is linearly dependent","the vectors {u₁, u₂, ..., uₙ} are linearly dependent"
+"span{u₁, u₂, ..., uₙ}","the span of vectors {u₁, u₂, ..., uₙ}"
+"⟨{u₁, u₂, ..., uₙ}⟩","the subspace generated by vectors {u₁, u₂, ..., uₙ}"
+"{w₁, w₂} is linearly independent","the vectors {w₁, w₂} are linearly independent"
+"{w₁, w₂} is linearly dependent","the vectors {w₁, w₂} are linearly dependent"
+"span{w₁, w₂}","the span of vectors {w₁, w₂}"
+"⟨{w₁, w₂}⟩","the subspace generated by vectors {w₁, w₂}"
+dim(V) = n,the dimension of vector space V is n
+basis for V,a basis for vector space V
+standard basis for ℝⁿ,the standard basis for n-dimensional real space
+"{v₁, v₂, ..., vₙ} forms a basis","the vectors v1, v2, through vn form a basis"
+[v]_B,the coordinate vector of v with respect to basis B
+[v]_S,the coordinate vector of v with respect to basis S
+P_{B←S},the change of basis matrix from S to B
+change of basis matrix,the change of basis matrix
+coordinate transformation,a coordinate transformation
+dA/dt,the derivative of matrix A with respect to t
+∂A/∂t,the partial derivative of matrix A with respect to t
+∇f(x),the gradient of f at x
+∇²f(x),the Hessian of f at x
+Df(x),the derivative of f at x
+Jf(x),the Jacobian of f at x
+dB/dt,the derivative of matrix B with respect to t
+∂B/∂t,the partial derivative of matrix B with respect to t
+dC/dt,the derivative of matrix C with respect to t
+∂C/∂t,the partial derivative of matrix C with respect to t
+v ⊗ w,the tensor product of v and w
+v ⊗ w ⊗ y,"the tensor product of v, w, and y"
+v ⊗ u,the tensor product of v and u
+v ⊗ u ⊗ y,"the tensor product of v, u, and y"
+w ⊗ u,the tensor product of w and u
+w ⊗ u ⊗ y,"the tensor product of w, u, and y"
+σ₁(A) ≥ σ₂(A) ≥ ... ≥ σᵣ(A),the singular values of A in descending order
+λₘₐₓ(A),the largest eigenvalue of A
+λₘᵢₙ(A),the smallest eigenvalue of A
+tr(A) = Σλᵢ,the trace of A equals the sum of its eigenvalues
+det(A) = Πλᵢ,the determinant of A equals the product of its eigenvalues
+σ₁(B) ≥ σ₂(B) ≥ ... ≥ σᵣ(B),the singular values of B in descending order
+λₘₐₓ(B),the largest eigenvalue of B
+λₘᵢₙ(B),the smallest eigenvalue of B
+tr(B) = Σλᵢ,the trace of B equals the sum of its eigenvalues
+det(B) = Πλᵢ,the determinant of B equals the product of its eigenvalues
+σ₁(C) ≥ σ₂(C) ≥ ... ≥ σᵣ(C),the singular values of C in descending order
+λₘₐₓ(C),the largest eigenvalue of C
+λₘᵢₙ(C),the smallest eigenvalue of C
+tr(C) = Σλᵢ,the trace of C equals the sum of its eigenvalues
+det(C) = Πλᵢ,the determinant of C equals the product of its eigenvalues
+∇²f(x) ≻ 0,the Hessian of f at x is positive definite
+∇²f(x) ⪰ 0,the Hessian of f at x is positive semidefinite
+A ≻ 0,matrix A is positive definite
+A ⪰ 0,matrix A is positive semidefinite
+A ≺ 0,matrix A is negative definite
+A ⪯ 0,matrix A is negative semidefinite
+lim_{n→∞} Aⁿ,the limit of A to the power n as n approaches infinity
+‖A‖₂ = σₘₐₓ(A),the 2-norm of A equals the largest singular value of A
+cond₂(A) = σₘₐₓ/σₘᵢₙ,the 2-norm condition number equals the ratio of largest to smallest singular values
+f: V → ℝ,f is a linear functional from V to the reals
+V*,the dual space of V
+"⟨f, v⟩",the dual pairing of f and v
+annihilator of S,the annihilator of set S
+(v + w) ⋅ a,the dot product of the sum of v and w with a
+v ⋅ (w + a),the dot product of v with the sum of w and a
+(v - w) × a,the cross product of the difference of v and w with a
+‖v + w‖²,the squared norm of the sum of v and w
+‖v‖ + ‖w‖,the sum of the norms of v and w
+(v + w) ⋅ b,the dot product of the sum of v and w with b
+v ⋅ (w + b),the dot product of v with the sum of w and b
+(v - w) × b,the cross product of the difference of v and w with b
+(v + u) ⋅ a,the dot product of the sum of v and u with a
+v ⋅ (u + a),the dot product of v with the sum of u and a
+(v - u) × a,the cross product of the difference of v and u with a
+‖v + u‖²,the squared norm of the sum of v and u
+‖v‖ + ‖u‖,the sum of the norms of v and u
+(v + u) ⋅ b,the dot product of the sum of v and u with b
+v ⋅ (u + b),the dot product of v with the sum of u and b
+(v - u) × b,the cross product of the difference of v and u with b
+(v + x) ⋅ a,the dot product of the sum of v and x with a
+v ⋅ (x + a),the dot product of v with the sum of x and a
+(v - x) × a,the cross product of the difference of v and x with a
+‖v + x‖²,the squared norm of the sum of v and x
+‖v‖ + ‖x‖,the sum of the norms of v and x
+(v + x) ⋅ b,the dot product of the sum of v and x with b
+v ⋅ (x + b),the dot product of v with the sum of x and b
+(v - x) × b,the cross product of the difference of v and x with b
+(v + y) ⋅ a,the dot product of the sum of v and y with a
+v ⋅ (y + a),the dot product of v with the sum of y and a
+(v - y) × a,the cross product of the difference of v and y with a
+‖v + y‖²,the squared norm of the sum of v and y
+‖v‖ + ‖y‖,the sum of the norms of v and y
+(v + y) ⋅ b,the dot product of the sum of v and y with b
+v ⋅ (y + b),the dot product of v with the sum of y and b
+(v - y) × b,the cross product of the difference of v and y with b
+(v + z) ⋅ a,the dot product of the sum of v and z with a
+v ⋅ (z + a),the dot product of v with the sum of z and a
+(v - z) × a,the cross product of the difference of v and z with a
+‖v + z‖²,the squared norm of the sum of v and z
+‖v‖ + ‖z‖,the sum of the norms of v and z
+(v + z) ⋅ b,the dot product of the sum of v and z with b
+v ⋅ (z + b),the dot product of v with the sum of z and b
+(v - z) × b,the cross product of the difference of v and z with b
+(w + u) ⋅ a,the dot product of the sum of w and u with a
+w ⋅ (u + a),the dot product of w with the sum of u and a
+(w - u) × a,the cross product of the difference of w and u with a
+‖w + u‖²,the squared norm of the sum of w and u
+‖w‖ + ‖u‖,the sum of the norms of w and u
+(w + u) ⋅ b,the dot product of the sum of w and u with b
+w ⋅ (u + b),the dot product of w with the sum of u and b
+(w - u) × b,the cross product of the difference of w and u with b
+(w + x) ⋅ a,the dot product of the sum of w and x with a
+w ⋅ (x + a),the dot product of w with the sum of x and a
+(w - x) × a,the cross product of the difference of w and x with a
+‖w + x‖²,the squared norm of the sum of w and x
+‖w‖ + ‖x‖,the sum of the norms of w and x
+(w + x) ⋅ b,the dot product of the sum of w and x with b
+w ⋅ (x + b),the dot product of w with the sum of x and b
+(w - x) × b,the cross product of the difference of w and x with b
+(w + y) ⋅ a,the dot product of the sum of w and y with a
+w ⋅ (y + a),the dot product of w with the sum of y and a
+(w - y) × a,the cross product of the difference of w and y with a
+‖w + y‖²,the squared norm of the sum of w and y
+‖w‖ + ‖y‖,the sum of the norms of w and y
+(w + y) ⋅ b,the dot product of the sum of w and y with b
+w ⋅ (y + b),the dot product of w with the sum of y and b
+(w - y) × b,the cross product of the difference of w and y with b
+(w + z) ⋅ a,the dot product of the sum of w and z with a
+w ⋅ (z + a),the dot product of w with the sum of z and a
+(w - z) × a,the cross product of the difference of w and z with a
+‖w + z‖²,the squared norm of the sum of w and z
+‖w‖ + ‖z‖,the sum of the norms of w and z
+(w + z) ⋅ b,the dot product of the sum of w and z with b
+w ⋅ (z + b),the dot product of w with the sum of z and b
+(w - z) × b,the cross product of the difference of w and z with b
+(u + x) ⋅ a,the dot product of the sum of u and x with a
+u ⋅ (x + a),the dot product of u with the sum of x and a
+(u - x) × a,the cross product of the difference of u and x with a
+‖u + x‖²,the squared norm of the sum of u and x
+‖u‖ + ‖x‖,the sum of the norms of u and x
+(u + x) ⋅ b,the dot product of the sum of u and x with b
+u ⋅ (x + b),the dot product of u with the sum of x and b
+(u - x) × b,the cross product of the difference of u and x with b
+(kA)ᵀ,the transpose of k times matrix A
+det(kA),the determinant of k times matrix A
+tr(kA),the trace of k times matrix A
+(kA)⁻¹,the inverse of k times matrix A
+(cA)ᵀ,the transpose of c times matrix A
+det(cA),the determinant of c times matrix A
+tr(cA),the trace of c times matrix A
+(cA)⁻¹,the inverse of c times matrix A
+(αA)ᵀ,the transpose of α times matrix A
+det(αA),the determinant of α times matrix A
+tr(αA),the trace of α times matrix A
+(αA)⁻¹,the inverse of α times matrix A
+(kB)ᵀ,the transpose of k times matrix B
+det(kB),the determinant of k times matrix B
+tr(kB),the trace of k times matrix B
+(kB)⁻¹,the inverse of k times matrix B
+(cB)ᵀ,the transpose of c times matrix B
+det(cB),the determinant of c times matrix B
+tr(cB),the trace of c times matrix B
+(cB)⁻¹,the inverse of c times matrix B
+(αB)ᵀ,the transpose of α times matrix B
+det(αB),the determinant of α times matrix B
+tr(αB),the trace of α times matrix B
+(αB)⁻¹,the inverse of α times matrix B
+(kC)ᵀ,the transpose of k times matrix C
+det(kC),the determinant of k times matrix C
+tr(kC),the trace of k times matrix C
+(kC)⁻¹,the inverse of k times matrix C
+(cC)ᵀ,the transpose of c times matrix C
+det(cC),the determinant of c times matrix C
+tr(cC),the trace of c times matrix C
+(cC)⁻¹,the inverse of c times matrix C
+(αC)ᵀ,the transpose of α times matrix C
+det(αC),the determinant of α times matrix C
+tr(αC),the trace of α times matrix C
+(αC)⁻¹,the inverse of α times matrix C
+(kM)ᵀ,the transpose of k times matrix M
+det(kM),the determinant of k times matrix M
+tr(kM),the trace of k times matrix M
+(kM)⁻¹,the inverse of k times matrix M
+(cM)ᵀ,the transpose of c times matrix M
+det(cM),the determinant of c times matrix M
+tr(cM),the trace of c times matrix M
+(cM)⁻¹,the inverse of c times matrix M
+(αM)ᵀ,the transpose of α times matrix M
+det(αM),the determinant of α times matrix M
+tr(αM),the trace of α times matrix M
+(αM)⁻¹,the inverse of α times matrix M
+(A + B)ᵀ,the transpose of the sum of matrices A and B
+(AB)ᵀ,the transpose of the product of matrices A and B
+det(A + B),the determinant of the sum of matrices A and B
+tr(A + B),the trace of the sum of matrices A and B
+(A + B)⁻¹,the inverse of the sum of matrices A and B
+(A + C)ᵀ,the transpose of the sum of matrices A and C
+(AC)ᵀ,the transpose of the product of matrices A and C
+det(A + C),the determinant of the sum of matrices A and C
+tr(A + C),the trace of the sum of matrices A and C
+(A + C)⁻¹,the inverse of the sum of matrices A and C
+(A + M)ᵀ,the transpose of the sum of matrices A and M
+(AM)ᵀ,the transpose of the product of matrices A and M
+det(A + M),the determinant of the sum of matrices A and M
+tr(A + M),the trace of the sum of matrices A and M
+(A + M)⁻¹,the inverse of the sum of matrices A and M
+(B + C)ᵀ,the transpose of the sum of matrices B and C
+(BC)ᵀ,the transpose of the product of matrices B and C
+det(B + C),the determinant of the sum of matrices B and C
+tr(B + C),the trace of the sum of matrices B and C
+(B + C)⁻¹,the inverse of the sum of matrices B and C
+(B + M)ᵀ,the transpose of the sum of matrices B and M
+(BM)ᵀ,the transpose of the product of matrices B and M
+det(B + M),the determinant of the sum of matrices B and M
+tr(B + M),the trace of the sum of matrices B and M
+(B + M)⁻¹,the inverse of the sum of matrices B and M
+(C + M)ᵀ,the transpose of the sum of matrices C and M
+(CM)ᵀ,the transpose of the product of matrices C and M
+det(C + M),the determinant of the sum of matrices C and M
+tr(C + M),the trace of the sum of matrices C and M
+(C + M)⁻¹,the inverse of the sum of matrices C and M
+λ1(A),the first eigenvalue of matrix A
+v1(A),the first eigenvector of matrix A
+σ1(A),the first singular value of matrix A
+λ2(A),the second eigenvalue of matrix A
+v2(A),the second eigenvector of matrix A
+σ2(A),the second singular value of matrix A
+λ3(A),the third eigenvalue of matrix A
+v3(A),the third eigenvector of matrix A
+σ3(A),the third singular value of matrix A
+λ1(B),the first eigenvalue of matrix B
+v1(B),the first eigenvector of matrix B
+σ1(B),the first singular value of matrix B
+λ2(B),the second eigenvalue of matrix B
+v2(B),the second eigenvector of matrix B
+σ2(B),the second singular value of matrix B
+λ3(B),the third eigenvalue of matrix B
+v3(B),the third eigenvector of matrix B
+σ3(B),the third singular value of matrix B
+λ1(C),the first eigenvalue of matrix C
+v1(C),the first eigenvector of matrix C
+σ1(C),the first singular value of matrix C
+λ2(C),the second eigenvalue of matrix C
+v2(C),the second eigenvector of matrix C
+σ2(C),the second singular value of matrix C
+λ3(C),the third eigenvalue of matrix C
+v3(C),the third eigenvector of matrix C
+σ3(C),the third singular value of matrix C
+p_A(λ),the characteristic polynomial of matrix A
+det(A - λI),the characteristic polynomial of matrix A
+p_A(λ) = 0,the characteristic equation of matrix A
+p_B(λ),the characteristic polynomial of matrix B
+det(B - λI),the characteristic polynomial of matrix B
+p_B(λ) = 0,the characteristic equation of matrix B
+p_C(λ),the characteristic polynomial of matrix C
+det(C - λI),the characteristic polynomial of matrix C
+p_C(λ) = 0,the characteristic equation of matrix C
+T: ℝⁿ → ℝᵐ,T is a linear transformation from n-dimensional to m-dimensional real space
+ker(T),the kernel of linear transformation T
+im(T),the image of linear transformation T
+null(T),the null space of linear transformation T
+range(T),the range of linear transformation T
+rank(T),the rank of linear transformation T
+nullity(T),the nullity of linear transformation T
+T(v + w),T applied to the sum of v and w
+T(cv),T applied to c times v
+L: ℝⁿ → ℝᵐ,L is a linear transformation from n-dimensional to m-dimensional real space
+ker(L),the kernel of linear transformation L
+im(L),the image of linear transformation L
+null(L),the null space of linear transformation L
+range(L),the range of linear transformation L
+rank(L),the rank of linear transformation L
+nullity(L),the nullity of linear transformation L
+L(v + w),L applied to the sum of v and w
+L(cv),L applied to c times v
+f: ℝⁿ → ℝᵐ,f is a linear transformation from n-dimensional to m-dimensional real space
+ker(f),the kernel of linear transformation f
+im(f),the image of linear transformation f
+null(f),the null space of linear transformation f
+range(f),the range of linear transformation f
+rank(f),the rank of linear transformation f
+nullity(f),the nullity of linear transformation f
+f(v + w),f applied to the sum of v and w
+f(cv),f applied to c times v
+U ⊆ ℝⁿ,U is a subspace of n-dimensional real space
+dim(U),the dimension of subspace U
+U ∩ V,the intersection of subspaces U and V
+U + V,the sum of subspaces U and V
+U ⊕ V,the direct sum of subspaces U and V
+U⊥,the orthogonal complement of subspace U
+V ⊆ ℝⁿ,V is a subspace of n-dimensional real space
+dim(V),the dimension of subspace V
+V ∩ V,the intersection of subspaces V and V
+V + V,the sum of subspaces V and V
+V ⊕ V,the direct sum of subspaces V and V
+V⊥,the orthogonal complement of subspace V
+W ⊆ ℝⁿ,W is a subspace of n-dimensional real space
+dim(W),the dimension of subspace W
+W ∩ V,the intersection of subspaces W and V
+W + V,the sum of subspaces W and V
+W ⊕ V,the direct sum of subspaces W and V
+W⊥,the orthogonal complement of subspace W
+S ⊆ ℝⁿ,S is a subspace of n-dimensional real space
+dim(S),the dimension of subspace S
+S ∩ V,the intersection of subspaces S and V
+S + V,the sum of subspaces S and V
+S ⊕ V,the direct sum of subspaces S and V
+S⊥,the orthogonal complement of subspace S
+U ⊕ V = W,the direct sum of U and V equals W
+V ⊕ V⊥ = ℝⁿ,V direct sum with its orthogonal complement equals n-dimensional real space
+dim(U ⊕ V) = dim(U) + dim(V),the dimension of the direct sum equals the sum of dimensions

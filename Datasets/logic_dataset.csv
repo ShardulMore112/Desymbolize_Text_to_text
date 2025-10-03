@@ -1,0 +1,1064 @@
+Logic,Natural_Language
+¬p,not p
+¬p,the negation of p
+¬q,not q
+¬q,the negation of q
+¬r,not r
+¬r,the negation of r
+¬s,not s
+¬s,the negation of s
+¬t,not t
+¬t,the negation of t
+¬A,not A
+¬A,the negation of A
+¬B,not B
+¬B,the negation of B
+¬C,not C
+¬C,the negation of C
+p ∧ q,p and q
+p ∧ q,both p and q
+p ∧ q,p is true and q is true
+(p ∧ q),p and q
+p ∧ r,p and r
+p ∧ r,both p and r
+p ∧ r,p is true and r is true
+(p ∧ r),p and r
+p ∧ s,p and s
+p ∧ s,both p and s
+p ∧ s,p is true and s is true
+(p ∧ s),p and s
+p ∧ t,p and t
+p ∧ t,both p and t
+p ∧ t,p is true and t is true
+(p ∧ t),p and t
+p ∧ A,p and A
+p ∧ A,both p and A
+p ∧ A,p is true and A is true
+(p ∧ A),p and A
+q ∧ r,q and r
+q ∧ r,both q and r
+q ∧ r,q is true and r is true
+(q ∧ r),q and r
+q ∧ s,q and s
+q ∧ s,both q and s
+q ∧ s,q is true and s is true
+(q ∧ s),q and s
+q ∧ t,q and t
+q ∧ t,both q and t
+q ∧ t,q is true and t is true
+(q ∧ t),q and t
+q ∧ A,q and A
+q ∧ A,both q and A
+q ∧ A,q is true and A is true
+r ∧ s,r and s
+r ∧ s,both r and s
+r ∧ s,r is true and s is true
+r ∧ t,r and t
+r ∧ t,both r and t
+r ∧ t,r is true and t is true
+r ∧ A,r and A
+r ∧ A,both r and A
+r ∧ A,r is true and A is true
+s ∧ t,s and t
+s ∧ t,both s and t
+s ∧ t,s is true and t is true
+s ∧ A,s and A
+s ∧ A,both s and A
+s ∧ A,s is true and A is true
+t ∧ A,t and A
+t ∧ A,both t and A
+t ∧ A,t is true and A is true
+p ∨ q,p or q
+p ∨ q,either p or q
+p ∨ q,p is true or q is true
+(p ∨ q),p or q
+p ∨ r,p or r
+p ∨ r,either p or r
+p ∨ r,p is true or r is true
+(p ∨ r),p or r
+p ∨ s,p or s
+p ∨ s,either p or s
+p ∨ s,p is true or s is true
+(p ∨ s),p or s
+p ∨ t,p or t
+p ∨ t,either p or t
+p ∨ t,p is true or t is true
+(p ∨ t),p or t
+p ∨ A,p or A
+p ∨ A,either p or A
+p ∨ A,p is true or A is true
+(p ∨ A),p or A
+q ∨ r,q or r
+q ∨ r,either q or r
+q ∨ r,q is true or r is true
+(q ∨ r),q or r
+q ∨ s,q or s
+q ∨ s,either q or s
+q ∨ s,q is true or s is true
+(q ∨ s),q or s
+q ∨ t,q or t
+q ∨ t,either q or t
+q ∨ t,q is true or t is true
+(q ∨ t),q or t
+q ∨ A,q or A
+q ∨ A,either q or A
+q ∨ A,q is true or A is true
+r ∨ s,r or s
+r ∨ s,either r or s
+r ∨ s,r is true or s is true
+r ∨ t,r or t
+r ∨ t,either r or t
+r ∨ t,r is true or t is true
+r ∨ A,r or A
+r ∨ A,either r or A
+r ∨ A,r is true or A is true
+s ∨ t,s or t
+s ∨ t,either s or t
+s ∨ t,s is true or t is true
+s ∨ A,s or A
+s ∨ A,either s or A
+s ∨ A,s is true or A is true
+t ∨ A,t or A
+t ∨ A,either t or A
+t ∨ A,t is true or A is true
+p → q,if p then q
+p → q,p implies q
+p → q,if p is true then q is true
+p → q,p entails q
+q → p,if q then p
+q → p,q implies p
+p → r,if p then r
+p → r,p implies r
+p → r,if p is true then r is true
+p → r,p entails r
+r → p,if r then p
+r → p,r implies p
+p → s,if p then s
+p → s,p implies s
+p → s,if p is true then s is true
+p → s,p entails s
+s → p,if s then p
+s → p,s implies p
+p → t,if p then t
+p → t,p implies t
+p → t,if p is true then t is true
+p → t,p entails t
+t → p,if t then p
+t → p,t implies p
+p → A,if p then A
+p → A,p implies A
+p → A,if p is true then A is true
+p → A,p entails A
+A → p,if A then p
+A → p,A implies p
+q → r,if q then r
+q → r,q implies r
+q → r,if q is true then r is true
+q → r,q entails r
+r → q,if r then q
+r → q,r implies q
+q → s,if q then s
+q → s,q implies s
+q → s,if q is true then s is true
+q → s,q entails s
+s → q,if s then q
+s → q,s implies q
+q → t,if q then t
+q → t,q implies t
+q → t,if q is true then t is true
+q → t,q entails t
+t → q,if t then q
+t → q,t implies q
+q → A,if q then A
+q → A,q implies A
+q → A,if q is true then A is true
+q → A,q entails A
+A → q,if A then q
+A → q,A implies q
+r → s,if r then s
+r → s,r implies s
+r → s,if r is true then s is true
+r → s,r entails s
+s → r,if s then r
+s → r,s implies r
+r → t,if r then t
+r → t,r implies t
+r → t,if r is true then t is true
+r → t,r entails t
+t → r,if t then r
+t → r,t implies r
+r → A,if r then A
+r → A,r implies A
+r → A,if r is true then A is true
+r → A,r entails A
+A → r,if A then r
+A → r,A implies r
+s → t,if s then t
+s → t,s implies t
+s → t,if s is true then t is true
+s → t,s entails t
+t → s,if t then s
+t → s,t implies s
+s → A,if s then A
+s → A,s implies A
+s → A,if s is true then A is true
+s → A,s entails A
+A → s,if A then s
+A → s,A implies s
+t → A,if t then A
+t → A,t implies A
+t → A,if t is true then A is true
+t → A,t entails A
+A → t,if A then t
+A → t,A implies t
+p ↔ q,p if and only if q
+p ↔ q,p is equivalent to q
+p ↔ q,p is true if and only if q is true
+p ↔ q,p and q have the same truth value
+p ↔ r,p if and only if r
+p ↔ r,p is equivalent to r
+p ↔ r,p is true if and only if r is true
+p ↔ r,p and r have the same truth value
+p ↔ s,p if and only if s
+p ↔ s,p is equivalent to s
+p ↔ s,p is true if and only if s is true
+p ↔ s,p and s have the same truth value
+p ↔ t,p if and only if t
+p ↔ t,p is equivalent to t
+p ↔ t,p is true if and only if t is true
+p ↔ t,p and t have the same truth value
+p ↔ A,p if and only if A
+p ↔ A,p is equivalent to A
+p ↔ A,p is true if and only if A is true
+p ↔ A,p and A have the same truth value
+q ↔ r,q if and only if r
+q ↔ r,q is equivalent to r
+q ↔ r,q is true if and only if r is true
+q ↔ r,q and r have the same truth value
+q ↔ s,q if and only if s
+q ↔ s,q is equivalent to s
+q ↔ s,q is true if and only if s is true
+q ↔ s,q and s have the same truth value
+q ↔ t,q if and only if t
+q ↔ t,q is equivalent to t
+q ↔ t,q is true if and only if t is true
+q ↔ t,q and t have the same truth value
+q ↔ A,q if and only if A
+q ↔ A,q is equivalent to A
+q ↔ A,q is true if and only if A is true
+q ↔ A,q and A have the same truth value
+r ↔ s,r if and only if s
+r ↔ s,r is equivalent to s
+r ↔ s,r is true if and only if s is true
+r ↔ s,r and s have the same truth value
+r ↔ t,r if and only if t
+r ↔ t,r is equivalent to t
+r ↔ t,r is true if and only if t is true
+r ↔ t,r and t have the same truth value
+r ↔ A,r if and only if A
+r ↔ A,r is equivalent to A
+r ↔ A,r is true if and only if A is true
+r ↔ A,r and A have the same truth value
+s ↔ t,s if and only if t
+s ↔ t,s is equivalent to t
+s ↔ t,s is true if and only if t is true
+s ↔ t,s and t have the same truth value
+s ↔ A,s if and only if A
+s ↔ A,s is equivalent to A
+s ↔ A,s is true if and only if A is true
+s ↔ A,s and A have the same truth value
+t ↔ A,t if and only if A
+t ↔ A,t is equivalent to A
+t ↔ A,t is true if and only if A is true
+t ↔ A,t and A have the same truth value
+p ∧ (q ∨ r),p and either q or r
+p ∧ (r ∨ q),p and either r or q
+q ∧ (p ∨ r),q and either p or r
+q ∧ (r ∨ p),q and either r or p
+r ∧ (p ∨ q),r and either p or q
+r ∧ (q ∨ p),r and either q or p
+p ∨ (q ∧ r),p or both q and r
+p ∨ (r ∧ q),p or both r and q
+q ∨ (p ∧ r),q or both p and r
+q ∨ (r ∧ p),q or both r and p
+r ∨ (p ∧ q),r or both p and q
+r ∨ (q ∧ p),r or both q and p
+(p ∧ q) ∨ r,"either both p and q, or r"
+(p ∧ r) ∨ q,"either both p and r, or q"
+(q ∧ p) ∨ r,"either both q and p, or r"
+(q ∧ r) ∨ p,"either both q and r, or p"
+(r ∧ p) ∨ q,"either both r and p, or q"
+(r ∧ q) ∨ p,"either both r and q, or p"
+(p ∨ q) ∧ r,"either p or q, and also r"
+(p ∨ r) ∧ q,"either p or r, and also q"
+(q ∨ p) ∧ r,"either q or p, and also r"
+(q ∨ r) ∧ p,"either q or r, and also p"
+(r ∨ p) ∧ q,"either r or p, and also q"
+(r ∨ q) ∧ p,"either r or q, and also p"
+p → (q ∧ r),if p then both q and r
+p → (r ∧ q),if p then both r and q
+q → (p ∧ r),if q then both p and r
+q → (r ∧ p),if q then both r and p
+r → (p ∧ q),if r then both p and q
+r → (q ∧ p),if r then both q and p
+p → (q ∨ r),if p then either q or r
+p → (r ∨ q),if p then either r or q
+q → (p ∨ r),if q then either p or r
+q → (r ∨ p),if q then either r or p
+r → (p ∨ q),if r then either p or q
+r → (q ∨ p),if r then either q or p
+(p ∧ q) → r,if both p and q then r
+(p ∧ r) → q,if both p and r then q
+(q ∧ p) → r,if both q and p then r
+(q ∧ r) → p,if both q and r then p
+(r ∧ p) → q,if both r and p then q
+(r ∧ q) → p,if both r and q then p
+(p ∨ q) → r,if either p or q then r
+(p ∨ r) → q,if either p or r then q
+(q ∨ p) → r,if either q or p then r
+(q ∨ r) → p,if either q or r then p
+(r ∨ p) → q,if either r or p then q
+(r ∨ q) → p,if either r or q then p
+¬(p ∧ q) ↔ (¬p ∨ ¬q),the negation of p and q is equivalent to not p or not q
+¬(p ∨ q) ↔ (¬p ∧ ¬q),the negation of p or q is equivalent to not p and not q
+¬(A ∧ B) ↔ (¬A ∨ ¬B),the negation of A and B is equivalent to not A or not B
+¬(A ∨ B) ↔ (¬A ∧ ¬B),the negation of A or B is equivalent to not A and not B
+¬¬p ↔ p,the negation of not p is equivalent to p
+¬¬q ↔ q,the negation of not q is equivalent to q
+p ∧ (q ∨ r) ↔ (p ∧ q) ∨ (p ∧ r),"p and either q or r is equivalent to either p and q, or p and r"
+p ∨ (q ∧ r) ↔ (p ∨ q) ∧ (p ∨ r),"p or both q and r is equivalent to both p or q, and p or r"
+(p ∧ q) ∧ r ↔ p ∧ (q ∧ r),p and q and r is associative
+(p ∨ q) ∨ r ↔ p ∨ (q ∨ r),p or q or r is associative
+p ∧ q ↔ q ∧ p,p and q is equivalent to q and p
+p ∨ q ↔ q ∨ p,p or q is equivalent to q or p
+p ∧ ⊤ ↔ p,p and true is equivalent to p
+p ∨ ⊥ ↔ p,p or false is equivalent to p
+p ∧ ⊥ ↔ ⊥,p and false is equivalent to false
+p ∨ ⊤ ↔ ⊤,p or true is equivalent to true
+p ∧ ¬p ↔ ⊥,p and not p is equivalent to false
+p ∨ ¬p ↔ ⊤,p or not p is equivalent to true
+p → q ↔ ¬p ∨ q,if p then q is equivalent to not p or q
+p → q ↔ ¬(p ∧ ¬q),if p then q is equivalent to not both p and not q
+¬(p → q) ↔ p ∧ ¬q,not if p then q is equivalent to p and not q
+∀x P(x),"for all x, P(x) is true"
+∀x P(x),"for every x, P of x holds"
+"∀x, P(x)","for all x, P(x)"
+∀x in D P(x),"for all x in D, P(x) is true"
+∀x in D P(x),"for every x in D, P of x holds"
+"∀x in D, P(x)","for all x in D, P(x)"
+∀x in the domain P(x),"for all x in the domain, P(x) is true"
+∀x in the domain P(x),"for every x in the domain, P of x holds"
+"∀x in the domain, P(x)","for all x in the domain, P(x)"
+∀y P(y),"for all y, P(y) is true"
+∀y P(y),"for every y, P of y holds"
+"∀y, P(y)","for all y, P(y)"
+∀y in D P(y),"for all y in D, P(y) is true"
+∀y in D P(y),"for every y in D, P of y holds"
+"∀y in D, P(y)","for all y in D, P(y)"
+∀y in the domain P(y),"for all y in the domain, P(y) is true"
+∀y in the domain P(y),"for every y in the domain, P of y holds"
+"∀y in the domain, P(y)","for all y in the domain, P(y)"
+∀z P(z),"for all z, P(z) is true"
+∀z P(z),"for every z, P of z holds"
+"∀z, P(z)","for all z, P(z)"
+∀z in D P(z),"for all z in D, P(z) is true"
+∀z in D P(z),"for every z in D, P of z holds"
+"∀z in D, P(z)","for all z in D, P(z)"
+∀z in the domain P(z),"for all z in the domain, P(z) is true"
+∀z in the domain P(z),"for every z in the domain, P of z holds"
+"∀z in the domain, P(z)","for all z in the domain, P(z)"
+∀a P(a),"for all a, P(a) is true"
+∀a P(a),"for every a, P of a holds"
+"∀a, P(a)","for all a, P(a)"
+∀a in D P(a),"for all a in D, P(a) is true"
+∀a in D P(a),"for every a in D, P of a holds"
+"∀a in D, P(a)","for all a in D, P(a)"
+∀a in the domain P(a),"for all a in the domain, P(a) is true"
+∀a in the domain P(a),"for every a in the domain, P of a holds"
+"∀a in the domain, P(a)","for all a in the domain, P(a)"
+∀x Q(x),"for all x, Q(x) is true"
+∀x Q(x),"for every x, Q of x holds"
+"∀x, Q(x)","for all x, Q(x)"
+∀x in D Q(x),"for all x in D, Q(x) is true"
+∀x in D Q(x),"for every x in D, Q of x holds"
+"∀x in D, Q(x)","for all x in D, Q(x)"
+∀x in the domain Q(x),"for all x in the domain, Q(x) is true"
+∀x in the domain Q(x),"for every x in the domain, Q of x holds"
+"∀x in the domain, Q(x)","for all x in the domain, Q(x)"
+∀y Q(y),"for all y, Q(y) is true"
+∀y Q(y),"for every y, Q of y holds"
+"∀y, Q(y)","for all y, Q(y)"
+∀y in D Q(y),"for all y in D, Q(y) is true"
+∀y in D Q(y),"for every y in D, Q of y holds"
+"∀y in D, Q(y)","for all y in D, Q(y)"
+∀y in the domain Q(y),"for all y in the domain, Q(y) is true"
+∀y in the domain Q(y),"for every y in the domain, Q of y holds"
+"∀y in the domain, Q(y)","for all y in the domain, Q(y)"
+∀z Q(z),"for all z, Q(z) is true"
+∀z Q(z),"for every z, Q of z holds"
+"∀z, Q(z)","for all z, Q(z)"
+∀z in D Q(z),"for all z in D, Q(z) is true"
+∀z in D Q(z),"for every z in D, Q of z holds"
+"∀z in D, Q(z)","for all z in D, Q(z)"
+∀z in the domain Q(z),"for all z in the domain, Q(z) is true"
+∀z in the domain Q(z),"for every z in the domain, Q of z holds"
+"∀z in the domain, Q(z)","for all z in the domain, Q(z)"
+∀a Q(a),"for all a, Q(a) is true"
+∀a Q(a),"for every a, Q of a holds"
+"∀a, Q(a)","for all a, Q(a)"
+∀a in D Q(a),"for all a in D, Q(a) is true"
+∀a in D Q(a),"for every a in D, Q of a holds"
+"∀a in D, Q(a)","for all a in D, Q(a)"
+∀a in the domain Q(a),"for all a in the domain, Q(a) is true"
+∀a in the domain Q(a),"for every a in the domain, Q of a holds"
+"∀a in the domain, Q(a)","for all a in the domain, Q(a)"
+∀x R(x),"for all x, R(x) is true"
+∀x R(x),"for every x, R of x holds"
+"∀x, R(x)","for all x, R(x)"
+∀x in D R(x),"for all x in D, R(x) is true"
+∀x in D R(x),"for every x in D, R of x holds"
+"∀x in D, R(x)","for all x in D, R(x)"
+∀x in the domain R(x),"for all x in the domain, R(x) is true"
+∀x in the domain R(x),"for every x in the domain, R of x holds"
+∃x P(x),there exists x such that P(x) is true
+∃x P(x),there is some x for which P of x holds
+"∃x, P(x)",there exists x such that P(x)
+∃x in D P(x),there exists x in D such that P(x) is true
+∃x in D P(x),there is some x in D for which P of x holds
+"∃x in D, P(x)",there exists x in D such that P(x)
+∃x in the domain P(x),there exists x in the domain such that P(x) is true
+∃x in the domain P(x),there is some x in the domain for which P of x holds
+"∃x in the domain, P(x)",there exists x in the domain such that P(x)
+∃y P(y),there exists y such that P(y) is true
+∃y P(y),there is some y for which P of y holds
+"∃y, P(y)",there exists y such that P(y)
+∃y in D P(y),there exists y in D such that P(y) is true
+∃y in D P(y),there is some y in D for which P of y holds
+"∃y in D, P(y)",there exists y in D such that P(y)
+∃y in the domain P(y),there exists y in the domain such that P(y) is true
+∃y in the domain P(y),there is some y in the domain for which P of y holds
+"∃y in the domain, P(y)",there exists y in the domain such that P(y)
+∃z P(z),there exists z such that P(z) is true
+∃z P(z),there is some z for which P of z holds
+"∃z, P(z)",there exists z such that P(z)
+∃z in D P(z),there exists z in D such that P(z) is true
+∃z in D P(z),there is some z in D for which P of z holds
+"∃z in D, P(z)",there exists z in D such that P(z)
+∃z in the domain P(z),there exists z in the domain such that P(z) is true
+∃z in the domain P(z),there is some z in the domain for which P of z holds
+"∃z in the domain, P(z)",there exists z in the domain such that P(z)
+∃a P(a),there exists a such that P(a) is true
+∃a P(a),there is some a for which P of a holds
+"∃a, P(a)",there exists a such that P(a)
+∃a in D P(a),there exists a in D such that P(a) is true
+∃a in D P(a),there is some a in D for which P of a holds
+"∃a in D, P(a)",there exists a in D such that P(a)
+∃a in the domain P(a),there exists a in the domain such that P(a) is true
+∃a in the domain P(a),there is some a in the domain for which P of a holds
+"∃a in the domain, P(a)",there exists a in the domain such that P(a)
+∃x Q(x),there exists x such that Q(x) is true
+∃x Q(x),there is some x for which Q of x holds
+"∃x, Q(x)",there exists x such that Q(x)
+∃x in D Q(x),there exists x in D such that Q(x) is true
+∃x in D Q(x),there is some x in D for which Q of x holds
+"∃x in D, Q(x)",there exists x in D such that Q(x)
+∃x in the domain Q(x),there exists x in the domain such that Q(x) is true
+∃x in the domain Q(x),there is some x in the domain for which Q of x holds
+"∃x in the domain, Q(x)",there exists x in the domain such that Q(x)
+∃y Q(y),there exists y such that Q(y) is true
+∃y Q(y),there is some y for which Q of y holds
+"∃y, Q(y)",there exists y such that Q(y)
+∃y in D Q(y),there exists y in D such that Q(y) is true
+∃y in D Q(y),there is some y in D for which Q of y holds
+"∃y in D, Q(y)",there exists y in D such that Q(y)
+∃y in the domain Q(y),there exists y in the domain such that Q(y) is true
+∃y in the domain Q(y),there is some y in the domain for which Q of y holds
+"∃y in the domain, Q(y)",there exists y in the domain such that Q(y)
+∃z Q(z),there exists z such that Q(z) is true
+∃z Q(z),there is some z for which Q of z holds
+"∃z, Q(z)",there exists z such that Q(z)
+∃z in D Q(z),there exists z in D such that Q(z) is true
+∃z in D Q(z),there is some z in D for which Q of z holds
+"∃z in D, Q(z)",there exists z in D such that Q(z)
+∃z in the domain Q(z),there exists z in the domain such that Q(z) is true
+∃z in the domain Q(z),there is some z in the domain for which Q of z holds
+"∃z in the domain, Q(z)",there exists z in the domain such that Q(z)
+∃a Q(a),there exists a such that Q(a) is true
+∃a Q(a),there is some a for which Q of a holds
+"∃a, Q(a)",there exists a such that Q(a)
+∃a in D Q(a),there exists a in D such that Q(a) is true
+∃a in D Q(a),there is some a in D for which Q of a holds
+"∃a in D, Q(a)",there exists a in D such that Q(a)
+∃a in the domain Q(a),there exists a in the domain such that Q(a) is true
+∃a in the domain Q(a),there is some a in the domain for which Q of a holds
+"∃a in the domain, Q(a)",there exists a in the domain such that Q(a)
+∃x R(x),there exists x such that R(x) is true
+∃x R(x),there is some x for which R of x holds
+"∃x, R(x)",there exists x such that R(x)
+∃x in D R(x),there exists x in D such that R(x) is true
+∃x in D R(x),there is some x in D for which R of x holds
+"∃x in D, R(x)",there exists x in D such that R(x)
+∃x in the domain R(x),there exists x in the domain such that R(x) is true
+∃x in the domain R(x),there is some x in the domain for which R of x holds
+∃!x P(x),there exists a unique x such that P(x) is true
+∃!x P(x),there is exactly one x for which P of x holds
+∃!x P(x),there exists one and only one x such that P(x)
+∃!y P(y),there exists a unique y such that P(y) is true
+∃!y P(y),there is exactly one y for which P of y holds
+∃!y P(y),there exists one and only one y such that P(y)
+∃!z P(z),there exists a unique z such that P(z) is true
+∃!z P(z),there is exactly one z for which P of z holds
+∃!z P(z),there exists one and only one z such that P(z)
+∃!x Q(x),there exists a unique x such that Q(x) is true
+∃!x Q(x),there is exactly one x for which Q of x holds
+∃!x Q(x),there exists one and only one x such that Q(x)
+∃!y Q(y),there exists a unique y such that Q(y) is true
+∃!y Q(y),there is exactly one y for which Q of y holds
+∃!y Q(y),there exists one and only one y such that Q(y)
+∃!z Q(z),there exists a unique z such that Q(z) is true
+∃!z Q(z),there is exactly one z for which Q of z holds
+∃!z Q(z),there exists one and only one z such that Q(z)
+∃!x R(x),there exists a unique x such that R(x) is true
+∃!x R(x),there is exactly one x for which R of x holds
+∃!x R(x),there exists one and only one x such that R(x)
+∃!y R(y),there exists a unique y such that R(y) is true
+∃!y R(y),there is exactly one y for which R of y holds
+∃!y R(y),there exists one and only one y such that R(y)
+∃!z R(z),there exists a unique z such that R(z) is true
+∃!z R(z),there is exactly one z for which R of z holds
+∃!z R(z),there exists one and only one z such that R(z)
+∃!x S(x),there exists a unique x such that S(x) is true
+∃!x S(x),there is exactly one x for which S of x holds
+∃!x S(x),there exists one and only one x such that S(x)
+∃!y S(y),there exists a unique y such that S(y) is true
+∃!y S(y),there is exactly one y for which S of y holds
+∃!y S(y),there exists one and only one y such that S(y)
+∃!z S(z),there exists a unique z such that S(z) is true
+∃!z S(z),there is exactly one z for which S of z holds
+∃!z S(z),there exists one and only one z such that S(z)
+∀x (P(x) ∧ Q(x)),"for all x, both P(x) and Q(x) are true"
+∀x (P(x) ∧ R(x)),"for all x, both P(x) and R(x) are true"
+∀x (P(x) ∧ S(x)),"for all x, both P(x) and S(x) are true"
+∀x (Q(x) ∧ R(x)),"for all x, both Q(x) and R(x) are true"
+∀x (Q(x) ∧ S(x)),"for all x, both Q(x) and S(x) are true"
+∀x (R(x) ∧ S(x)),"for all x, both R(x) and S(x) are true"
+∀y (P(y) ∧ Q(y)),"for all y, both P(y) and Q(y) are true"
+∀y (P(y) ∧ R(y)),"for all y, both P(y) and R(y) are true"
+∀y (P(y) ∧ S(y)),"for all y, both P(y) and S(y) are true"
+∀y (Q(y) ∧ R(y)),"for all y, both Q(y) and R(y) are true"
+∀y (Q(y) ∧ S(y)),"for all y, both Q(y) and S(y) are true"
+∀y (R(y) ∧ S(y)),"for all y, both R(y) and S(y) are true"
+∀z (P(z) ∧ Q(z)),"for all z, both P(z) and Q(z) are true"
+∀z (P(z) ∧ R(z)),"for all z, both P(z) and R(z) are true"
+∀z (P(z) ∧ S(z)),"for all z, both P(z) and S(z) are true"
+∀z (Q(z) ∧ R(z)),"for all z, both Q(z) and R(z) are true"
+∀z (Q(z) ∧ S(z)),"for all z, both Q(z) and S(z) are true"
+∀z (R(z) ∧ S(z)),"for all z, both R(z) and S(z) are true"
+∀x (P(x) ∨ Q(x)),"for all x, either P(x) or Q(x) is true"
+∀x (P(x) ∨ R(x)),"for all x, either P(x) or R(x) is true"
+∀x (P(x) ∨ S(x)),"for all x, either P(x) or S(x) is true"
+∀x (Q(x) ∨ R(x)),"for all x, either Q(x) or R(x) is true"
+∀x (Q(x) ∨ S(x)),"for all x, either Q(x) or S(x) is true"
+∀x (R(x) ∨ S(x)),"for all x, either R(x) or S(x) is true"
+∀y (P(y) ∨ Q(y)),"for all y, either P(y) or Q(y) is true"
+∀y (P(y) ∨ R(y)),"for all y, either P(y) or R(y) is true"
+∀y (P(y) ∨ S(y)),"for all y, either P(y) or S(y) is true"
+∀y (Q(y) ∨ R(y)),"for all y, either Q(y) or R(y) is true"
+∀y (Q(y) ∨ S(y)),"for all y, either Q(y) or S(y) is true"
+∀y (R(y) ∨ S(y)),"for all y, either R(y) or S(y) is true"
+∀z (P(z) ∨ Q(z)),"for all z, either P(z) or Q(z) is true"
+∀z (P(z) ∨ R(z)),"for all z, either P(z) or R(z) is true"
+∀z (P(z) ∨ S(z)),"for all z, either P(z) or S(z) is true"
+∀z (Q(z) ∨ R(z)),"for all z, either Q(z) or R(z) is true"
+∀z (Q(z) ∨ S(z)),"for all z, either Q(z) or S(z) is true"
+∀z (R(z) ∨ S(z)),"for all z, either R(z) or S(z) is true"
+∃x (P(x) ∧ Q(x)),there exists x such that both P(x) and Q(x) are true
+∃x (P(x) ∧ R(x)),there exists x such that both P(x) and R(x) are true
+∃x (P(x) ∧ S(x)),there exists x such that both P(x) and S(x) are true
+∃x (Q(x) ∧ R(x)),there exists x such that both Q(x) and R(x) are true
+∃x (Q(x) ∧ S(x)),there exists x such that both Q(x) and S(x) are true
+∃x (R(x) ∧ S(x)),there exists x such that both R(x) and S(x) are true
+∃y (P(y) ∧ Q(y)),there exists y such that both P(y) and Q(y) are true
+∃y (P(y) ∧ R(y)),there exists y such that both P(y) and R(y) are true
+∃y (P(y) ∧ S(y)),there exists y such that both P(y) and S(y) are true
+∃y (Q(y) ∧ R(y)),there exists y such that both Q(y) and R(y) are true
+∃y (Q(y) ∧ S(y)),there exists y such that both Q(y) and S(y) are true
+∃y (R(y) ∧ S(y)),there exists y such that both R(y) and S(y) are true
+∃z (P(z) ∧ Q(z)),there exists z such that both P(z) and Q(z) are true
+∃z (P(z) ∧ R(z)),there exists z such that both P(z) and R(z) are true
+∃z (P(z) ∧ S(z)),there exists z such that both P(z) and S(z) are true
+∃z (Q(z) ∧ R(z)),there exists z such that both Q(z) and R(z) are true
+∃z (Q(z) ∧ S(z)),there exists z such that both Q(z) and S(z) are true
+∃z (R(z) ∧ S(z)),there exists z such that both R(z) and S(z) are true
+∃x (P(x) ∨ Q(x)),there exists x such that either P(x) or Q(x) is true
+∃x (P(x) ∨ R(x)),there exists x such that either P(x) or R(x) is true
+∃x (P(x) ∨ S(x)),there exists x such that either P(x) or S(x) is true
+∃x (Q(x) ∨ R(x)),there exists x such that either Q(x) or R(x) is true
+∃x (Q(x) ∨ S(x)),there exists x such that either Q(x) or S(x) is true
+∃x (R(x) ∨ S(x)),there exists x such that either R(x) or S(x) is true
+∃y (P(y) ∨ Q(y)),there exists y such that either P(y) or Q(y) is true
+∃y (P(y) ∨ R(y)),there exists y such that either P(y) or R(y) is true
+∃y (P(y) ∨ S(y)),there exists y such that either P(y) or S(y) is true
+∃y (Q(y) ∨ R(y)),there exists y such that either Q(y) or R(y) is true
+∃y (Q(y) ∨ S(y)),there exists y such that either Q(y) or S(y) is true
+∃y (R(y) ∨ S(y)),there exists y such that either R(y) or S(y) is true
+∃z (P(z) ∨ Q(z)),there exists z such that either P(z) or Q(z) is true
+∃z (P(z) ∨ R(z)),there exists z such that either P(z) or R(z) is true
+∃z (P(z) ∨ S(z)),there exists z such that either P(z) or S(z) is true
+∃z (Q(z) ∨ R(z)),there exists z such that either Q(z) or R(z) is true
+∃z (Q(z) ∨ S(z)),there exists z such that either Q(z) or S(z) is true
+∃z (R(z) ∨ S(z)),there exists z such that either R(z) or S(z) is true
+∀x (P(x) → Q(x)),"for all x, if P(x) then Q(x)"
+∀x (P(x) → R(x)),"for all x, if P(x) then R(x)"
+∀x (P(x) → S(x)),"for all x, if P(x) then S(x)"
+∀x (Q(x) → R(x)),"for all x, if Q(x) then R(x)"
+∀x (Q(x) → S(x)),"for all x, if Q(x) then S(x)"
+∀x (R(x) → S(x)),"for all x, if R(x) then S(x)"
+∀y (P(y) → Q(y)),"for all y, if P(y) then Q(y)"
+∀y (P(y) → R(y)),"for all y, if P(y) then R(y)"
+∀y (P(y) → S(y)),"for all y, if P(y) then S(y)"
+∀y (Q(y) → R(y)),"for all y, if Q(y) then R(y)"
+∀y (Q(y) → S(y)),"for all y, if Q(y) then S(y)"
+∀y (R(y) → S(y)),"for all y, if R(y) then S(y)"
+∀z (P(z) → Q(z)),"for all z, if P(z) then Q(z)"
+∀z (P(z) → R(z)),"for all z, if P(z) then R(z)"
+∀z (P(z) → S(z)),"for all z, if P(z) then S(z)"
+∀z (Q(z) → R(z)),"for all z, if Q(z) then R(z)"
+∀z (Q(z) → S(z)),"for all z, if Q(z) then S(z)"
+∀z (R(z) → S(z)),"for all z, if R(z) then S(z)"
+∃x (P(x) → Q(x)),there exists x such that if P(x) then Q(x)
+∃x (P(x) → R(x)),there exists x such that if P(x) then R(x)
+∃x (P(x) → S(x)),there exists x such that if P(x) then S(x)
+∃x (Q(x) → R(x)),there exists x such that if Q(x) then R(x)
+∃x (Q(x) → S(x)),there exists x such that if Q(x) then S(x)
+∃x (R(x) → S(x)),there exists x such that if R(x) then S(x)
+∃y (P(y) → Q(y)),there exists y such that if P(y) then Q(y)
+∃y (P(y) → R(y)),there exists y such that if P(y) then R(y)
+∃y (P(y) → S(y)),there exists y such that if P(y) then S(y)
+∃y (Q(y) → R(y)),there exists y such that if Q(y) then R(y)
+∃y (Q(y) → S(y)),there exists y such that if Q(y) then S(y)
+∃y (R(y) → S(y)),there exists y such that if R(y) then S(y)
+∃z (P(z) → Q(z)),there exists z such that if P(z) then Q(z)
+∃z (P(z) → R(z)),there exists z such that if P(z) then R(z)
+∃z (P(z) → S(z)),there exists z such that if P(z) then S(z)
+∃z (Q(z) → R(z)),there exists z such that if Q(z) then R(z)
+∃z (Q(z) → S(z)),there exists z such that if Q(z) then S(z)
+∃z (R(z) → S(z)),there exists z such that if R(z) then S(z)
+∀x (P(x) ↔ Q(x)),"for all x, P(x) if and only if Q(x)"
+∀x (P(x) ↔ R(x)),"for all x, P(x) if and only if R(x)"
+∀x (P(x) ↔ S(x)),"for all x, P(x) if and only if S(x)"
+∀x (Q(x) ↔ R(x)),"for all x, Q(x) if and only if R(x)"
+∀x (Q(x) ↔ S(x)),"for all x, Q(x) if and only if S(x)"
+∀x (R(x) ↔ S(x)),"for all x, R(x) if and only if S(x)"
+∀y (P(y) ↔ Q(y)),"for all y, P(y) if and only if Q(y)"
+∀y (P(y) ↔ R(y)),"for all y, P(y) if and only if R(y)"
+∀y (P(y) ↔ S(y)),"for all y, P(y) if and only if S(y)"
+∀y (Q(y) ↔ R(y)),"for all y, Q(y) if and only if R(y)"
+∀y (Q(y) ↔ S(y)),"for all y, Q(y) if and only if S(y)"
+∀y (R(y) ↔ S(y)),"for all y, R(y) if and only if S(y)"
+"∀x ∀y P(x, y)","for all x and for all y, P(x, y) is true"
+"∀x ∀y Q(x, y)","for all x and for all y, Q(x, y) is true"
+"∀x ∀y R(x, y)","for all x and for all y, R(x, y) is true"
+"∀x ∀z P(x, z)","for all x and for all z, P(x, z) is true"
+"∀x ∀z Q(x, z)","for all x and for all z, Q(x, z) is true"
+"∀x ∀z R(x, z)","for all x and for all z, R(x, z) is true"
+"∀x ∀a P(x, a)","for all x and for all a, P(x, a) is true"
+"∀x ∀a Q(x, a)","for all x and for all a, Q(x, a) is true"
+"∀x ∀a R(x, a)","for all x and for all a, R(x, a) is true"
+"∀y ∀z P(y, z)","for all y and for all z, P(y, z) is true"
+"∀y ∀z Q(y, z)","for all y and for all z, Q(y, z) is true"
+"∀y ∀z R(y, z)","for all y and for all z, R(y, z) is true"
+"∀y ∀a P(y, a)","for all y and for all a, P(y, a) is true"
+"∀y ∀a Q(y, a)","for all y and for all a, Q(y, a) is true"
+"∀y ∀a R(y, a)","for all y and for all a, R(y, a) is true"
+"∀z ∀a P(z, a)","for all z and for all a, P(z, a) is true"
+"∀z ∀a Q(z, a)","for all z and for all a, Q(z, a) is true"
+"∀z ∀a R(z, a)","for all z and for all a, R(z, a) is true"
+"∃x ∃y P(x, y)","there exist x and y such that P(x, y) is true"
+"∃x ∃y Q(x, y)","there exist x and y such that Q(x, y) is true"
+"∃x ∃y R(x, y)","there exist x and y such that R(x, y) is true"
+"∃x ∃z P(x, z)","there exist x and z such that P(x, z) is true"
+"∃x ∃z Q(x, z)","there exist x and z such that Q(x, z) is true"
+"∃x ∃z R(x, z)","there exist x and z such that R(x, z) is true"
+"∃x ∃a P(x, a)","there exist x and a such that P(x, a) is true"
+"∃x ∃a Q(x, a)","there exist x and a such that Q(x, a) is true"
+"∃x ∃a R(x, a)","there exist x and a such that R(x, a) is true"
+"∃y ∃z P(y, z)","there exist y and z such that P(y, z) is true"
+"∃y ∃z Q(y, z)","there exist y and z such that Q(y, z) is true"
+"∃y ∃z R(y, z)","there exist y and z such that R(y, z) is true"
+"∃y ∃a P(y, a)","there exist y and a such that P(y, a) is true"
+"∃y ∃a Q(y, a)","there exist y and a such that Q(y, a) is true"
+"∃y ∃a R(y, a)","there exist y and a such that R(y, a) is true"
+"∃z ∃a P(z, a)","there exist z and a such that P(z, a) is true"
+"∃z ∃a Q(z, a)","there exist z and a such that Q(z, a) is true"
+"∃z ∃a R(z, a)","there exist z and a such that R(z, a) is true"
+"∀x ∃y P(x, y)","for all x, there exists y such that P(x, y) is true"
+"∀x ∃y Q(x, y)","for all x, there exists y such that Q(x, y) is true"
+"∀x ∃y R(x, y)","for all x, there exists y such that R(x, y) is true"
+"∀x ∃z P(x, z)","for all x, there exists z such that P(x, z) is true"
+"∀x ∃z Q(x, z)","for all x, there exists z such that Q(x, z) is true"
+"∀x ∃z R(x, z)","for all x, there exists z such that R(x, z) is true"
+"∀x ∃a P(x, a)","for all x, there exists a such that P(x, a) is true"
+"∀x ∃a Q(x, a)","for all x, there exists a such that Q(x, a) is true"
+"∀x ∃a R(x, a)","for all x, there exists a such that R(x, a) is true"
+"∀y ∃z P(y, z)","for all y, there exists z such that P(y, z) is true"
+"∀y ∃z Q(y, z)","for all y, there exists z such that Q(y, z) is true"
+"∀y ∃z R(y, z)","for all y, there exists z such that R(y, z) is true"
+"∀y ∃a P(y, a)","for all y, there exists a such that P(y, a) is true"
+"∀y ∃a Q(y, a)","for all y, there exists a such that Q(y, a) is true"
+"∀y ∃a R(y, a)","for all y, there exists a such that R(y, a) is true"
+"∀z ∃a P(z, a)","for all z, there exists a such that P(z, a) is true"
+"∀z ∃a Q(z, a)","for all z, there exists a such that Q(z, a) is true"
+"∀z ∃a R(z, a)","for all z, there exists a such that R(z, a) is true"
+"∃x ∀y P(x, y)","there exists x such that for all y, P(x, y) is true"
+"∃x ∀y Q(x, y)","there exists x such that for all y, Q(x, y) is true"
+"∃x ∀y R(x, y)","there exists x such that for all y, R(x, y) is true"
+"∃x ∀z P(x, z)","there exists x such that for all z, P(x, z) is true"
+"∃x ∀z Q(x, z)","there exists x such that for all z, Q(x, z) is true"
+"∃x ∀z R(x, z)","there exists x such that for all z, R(x, z) is true"
+¬∀x P(x) ↔ ∃x ¬P(x),not for all x P(x) is equivalent to there exists x such that not P(x)
+¬∃x P(x) ↔ ∀x ¬P(x),not there exists x P(x) is equivalent to for all x not P(x)
+¬∀x Q(x) ↔ ∃x ¬Q(x),not for all x Q(x) is equivalent to there exists x such that not Q(x)
+¬∃x Q(x) ↔ ∀x ¬Q(x),not there exists x Q(x) is equivalent to for all x not Q(x)
+¬∀y R(y) ↔ ∃y ¬R(y),not for all y R(y) is equivalent to there exists y such that not R(y)
+¬∃y R(y) ↔ ∀y ¬R(y),not there exists y R(y) is equivalent to for all y not R(y)
+∀x (P(x) ∧ Q(x)) ↔ ∀x P(x) ∧ ∀x Q(x),for all x both P(x) and Q(x) is equivalent to for all x P(x) and for all x Q(x)
+∃x (P(x) ∨ Q(x)) ↔ ∃x P(x) ∨ ∃x Q(x),there exists x such that P(x) or Q(x) is equivalent to there exists x P(x) or there exists x Q(x)
+∀x (P(x) → Q(x)) ∧ ∀x P(x) → ∀x Q(x),"if for all x P(x) implies Q(x) and for all x P(x), then for all x Q(x)"
+∀x P(x) ∧ Q(y),for all x P(x) and Q(y)
+∃x P(x) ∨ Q(y),there exists x P(x) or Q(y)
+∀x (P(x) ∨ Q(y)),"for all x, either P(x) or Q(y)"
+∃x (P(x) ∧ Q(y)),there exists x such that P(x) and Q(y)
+(∀x P(x)) → Q(y),"if for all x P(x), then Q(y)"
+(∃x P(x)) → Q(y),"if there exists x P(x), then Q(y)"
+"∀x ∀y R(x, y)","for all x and y, R(x, y) holds"
+"∀x ∀y S(x, y)","for all x and y, S(x, y) holds"
+"∀x ∀y T(x, y)","for all x and y, T(x, y) holds"
+"∀x ∀y Loves(x, y)","for all x and y, Loves(x, y) holds"
+"∃x ∃y R(x, y)","there exist x and y such that R(x, y) holds"
+"∃x ∃y S(x, y)","there exist x and y such that S(x, y) holds"
+"∃x ∃y T(x, y)","there exist x and y such that T(x, y) holds"
+"∃x ∃y Loves(x, y)","there exist x and y such that Loves(x, y) holds"
+"∀x ∃y R(x, y)","for all x, there exists y such that R(x, y) holds"
+"∀x ∃y S(x, y)","for all x, there exists y such that S(x, y) holds"
+"∀x ∃y T(x, y)","for all x, there exists y such that T(x, y) holds"
+"∀x ∃y Loves(x, y)","for all x, there exists y such that Loves(x, y) holds"
+"∃x ∀y R(x, y)","there exists x such that for all y, R(x, y) holds"
+"∃x ∀y S(x, y)","there exists x such that for all y, S(x, y) holds"
+"∃x ∀y T(x, y)","there exists x such that for all y, T(x, y) holds"
+"∃x ∀y Loves(x, y)","there exists x such that for all y, Loves(x, y) holds"
+"∀x R(x, x)","for all x, R(x, x) holds"
+"∀x S(x, x)","for all x, S(x, x) holds"
+"∀x T(x, x)","for all x, T(x, x) holds"
+"∀x Loves(x, x)","for all x, Loves(x, x) holds"
+"∀x ∀y (R(x, y) → R(y, x))","for all x and y, if R(x, y) then R(y, x)"
+"∀x ∀y (S(x, y) → S(y, x))","for all x and y, if S(x, y) then S(y, x)"
+"∀x ∀y (T(x, y) → T(y, x))","for all x and y, if T(x, y) then T(y, x)"
+"∀x ∀y (Loves(x, y) → Loves(y, x))","for all x and y, if Loves(x, y) then Loves(y, x)"
+"∀x ∀y ∀z ((R(x, y) ∧ R(y, z)) → R(x, z))","for all x, y, and z, if R(x, y) and R(y, z) then R(x, z)"
+"∀x ∀y ∀z ((S(x, y) ∧ S(y, z)) → S(x, z))","for all x, y, and z, if S(x, y) and S(y, z) then S(x, z)"
+"∀x ∀y ∀z ((T(x, y) ∧ T(y, z)) → T(x, z))","for all x, y, and z, if T(x, y) and T(y, z) then T(x, z)"
+"∀x ∀y ∀z ((Loves(x, y) ∧ Loves(y, z)) → Loves(x, z))","for all x, y, and z, if Loves(x, y) and Loves(y, z) then Loves(x, z)"
+∀x (f(x) = g(x)),"for all x, f(x) equals g(x)"
+∃x (f(x) = c),there exists x such that f(x) equals c
+∀x ∀y (f(x) = f(y) → x = y),"for all x and y, if f(x) equals f(y) then x equals y"
+∃!x P(x),there exists a unique x such that P(x)
+∀x (P(x) ↔ x = a),"for all x, P(x) if and only if x equals a"
+∃x ∀y (P(y) → y = x),"there exists x such that for all y, if P(y) then y equals x"
+∃!y Q(y),there exists a unique y such that Q(y)
+∀y (Q(y) → y = a),"for all y, if Q(y) then y equals a"
+∃!z Q(z),there exists a unique z such that Q(z)
+∀z (Q(z) → z = a),"for all z, if Q(z) then z equals a"
+∃!t Q(t),there exists a unique t such that Q(t)
+∀t (Q(t) → t = a),"for all t, if Q(t) then t equals a"
+∃!y R(y),there exists a unique y such that R(y)
+∀y (R(y) → y = a),"for all y, if R(y) then y equals a"
+∃!z R(z),there exists a unique z such that R(z)
+∀z (R(z) → z = a),"for all z, if R(z) then z equals a"
+∃!t R(t),there exists a unique t such that R(t)
+∀t (R(t) → t = a),"for all t, if R(t) then t equals a"
+∃!y S(y),there exists a unique y such that S(y)
+∀y (S(y) → y = a),"for all y, if S(y) then y equals a"
+∃!z S(z),there exists a unique z such that S(z)
+∀z (S(z) → z = a),"for all z, if S(z) then z equals a"
+∃!t S(t),there exists a unique t such that S(t)
+∀t (S(t) → t = a),"for all t, if S(t) then t equals a"
+p ∨ ¬p,p or not p is a tautology
+A ∨ ¬A,A or not A is a tautology
+r ∨ ¬r,r or not r is a tautology
+P ∨ ¬P,P or not P is a tautology
+(p → q) ↔ (¬q → ¬p),if p then q is equivalent to if not q then not p
+(A → B) ↔ (¬B → ¬A),if A then B is eBuivalent to if not B then not A
+(r → s) ↔ (¬s → ¬r),if r then s is esuivalent to if not s then not r
+(P → Q) ↔ (¬Q → ¬P),if P then Q is eQuivalent to if not Q then not P
+((p → q) ∧ p) → q,"if p implies q and p, then q"
+((A → B) ∧ A) → B,"if A imAlies B and A, then B"
+((r → s) ∧ r) → s,"if r imrlies s and r, then s"
+((P → Q) ∧ P) → Q,"if P imPlies Q and P, then Q"
+((p → q) ∧ ¬q) → ¬p,"if p implies q and not q, then not p"
+((A → B) ∧ ¬B) → ¬A,"if A imAlies B and not B, then not A"
+((r → s) ∧ ¬s) → ¬r,"if r imrlies s and not s, then not r"
+((P → Q) ∧ ¬Q) → ¬P,"if P imPlies Q and not Q, then not P"
+((p ∨ q) ∧ ¬p) → q,"if p or q and not p, then q"
+((A ∨ B) ∧ ¬A) → B,"if A or B and not A, then B"
+((r ∨ s) ∧ ¬r) → s,"if r or s and not r, then s"
+((P ∨ Q) ∧ ¬P) → Q,"if P or Q and not P, then Q"
+(p ∧ q) → p,if p and q then p
+(A ∧ B) → A,if A and B then A
+(r ∧ s) → r,if r and s then r
+(P ∧ Q) → P,if P and Q then P
+p → (p ∨ q),if p then p or q
+A → (A ∨ B),if A then A or B
+r → (r ∨ s),if r then r or s
+P → (P ∨ Q),if P then P or Q
+(p → q) → ((q → r) → (p → r)),if p implies q then if q implies r then p implies r
+(A → B) → ((B → r) → (A → r)),if A imAlies B then if B imAlies r then A imAlies r
+(r → s) → ((s → r) → (r → r)),if r imrlies s then if s imrlies r then r imrlies r
+(P → Q) → ((Q → r) → (P → r)),if P imPlies Q then if Q imPlies r then P imPlies r
+p ∧ ¬p,p and not p is a contradiction
+q ∧ ¬q,q and not q is a contradiction
+r ∧ ¬r,r and not r is a contradiction
+A ∧ ¬A,A and not A is a contradiction
+B ∧ ¬B,B and not B is a contradiction
+(p → q) ∧ (p ∧ ¬q),"if p then q, and p and not q, is a contradiction"
+(q → q) ∧ (q ∧ ¬q),"if q then q, and q and not q, is a contradiction"
+(r → q) ∧ (r ∧ ¬q),"if r then q, and r and not q, is a contradiction"
+(A → q) ∧ (A ∧ ¬q),"if A then q, and A and not q, is a contradiction"
+(B → q) ∧ (B ∧ ¬q),"if B then q, and B and not q, is a contradiction"
+∀x P(x) ∧ ∃x ¬P(x),for all x P(x) and there exists x such that not P(x) is a contradiction
+¬(p ∨ ¬p),not p or not p is a contradiction
+¬(q ∨ ¬q),not q or not q is a contradiction
+¬(r ∨ ¬r),not r or not r is a contradiction
+¬(A ∨ ¬A),not A or not A is a contradiction
+¬(B ∨ ¬B),not B or not B is a contradiction
+"∀x ∃y ∀z P(x, y, z)","for all x, there exists y such that for all z, P(x, y, z)"
+"∀x ∃y ∀z S(x, y, z)","for all x, there exists y such that for all z, S(x, y, z)"
+"∀x ∃y ∀z F(x, y, z)","for all x, there exists y such that for all z, F(x, y, z)"
+"∃x ∀y ∃z P(x, y, z)","there exists x such that for all y, there exists z such that P(x, y, z)"
+"∃x ∀y ∃z S(x, y, z)","there exists x such that for all y, there exists z such that S(x, y, z)"
+"∃x ∀y ∃z F(x, y, z)","there exists x such that for all y, there exists z such that F(x, y, z)"
+"∀x (P(x) → ∃y Q(x, y))","for all x, if P(x) then there exists y such that Q(x, y)"
+"∀x (S(x) → ∃y T(x, y))","for all x, if S(x) then there exists y such that T(x, y)"
+"∀x (F(x) → ∃y G(x, y))","for all x, if F(x) then there exists y such that G(x, y)"
+"∃x (P(x) ∧ ∀y R(x, y))","there exists x such that P(x) and for all y, R(x, y)"
+"∃x (S(x) ∧ ∀y U(x, y))","there exists x such that S(x) and for all y, U(x, y)"
+"∃x (F(x) ∧ ∀y H(x, y))","there exists x such that F(x) and for all y, H(x, y)"
+"∀x ∀y (P(x) ∧ Q(y) → ∃z R(x, y, z))","for all x and y, if P(x) and Q(y) then there exists z such that R(x, y, z)"
+"∀x ∀y (S(x) ∧ T(y) → ∃z U(x, y, z))","for all x and y, if S(x) and T(y) then there exists z such that U(x, y, z)"
+"∀x ∀y (F(x) ∧ G(y) → ∃z H(x, y, z))","for all x and y, if F(x) and G(y) then there exists z such that H(x, y, z)"
+"∃x ∃y (∀z P(z, x) ∧ ∀z Q(z, y))","there exist x and y such that for all z, P(z, x) and for all z, Q(z, y)"
+"∃x ∃y (∀z S(z, x) ∧ ∀z T(z, y))","there exist x and y such that for all z, S(z, x) and for all z, T(z, y)"
+"∃x ∃y (∀z F(z, x) ∧ ∀z G(z, y))","there exist x and y such that for all z, F(z, x) and for all z, G(z, y)"
+(p ∧ q) → (r ∨ s),if both p and q then either r or s
+(p ∧ q) → (s ∨ r),if both p and q then either s or r
+(p ∧ r) → (q ∨ s),if both p and r then either q or s
+(p ∧ r) → (s ∨ q),if both p and r then either s or q
+(p ∧ s) → (q ∨ r),if both p and s then either q or r
+(p ∧ s) → (r ∨ q),if both p and s then either r or q
+(q ∧ p) → (r ∨ s),if both q and p then either r or s
+(q ∧ p) → (s ∨ r),if both q and p then either s or r
+(q ∧ r) → (p ∨ s),if both q and r then either p or s
+(q ∧ r) → (s ∨ p),if both q and r then either s or p
+(q ∧ s) → (p ∨ r),if both q and s then either p or r
+(q ∧ s) → (r ∨ p),if both q and s then either r or p
+(r ∧ p) → (q ∨ s),if both r and p then either q or s
+(r ∧ p) → (s ∨ q),if both r and p then either s or q
+(r ∧ q) → (p ∨ s),if both r and q then either p or s
+(r ∧ q) → (s ∨ p),if both r and q then either s or p
+(r ∧ s) → (p ∨ q),if both r and s then either p or q
+(r ∧ s) → (q ∨ p),if both r and s then either q or p
+(s ∧ p) → (q ∨ r),if both s and p then either q or r
+(s ∧ p) → (r ∨ q),if both s and p then either r or q
+(s ∧ q) → (p ∨ r),if both s and q then either p or r
+(s ∧ q) → (r ∨ p),if both s and q then either r or p
+(s ∧ r) → (p ∨ q),if both s and r then either p or q
+(s ∧ r) → (q ∨ p),if both s and r then either q or p
+(p ∨ q) ∧ (r ∨ s),"either p or q, and either r or s"
+(p ∨ q) ∧ (s ∨ r),"either p or q, and either s or r"
+(p ∨ r) ∧ (q ∨ s),"either p or r, and either q or s"
+(p ∨ r) ∧ (s ∨ q),"either p or r, and either s or q"
+(p ∨ s) ∧ (q ∨ r),"either p or s, and either q or r"
+(p ∨ s) ∧ (r ∨ q),"either p or s, and either r or q"
+(q ∨ p) ∧ (r ∨ s),"either q or p, and either r or s"
+(q ∨ p) ∧ (s ∨ r),"either q or p, and either s or r"
+(q ∨ r) ∧ (p ∨ s),"either q or r, and either p or s"
+(q ∨ r) ∧ (s ∨ p),"either q or r, and either s or p"
+(q ∨ s) ∧ (p ∨ r),"either q or s, and either p or r"
+(q ∨ s) ∧ (r ∨ p),"either q or s, and either r or p"
+(r ∨ p) ∧ (q ∨ s),"either r or p, and either q or s"
+(r ∨ p) ∧ (s ∨ q),"either r or p, and either s or q"
+(r ∨ q) ∧ (p ∨ s),"either r or q, and either p or s"
+(r ∨ q) ∧ (s ∨ p),"either r or q, and either s or p"
+(r ∨ s) ∧ (p ∨ q),"either r or s, and either p or q"
+(r ∨ s) ∧ (q ∨ p),"either r or s, and either q or p"
+(s ∨ p) ∧ (q ∨ r),"either s or p, and either q or r"
+(s ∨ p) ∧ (r ∨ q),"either s or p, and either r or q"
+(s ∨ q) ∧ (p ∨ r),"either s or q, and either p or r"
+(s ∨ q) ∧ (r ∨ p),"either s or q, and either r or p"
+(s ∨ r) ∧ (p ∨ q),"either s or r, and either p or q"
+(s ∨ r) ∧ (q ∨ p),"either s or r, and either q or p"
+p → (q → (r → s)),if p then if q then if r then s
+p → (q → (s → r)),if p then if q then if s then r
+p → (r → (q → s)),if p then if r then if q then s
+p → (r → (s → q)),if p then if r then if s then q
+p → (s → (q → r)),if p then if s then if q then r
+p → (s → (r → q)),if p then if s then if r then q
+q → (p → (r → s)),if q then if p then if r then s
+q → (p → (s → r)),if q then if p then if s then r
+q → (r → (p → s)),if q then if r then if p then s
+q → (r → (s → p)),if q then if r then if s then p
+q → (s → (p → r)),if q then if s then if p then r
+q → (s → (r → p)),if q then if s then if r then p
+r → (p → (q → s)),if r then if p then if q then s
+r → (p → (s → q)),if r then if p then if s then q
+r → (q → (p → s)),if r then if q then if p then s
+r → (q → (s → p)),if r then if q then if s then p
+r → (s → (p → q)),if r then if s then if p then q
+r → (s → (q → p)),if r then if s then if q then p
+s → (p → (q → r)),if s then if p then if q then r
+s → (p → (r → q)),if s then if p then if r then q
+s → (q → (p → r)),if s then if q then if p then r
+s → (q → (r → p)),if s then if q then if r then p
+s → (r → (p → q)),if s then if r then if p then q
+s → (r → (q → p)),if s then if r then if q then p
+(p ↔ q) ∧ (r ↔ s),"p if and only if q, and r if and only if s"
+(p ↔ q) ∧ (s ↔ r),"p if and only if q, and s if and only if r"
+(p ↔ r) ∧ (q ↔ s),"p if and only if r, and q if and only if s"
+(p ↔ r) ∧ (s ↔ q),"p if and only if r, and s if and only if q"
+(p ↔ s) ∧ (q ↔ r),"p if and only if s, and q if and only if r"
+(p ↔ s) ∧ (r ↔ q),"p if and only if s, and r if and only if q"
+(q ↔ p) ∧ (r ↔ s),"q if and only if p, and r if and only if s"
+(q ↔ p) ∧ (s ↔ r),"q if and only if p, and s if and only if r"
+(q ↔ r) ∧ (p ↔ s),"q if and only if r, and p if and only if s"
+(q ↔ r) ∧ (s ↔ p),"q if and only if r, and s if and only if p"
+(q ↔ s) ∧ (p ↔ r),"q if and only if s, and p if and only if r"
+(q ↔ s) ∧ (r ↔ p),"q if and only if s, and r if and only if p"
+(r ↔ p) ∧ (q ↔ s),"r if and only if p, and q if and only if s"
+(r ↔ p) ∧ (s ↔ q),"r if and only if p, and s if and only if q"
+(r ↔ q) ∧ (p ↔ s),"r if and only if q, and p if and only if s"
+(r ↔ q) ∧ (s ↔ p),"r if and only if q, and s if and only if p"
+(r ↔ s) ∧ (p ↔ q),"r if and only if s, and p if and only if q"
+(r ↔ s) ∧ (q ↔ p),"r if and only if s, and q if and only if p"
+(s ↔ p) ∧ (q ↔ r),"s if and only if p, and q if and only if r"
+(s ↔ p) ∧ (r ↔ q),"s if and only if p, and r if and only if q"
+(s ↔ q) ∧ (p ↔ r),"s if and only if q, and p if and only if r"
+(s ↔ q) ∧ (r ↔ p),"s if and only if q, and r if and only if p"
+(s ↔ r) ∧ (p ↔ q),"s if and only if r, and p if and only if q"
+(s ↔ r) ∧ (q ↔ p),"s if and only if r, and q if and only if p"
+¬(p ∧ q) ∨ ¬(r ∧ s),"not both p and q, or not both r and s"
+¬(p ∧ q) ∨ ¬(s ∧ r),"not both p and q, or not both s and r"
+¬(p ∧ r) ∨ ¬(q ∧ s),"not both p and r, or not both q and s"
+¬(p ∧ r) ∨ ¬(s ∧ q),"not both p and r, or not both s and q"
+∀x in the natural numbers Even(x),"for all x in the natural numbers, Even(x)"
+∀x in the natural numbers Odd(x),"for all x in the natural numbers, Odd(x)"
+∀x in the natural numbers Prime(x),"for all x in the natural numbers, Prime(x)"
+∀x in the natural numbers Positive(x),"for all x in the natural numbers, Positive(x)"
+∀x in the real numbers Even(x),"for all x in the real numbers, Even(x)"
+∀x in the real numbers Odd(x),"for all x in the real numbers, Odd(x)"
+∀x in the real numbers Prime(x),"for all x in the real numbers, Prime(x)"
+∀x in the real numbers Positive(x),"for all x in the real numbers, Positive(x)"
+∀x in the integers Even(x),"for all x in the integers, Even(x)"
+∀x in the integers Odd(x),"for all x in the integers, Odd(x)"
+∀x in the integers Prime(x),"for all x in the integers, Prime(x)"
+∀x in the integers Positive(x),"for all x in the integers, Positive(x)"
+∀x in the domain D Even(x),"for all x in the domain D, Even(x)"
+∀x in the domain D Odd(x),"for all x in the domain D, Odd(x)"
+∀x in the domain D Prime(x),"for all x in the domain D, Prime(x)"
+∀x in the domain D Positive(x),"for all x in the domain D, Positive(x)"
+∀x in set S Even(x),"for all x in set S, Even(x)"
+∀x in set S Odd(x),"for all x in set S, Odd(x)"
+∀x in set S Prime(x),"for all x in set S, Prime(x)"
+∀x in set S Positive(x),"for all x in set S, Positive(x)"
+∃x in the natural numbers Even(x),there exists x in the natural numbers such that Even(x)
+∃x in the natural numbers Odd(x),there exists x in the natural numbers such that Odd(x)
+∃x in the natural numbers Prime(x),there exists x in the natural numbers such that Prime(x)
+∃x in the natural numbers Positive(x),there exists x in the natural numbers such that Positive(x)
+∃x in the real numbers Even(x),there exists x in the real numbers such that Even(x)
+∃x in the real numbers Odd(x),there exists x in the real numbers such that Odd(x)
+∃x in the real numbers Prime(x),there exists x in the real numbers such that Prime(x)
+∃x in the real numbers Positive(x),there exists x in the real numbers such that Positive(x)
+∃x in the integers Even(x),there exists x in the integers such that Even(x)
+∃x in the integers Odd(x),there exists x in the integers such that Odd(x)
+∃x in the integers Prime(x),there exists x in the integers such that Prime(x)
+∃x in the integers Positive(x),there exists x in the integers such that Positive(x)
+∃x in the domain D Even(x),there exists x in the domain D such that Even(x)
+∃x in the domain D Odd(x),there exists x in the domain D such that Odd(x)
+∃x in the domain D Prime(x),there exists x in the domain D such that Prime(x)
+∃x in the domain D Positive(x),there exists x in the domain D such that Positive(x)
+∃x in set S Even(x),there exists x in set S such that Even(x)
+∃x in set S Odd(x),there exists x in set S such that Odd(x)
+∃x in set S Prime(x),there exists x in set S such that Prime(x)
+∃x in set S Positive(x),there exists x in set S such that Positive(x)
+∀x in the natural numbers (Even(x) → Odd(x)),"for all x in the natural numbers, if Even(x) then Odd(x)"
+∀x in the natural numbers (Odd(x) → Prime(x)),"for all x in the natural numbers, if Odd(x) then Prime(x)"
+∀x in the natural numbers (Prime(x) → Positive(x)),"for all x in the natural numbers, if Prime(x) then Positive(x)"
+∀x in the natural numbers (Positive(x) → Even(x)),"for all x in the natural numbers, if Positive(x) then Even(x)"
+∀x in the real numbers (Even(x) → Odd(x)),"for all x in the real numbers, if Even(x) then Odd(x)"
+∀x in the real numbers (Odd(x) → Prime(x)),"for all x in the real numbers, if Odd(x) then Prime(x)"
+∀x in the real numbers (Prime(x) → Positive(x)),"for all x in the real numbers, if Prime(x) then Positive(x)"
+∀x in the real numbers (Positive(x) → Even(x)),"for all x in the real numbers, if Positive(x) then Even(x)"
+∀x in the integers (Even(x) → Odd(x)),"for all x in the integers, if Even(x) then Odd(x)"
+∀x in the integers (Odd(x) → Prime(x)),"for all x in the integers, if Odd(x) then Prime(x)"
+∀x in the integers (Prime(x) → Positive(x)),"for all x in the integers, if Prime(x) then Positive(x)"
+∀x in the integers (Positive(x) → Even(x)),"for all x in the integers, if Positive(x) then Even(x)"
+∀x in the domain D (Even(x) → Odd(x)),"for all x in the domain D, if Even(x) then Odd(x)"
+∀x in the domain D (Odd(x) → Prime(x)),"for all x in the domain D, if Odd(x) then Prime(x)"
+∀x in the domain D (Prime(x) → Positive(x)),"for all x in the domain D, if Prime(x) then Positive(x)"
+∀x in the domain D (Positive(x) → Even(x)),"for all x in the domain D, if Positive(x) then Even(x)"
+∀x in set S (Even(x) → Odd(x)),"for all x in set S, if Even(x) then Odd(x)"
+∀x in set S (Odd(x) → Prime(x)),"for all x in set S, if Odd(x) then Prime(x)"
+∀x in set S (Prime(x) → Positive(x)),"for all x in set S, if Prime(x) then Positive(x)"
+∀x in set S (Positive(x) → Even(x)),"for all x in set S, if Positive(x) then Even(x)"
+∃x in the natural numbers (Even(x) ∧ Odd(x)),there exists x in the natural numbers such that both Even(x) and Odd(x)
+∃x in the natural numbers (Odd(x) ∧ Prime(x)),there exists x in the natural numbers such that both Odd(x) and Prime(x)
+∃x in the natural numbers (Prime(x) ∧ Positive(x)),there exists x in the natural numbers such that both Prime(x) and Positive(x)
+∃x in the natural numbers (Positive(x) ∧ Even(x)),there exists x in the natural numbers such that both Positive(x) and Even(x)
+∃x in the real numbers (Even(x) ∧ Odd(x)),there exists x in the real numbers such that both Even(x) and Odd(x)
+∃x in the real numbers (Odd(x) ∧ Prime(x)),there exists x in the real numbers such that both Odd(x) and Prime(x)
+∃x in the real numbers (Prime(x) ∧ Positive(x)),there exists x in the real numbers such that both Prime(x) and Positive(x)
+∃x in the real numbers (Positive(x) ∧ Even(x)),there exists x in the real numbers such that both Positive(x) and Even(x)
+∃x in the integers (Even(x) ∧ Odd(x)),there exists x in the integers such that both Even(x) and Odd(x)
+∃x in the integers (Odd(x) ∧ Prime(x)),there exists x in the integers such that both Odd(x) and Prime(x)
+∃x in the integers (Prime(x) ∧ Positive(x)),there exists x in the integers such that both Prime(x) and Positive(x)
+∃x in the integers (Positive(x) ∧ Even(x)),there exists x in the integers such that both Positive(x) and Even(x)
+∃x in the domain D (Even(x) ∧ Odd(x)),there exists x in the domain D such that both Even(x) and Odd(x)
+∃x in the domain D (Odd(x) ∧ Prime(x)),there exists x in the domain D such that both Odd(x) and Prime(x)
+∃x in the domain D (Prime(x) ∧ Positive(x)),there exists x in the domain D such that both Prime(x) and Positive(x)
+∃x in the domain D (Positive(x) ∧ Even(x)),there exists x in the domain D such that both Positive(x) and Even(x)
+∃x in set S (Even(x) ∧ Odd(x)),there exists x in set S such that both Even(x) and Odd(x)
+∃x in set S (Odd(x) ∧ Prime(x)),there exists x in set S such that both Odd(x) and Prime(x)
+∃x in set S (Prime(x) ∧ Positive(x)),there exists x in set S such that both Prime(x) and Positive(x)
+∃x in set S (Positive(x) ∧ Even(x)),there exists x in set S such that both Positive(x) and Even(x)
+¬(p ∧ q ∧ r) ↔ (¬p ∨ ¬q ∨ ¬r),"not all of p, q, and r is equivalent to not p, or not q, or not r"
+¬(A ∧ B ∧ C) ↔ (¬A ∨ ¬B ∨ ¬C),"not all of A, B, and C is eBuivalent to not A, oC not B, oC not C"
+¬(t ∧ s ∧ t) ↔ (¬t ∨ ¬s ∨ ¬t),"not all of t, s, and t is esuivalent to not t, ot not s, ot not t"
+¬(p ∨ q ∨ r) ↔ (¬p ∧ ¬q ∧ ¬r),"not any of p, q, or r is equivalent to not p, and not q, and not r"
+¬(A ∨ B ∨ C) ↔ (¬A ∧ ¬B ∧ ¬C),"not any of A, B, oC C is eBuivalent to not A, and not B, and not C"
+¬(t ∨ s ∨ t) ↔ (¬t ∧ ¬s ∧ ¬t),"not any of t, s, ot t is esuivalent to not t, and not s, and not t"
+(p ∧ q) → r ↔ p → (q → r),if p and q then r is equivalent to if p then if q then r
+(A ∧ B) → C ↔ A → (B → C),if A and B then C is eBuivalent to if A then if B then C
+(t ∧ s) → t ↔ t → (s → t),if t and s then t is esuivalent to if t then if s then t
+p → (q ∧ r) ↔ (p → q) ∧ (p → r),"if p then both q and r is equivalent to if p then q, and if p then r"
+A → (B ∧ C) ↔ (A → B) ∧ (A → C),"if A then both B and C is eBuivalent to if A then B, and if A then C"
+t → (s ∧ t) ↔ (t → s) ∧ (t → t),"if t then both s and t is esuivalent to if t then s, and if t then t"
+p → (q ∨ r) ↔ (p → q) ∨ (p → r),"if p then q or r is equivalent to if p then q, or if p then r"
+A → (B ∨ C) ↔ (A → B) ∨ (A → C),"if A then B oC C is eBuivalent to if A then B, oC if A then C"
+t → (s ∨ t) ↔ (t → s) ∨ (t → t),"if t then s ot t is esuivalent to if t then s, ot if t then t"
+(p ↔ q) ↔ ((p → q) ∧ (q → p)),p if and only if q is equivalent to if p then q and if q then p
+(A ↔ B) ↔ ((A → B) ∧ (B → A)),A if and only if B is eBuivalent to if A then B and if B then A
+(t ↔ s) ↔ ((t → s) ∧ (s → t)),t if and only if s is esuivalent to if t then s and if s then t
+(p ↔ q) ↔ ((p ∧ q) ∨ (¬p ∧ ¬q)),"p if and only if q is equivalent to both p and q, or neither p nor q"
+(A ↔ B) ↔ ((A ∧ B) ∨ (¬A ∧ ¬B)),"A if and only if B is eBuivalent to both A and B, oC neitheC A noC B"
+(t ↔ s) ↔ ((t ∧ s) ∨ (¬t ∧ ¬s)),"t if and only if s is esuivalent to both t and s, ot neithet t not s"
+(∀x P(x)) ∨ (∀x Q(x)) → ∀x (P(x) ∨ Q(x)),"if for all x P(x) or for all x Q(x), then for all x, P(x) or Q(x)"
+(∀x P(x)) ∨ (∀x Q(x)) → ∀x (P(x) ∨ Q(x)),"if foC all x P(x) oC foC all x Q(x), then foC all x, P(x) oC Q(x)"
+(∀x P(x)) ∨ (∀x Q(x)) → ∀x (P(x) ∨ Q(x)),"if fot all x P(x) ot fot all x Q(x), then fot all x, P(x) ot Q(x)"
+∃x (P(x) ∧ Q(x)) → (∃x P(x)) ∧ (∃x Q(x)),"if there exists x such that P(x) and Q(x), then there exists x P(x) and there exists x Q(x)"
+∃x (P(x) ∧ Q(x)) → (∃x P(x)) ∧ (∃x Q(x)),"if theCe exists x such that P(x) and Q(x), then theCe exists x P(x) and theCe exists x Q(x)"
+∃x (P(x) ∧ Q(x)) → (∃x P(x)) ∧ (∃x Q(x)),"if thete exists x such that P(x) and Q(x), then thete exists x P(x) and thete exists x Q(x)"
+∀x (P(x) → Q) ↔ (∃x P(x) → Q),for all x if P(x) then Q is equivalent to if there exists x P(x) then Q
+∀x (P(x) → Q) ↔ (∃x P(x) → Q),foC all x if P(x) then Q is eBuivalent to if theCe exists x P(x) then Q
+∀x (P(x) → Q) ↔ (∃x P(x) → Q),fot all x if P(x) then Q is esuivalent to if thete exists x P(x) then Q
+∃x (P(x) ∧ Q) ↔ Q ∧ ∃x P(x),there exists x such that P(x) and Q is equivalent to Q and there exists x P(x)
+∃x (P(x) ∧ Q) ↔ Q ∧ ∃x P(x),theCe exists x such that P(x) and Q is eBuivalent to Q and theCe exists x P(x)
+∃x (P(x) ∧ Q) ↔ Q ∧ ∃x P(x),thete exists x such that P(x) and Q is esuivalent to Q and thete exists x P(x)
